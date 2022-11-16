@@ -1,4 +1,4 @@
-
+import { Link } from "@inertiajs/inertia-react";
 
 function Header() {
     return ( 
@@ -9,33 +9,33 @@ function Header() {
                     <div className="row">
                         <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                             <div className="d-inline-flex align-items-center">
-                                <a className="text-white pr-3" href="">
+                                <Link className="text-white pr-3" href="">
                                     FAQs
-                                </a>
+                                </Link>
                                 <span className="text-white">|</span>
-                                <a className="text-white px-3" href="">
+                                <Link className="text-white px-3" href="">
                                     Help
-                                </a>
+                                </Link>
                                 <span className="text-white">|</span>
-                                <a className="text-white pl-3" href="">
+                                <Link className="text-white pl-3" href="">
                                     Support
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-md-6 text-center text-lg-right">
                             <div className="d-inline-flex align-items-center">
-                                <a className="text-white px-3" href="">
+                                <Link className="text-white px-3" href="">
                                     <i className="fab fa-facebook-f" />
-                                </a>
-                                <a className="text-white px-3" href="">
+                                </Link>
+                                <Link className="text-white px-3" href="">
                                     <i className="fab fa-twitter" />
-                                </a>
-                                <a className="text-white px-3" href="">
+                                </Link>
+                                <Link className="text-white px-3" href="">
                                     <i className="fab fa-linkedin-in" />
-                                </a>
-                                <a className="text-white px-3" href="">
+                                </Link>
+                                <Link className="text-white px-3" href="">
                                     <i className="fab fa-instagram" />
-                                </a>
+                                </Link>
                                 <a className="text-white pl-3" href="">
                                     <i className="fab fa-youtube" />
                                 </a>
@@ -52,11 +52,11 @@ function Header() {
                     style={{ zIndex: 9 }}
                 >
                     <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5">
-                        <a href="" className="navbar-brand">
+                        <Link href="" className="navbar-brand">
                             <h1 className="m-0 text-secondary">
                                 <span className="text-primary">DRY</span>ME
                             </h1>
-                        </a>
+                        </Link>
                         <button
                             type="button"
                             className="navbar-toggler"
@@ -70,31 +70,37 @@ function Header() {
                             id="navbarCollapse"
                         >
                             <div className="navbar-nav ml-auto py-0">
-                                <a
-                                    href="index.html"
+                                <Link
+                                    href="/"
                                     className="nav-item nav-link active"
                                 >
                                     Home
-                                </a>
-                                <a
-                                    href="about.html"
+                                </Link>
+                                <Link
+                                    href="/about"
                                     className="nav-item nav-link"
                                 >
                                     About
-                                </a>
-                                <a
-                                    href="service.html"
+                                </Link>
+                                <Link
+                                    href="/service"
                                     className="nav-item nav-link"
                                 >
                                     Services
-                                </a>
-                                <a
-                                    href="pricing.html"
+                                </Link>
+                                <Link
+                                    href="/news"
                                     className="nav-item nav-link"
                                 >
-                                    Pricing
-                                </a>
-                                <div className="nav-item dropdown">
+                                    News & Events
+                                </Link>
+                                <Link
+                                    href="/publications"
+                                    className="nav-item nav-link"
+                                >
+                                    Publications
+                                </Link>
+                                {/* <div className="nav-item dropdown">
                                     <a
                                         href="#"
                                         className="nav-link dropdown-toggle"
@@ -122,7 +128,7 @@ function Header() {
                                     className="nav-item nav-link"
                                 >
                                     Contact
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </nav>

@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/inertia-react";
 function Footer() {
     return ( 
         <>
@@ -5,45 +6,45 @@ function Footer() {
          <div className="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
-                        <a href="">
+                        <Link href="">
                             <h1 className="text-secondary mb-3">
                                 <span className="text-white">DRY</span>ME
                             </h1>
-                        </a>
+                        </Link>
                         <p>
                             Volup amet magna clita tempor. Tempor sea eos vero
                             ipsum. Lorem lorem sit sed elitr sit no, sed kasd et
                             ipsum dolor duo dolor
                         </p>
                         <div className="d-flex justify-content-start mt-4">
-                            <a
+                            <Link
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
                                 href="#"
                             >
                                 <i className="fab fa-twitter" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
                                 href="#"
                             >
                                 <i className="fab fa-facebook-f" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
                                 href="#"
                             >
                                 <i className="fab fa-linkedin-in" />
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
                                 href="#"
                             >
                                 <i className="fab fa-instagram" />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
@@ -68,26 +69,26 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-white mb-4">Quick Links</h4>
                         <div className="d-flex flex-column justify-content-start">
-                            <a className="text-white mb-2" href="#">
+                            <Link className="text-white mb-2" href="/">
                                 <i className="fa fa-angle-right mr-2" />
                                 Home
-                            </a>
-                            <a className="text-white mb-2" href="#">
+                            </Link>
+                            <Link className="text-white mb-2" href="/about">
                                 <i className="fa fa-angle-right mr-2" />
                                 About Us
-                            </a>
-                            <a className="text-white mb-2" href="#">
+                            </Link>
+                            <Link className="text-white mb-2" href="/service">
                                 <i className="fa fa-angle-right mr-2" />
                                 Services
-                            </a>
-                            <a className="text-white mb-2" href="#">
+                            </Link>
+                            <Link className="text-white mb-2" href="/news">
                                 <i className="fa fa-angle-right mr-2" />
-                                Pricing
-                            </a>
-                            <a className="text-white" href="#">
+                                News & Events
+                            </Link>
+                            <Link className="text-white" href="/publication">
                                 <i className="fa fa-angle-right mr-2" />
-                                Contact Us
-                            </a>
+                                Publications
+                            </Link>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
