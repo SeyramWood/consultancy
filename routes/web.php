@@ -12,5 +12,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// welcome route
 Route::get('/', 'PageController@index');
+
+// about route
+Route::get('/about', 'PageController@about');
+
+// services route
+Route::get('/service', 'PageController@service');
+
+// news route
+Route::get('/news', 'PageController@news');
+
+//publications route
+Route::get('/publications', 'PageController@publications');
+

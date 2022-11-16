@@ -1,134 +1,12 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function Welcome() {
     return (
         <>
-            {/* Topbar Start */}
-            <div className="container-fluid bg-primary py-3">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
-                            <div className="d-inline-flex align-items-center">
-                                <a className="text-white pr-3" href="">
-                                    FAQs
-                                </a>
-                                <span className="text-white">|</span>
-                                <a className="text-white px-3" href="">
-                                    Help
-                                </a>
-                                <span className="text-white">|</span>
-                                <a className="text-white pl-3" href="">
-                                    Support
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-md-6 text-center text-lg-right">
-                            <div className="d-inline-flex align-items-center">
-                                <a className="text-white px-3" href="">
-                                    <i className="fab fa-facebook-f" />
-                                </a>
-                                <a className="text-white px-3" href="">
-                                    <i className="fab fa-twitter" />
-                                </a>
-                                <a className="text-white px-3" href="">
-                                    <i className="fab fa-linkedin-in" />
-                                </a>
-                                <a className="text-white px-3" href="">
-                                    <i className="fab fa-instagram" />
-                                </a>
-                                <a className="text-white pl-3" href="">
-                                    <i className="fab fa-youtube" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {/* Topbar End */}
-            {/* Navbar Start */}
-            <div className="container-fluid position-relative nav-bar p-0">
-                <div
-                    className="container-lg position-relative p-0 px-lg-3"
-                    style={{ zIndex: 9 }}
-                >
-                    <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5">
-                        <a href="" className="navbar-brand">
-                            <h1 className="m-0 text-secondary">
-                                <span className="text-primary">DRY</span>ME
-                            </h1>
-                        </a>
-                        <button
-                            type="button"
-                            className="navbar-toggler"
-                            data-toggle="collapse"
-                            data-target="#navbarCollapse"
-                        >
-                            <span className="navbar-toggler-icon" />
-                        </button>
-                        <div
-                            className="collapse navbar-collapse justify-content-between px-3"
-                            id="navbarCollapse"
-                        >
-                            <div className="navbar-nav ml-auto py-0">
-                                <a
-                                    href="index.html"
-                                    className="nav-item nav-link active"
-                                >
-                                    Home
-                                </a>
-                                <a
-                                    href="about.html"
-                                    className="nav-item nav-link"
-                                >
-                                    About
-                                </a>
-                                <a
-                                    href="service.html"
-                                    className="nav-item nav-link"
-                                >
-                                    Services
-                                </a>
-                                <a
-                                    href="pricing.html"
-                                    className="nav-item nav-link"
-                                >
-                                    Pricing
-                                </a>
-                                <div className="nav-item dropdown">
-                                    <a
-                                        href="#"
-                                        className="nav-link dropdown-toggle"
-                                        data-toggle="dropdown"
-                                    >
-                                        Pages
-                                    </a>
-                                    <div className="dropdown-menu border-0 rounded-0 m-0">
-                                        <a
-                                            href="blog.html"
-                                            className="dropdown-item"
-                                        >
-                                            Blog Grid
-                                        </a>
-                                        <a
-                                            href="single.html"
-                                            className="dropdown-item"
-                                        >
-                                            Blog Detail
-                                        </a>
-                                    </div>
-                                </div>
-                                <a
-                                    href="contact.html"
-                                    className="nav-item nav-link"
-                                >
-                                    Contact
-                                </a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            {/* Navbar End */}
+         
+           <Header />
             {/* Carousel Start */}
             <div className="container-fluid p-0">
                 <div
@@ -493,7 +371,7 @@ function Welcome() {
             </div>
             {/* Features End */}
             {/* Working Process Start */}
-            <div className="container-fluid pt-5">
+            {/* <div className="container-fluid pt-5">
                 <div className="container">
                     <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
                         Working Process
@@ -578,10 +456,10 @@ function Welcome() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* Working Process End */}
             {/* Pricing Plan Start */}
-            <div className="container-fluid pt-5 pb-3">
+            {/* <div className="container-fluid pt-5 pb-3">
                 <div className="container">
                     <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
                         Our Pricing Plan
@@ -733,7 +611,7 @@ function Welcome() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* Pricing Plan End */}
             {/* Testimonial Start */}
             <div className="container-fluid py-5">
@@ -1009,146 +887,7 @@ function Welcome() {
                 </div>
             </div>
             {/* Blog End */}
-            {/* Footer Start */}
-            <div className="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
-                <div className="row pt-5">
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <a href="">
-                            <h1 className="text-secondary mb-3">
-                                <span className="text-white">DRY</span>ME
-                            </h1>
-                        </a>
-                        <p>
-                            Volup amet magna clita tempor. Tempor sea eos vero
-                            ipsum. Lorem lorem sit sed elitr sit no, sed kasd et
-                            ipsum dolor duo dolor
-                        </p>
-                        <div className="d-flex justify-content-start mt-4">
-                            <a
-                                className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
-                                style={{ width: 38, height: 38 }}
-                                href="#"
-                            >
-                                <i className="fab fa-twitter" />
-                            </a>
-                            <a
-                                className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
-                                style={{ width: 38, height: 38 }}
-                                href="#"
-                            >
-                                <i className="fab fa-facebook-f" />
-                            </a>
-                            <a
-                                className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
-                                style={{ width: 38, height: 38 }}
-                                href="#"
-                            >
-                                <i className="fab fa-linkedin-in" />
-                            </a>
-                            <a
-                                className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
-                                style={{ width: 38, height: 38 }}
-                                href="#"
-                            >
-                                <i className="fab fa-instagram" />
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-white mb-4">Get In Touch</h4>
-                        <p>
-                            Dolor clita stet nonumy clita diam vero, et et ipsum
-                            diam labore
-                        </p>
-                        <p>
-                            <i className="fa fa-map-marker-alt mr-2" />
-                            123 Street, New York, USA
-                        </p>
-                        <p>
-                            <i className="fa fa-phone-alt mr-2" />
-                            +012 345 67890
-                        </p>
-                        <p>
-                            <i className="fa fa-envelope mr-2" />
-                            info@example.com
-                        </p>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-white mb-4">Quick Links</h4>
-                        <div className="d-flex flex-column justify-content-start">
-                            <a className="text-white mb-2" href="#">
-                                <i className="fa fa-angle-right mr-2" />
-                                Home
-                            </a>
-                            <a className="text-white mb-2" href="#">
-                                <i className="fa fa-angle-right mr-2" />
-                                About Us
-                            </a>
-                            <a className="text-white mb-2" href="#">
-                                <i className="fa fa-angle-right mr-2" />
-                                Services
-                            </a>
-                            <a className="text-white mb-2" href="#">
-                                <i className="fa fa-angle-right mr-2" />
-                                Pricing
-                            </a>
-                            <a className="text-white" href="#">
-                                <i className="fa fa-angle-right mr-2" />
-                                Contact Us
-                            </a>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 mb-5">
-                        <h4 className="text-white mb-4">Newsletter</h4>
-                        <form action="">
-                            <div className="form-group">
-                                <input
-                                    type="text"
-                                    className="form-control border-0"
-                                    placeholder="Your Name"
-                                    required="required"
-                                />
-                            </div>
-                            <div className="form-group">
-                                <input
-                                    type="email"
-                                    className="form-control border-0"
-                                    placeholder="Your Email"
-                                    required="required"
-                                />
-                            </div>
-                            <div>
-                                <button
-                                    className="btn btn-lg btn-secondary btn-block border-0"
-                                    type="submit"
-                                >
-                                    Submit Now
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
-                <p className="m-0 text-center text-white">
-                    ©{" "}
-                    <a className="text-white font-weight-medium" href="#">
-                        Your Site Name
-                    </a>
-                    . All Rights Reserved. Designed by
-                    <a
-                        className="text-white font-weight-medium"
-                        href="https://htmlcodex.com"
-                    >
-                        HTML Codex
-                    </a>
-                </p>
-            </div>
-            {/* Footer End */}
-            {/* Back to Top */}
-            <a href="#" className="btn btn-lg btn-primary back-to-top">
-                <i className="fa fa-angle-double-up" />
-            </a>
+            <Footer />
         </>
     );
 }
