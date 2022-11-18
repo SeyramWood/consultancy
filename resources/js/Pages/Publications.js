@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/inertia-react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -10,16 +11,16 @@ function Publication() {
     <div className="container py-5">
       <div className="row align-items-center py-4">
         <div className="col-md-6 text-center text-md-left">
-          <h1 className="mb-4 mb-md-0 text-white">Blog Articles</h1>
+          <h1 className="mb-4 mb-md-0 text-white">Publications</h1>
         </div>
         <div className="col-md-6 text-center text-md-right">
           <div className="d-inline-flex align-items-center">
-            <a className="btn text-white" href="">
+            <Link className="btn text-white" href="/">
               Home
-            </a>
+            </Link>
             <i className="fas fa-angle-right text-white" />
             <a className="btn text-white disabled" href="">
-              Blog
+              Publications
             </a>
           </div>
         </div>
@@ -393,219 +394,30 @@ function Publication() {
       {/* Blog Grid End */}
       {/* Sidebar Start */}
       <div className="col-lg-4 mt-5 mt-lg-0">
-        {/* Search Form Start */}
-        <div className="mb-5">
-          <form action="">
-            <div className="input-group">
-              <input
-                type="text"
-                className="form-control form-control-lg"
-                placeholder="Keyword"
-              />
-              <div className="input-group-append">
-                <span className="input-group-text bg-transparent text-primary">
-                  <i className="fa fa-search" />
-                </span>
-              </div>
-            </div>
-          </form>
-        </div>
-        {/* Search Form End */}
+      
         {/* Category Start */}
         <div className="mb-5">
           <h3 className="font-weight-bold mb-4">Categories</h3>
           <ul className="list-group">
             <li className="list-group-item d-flex justify-content-between align-items-center">
-              Web Design
+              Books
               <span className="badge badge-primary badge-pill">150</span>
             </li>
             <li className="list-group-item d-flex justify-content-between align-items-center">
-              Web Development
+               Articles
               <span className="badge badge-primary badge-pill">131</span>
             </li>
             <li className="list-group-item d-flex justify-content-between align-items-center">
-              Online Marketing
+              Resarch
               <span className="badge badge-primary badge-pill">78</span>
             </li>
-            <li className="list-group-item d-flex justify-content-between align-items-center">
-              Keyword Research
-              <span className="badge badge-primary badge-pill">56</span>
-            </li>
-            <li className="list-group-item d-flex justify-content-between align-items-center">
-              Email Marketing
-              <span className="badge badge-primary badge-pill">98</span>
-            </li>
+        
           </ul>
         </div>
         {/* Category End */}
-        {/* Recent Post Start */}
-        <div className="mb-5">
-          <h3 className="font-weight-bold mb-4">Recent Post</h3>
-          <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-            <img
-              className="img-fluid"
-              src="template/img/blog-1.jpg"
-              style={{ width: 80, height: 80 }}
-              alt=""
-            />
-            <div className="d-flex flex-column pl-3">
-              <a className="text-dark mb-2" href="">
-                Lorem ipsum dolor sit amet consec adipis elit
-              </a>
-              <div className="d-flex">
-                <small className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </small>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-            <img
-              className="img-fluid"
-              src="template/img/blog-2.jpg"
-              style={{ width: 80, height: 80 }}
-              alt=""
-            />
-            <div className="d-flex flex-column pl-3">
-              <a className="text-dark mb-2" href="">
-                Lorem ipsum dolor sit amet consec adipis elit
-              </a>
-              <div className="d-flex">
-                <small className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </small>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-            <img
-              className="img-fluid"
-              src="template/img/blog-3.jpg"
-              style={{ width: 80, height: 80 }}
-              alt=""
-            />
-            <div className="d-flex flex-column pl-3">
-              <a className="text-dark mb-2" href="">
-                Lorem ipsum dolor sit amet consec adipis elit
-              </a>
-              <div className="d-flex">
-                <small className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </small>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-            <img
-              className="img-fluid"
-              src="template/img/blog-1.jpg"
-              style={{ width: 80, height: 80 }}
-              alt=""
-            />
-            <div className="d-flex flex-column pl-3">
-              <a className="text-dark mb-2" href="">
-                Lorem ipsum dolor sit amet consec adipis elit
-              </a>
-              <div className="d-flex">
-                <small className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </small>
-              </div>
-            </div>
-          </div>
-          <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-            <img
-              className="img-fluid"
-              src="template/img/blog-2.jpg"
-              style={{ width: 80, height: 80 }}
-              alt=""
-            />
-            <div className="d-flex flex-column pl-3">
-              <a className="text-dark mb-2" href="">
-                Lorem ipsum dolor sit amet consec adipis elit
-              </a>
-              <div className="d-flex">
-                <small className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </small>
-                <small className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Recent Post End */}
-        {/* Image Start */}
-        <div className="mb-5">
-          <img src="template/img/blog-2.jpg" alt="" className="img-fluid" />
-        </div>
-        {/* Image End */}
-        {/* Tags Start */}
-        <div className="mb-5">
-          <h3 className="font-weight-bold mb-4">Tag Cloud</h3>
-          <div className="d-flex flex-wrap m-n1">
-            <a href="" className="btn btn-outline-primary m-1">
-              Design
-            </a>
-            <a href="" className="btn btn-outline-primary m-1">
-              Development
-            </a>
-            <a href="" className="btn btn-outline-primary m-1">
-              Marketing
-            </a>
-            <a href="" className="btn btn-outline-primary m-1">
-              SEO
-            </a>
-            <a href="" className="btn btn-outline-primary m-1">
-              Writing
-            </a>
-            <a href="" className="btn btn-outline-primary m-1">
-              Consulting
-            </a>
-          </div>
-        </div>
-        {/* Tags End */}
-        {/* Image Start */}
-        <div className="mb-5">
-          <img src="template/img/blog-3.jpg" alt="" className="img-fluid" />
-        </div>
-        {/* Image End */}
-        {/* Plain Text Start */}
-        <div>
-          <h3 className="font-weight-bold mb-4">Plain Text</h3>
-          Aliquyam sed lorem stet diam dolor sed ut sit. Ut sanctus erat ea est
-          aliquyam dolor et. Et no consetetur eos labore ea erat voluptua et. Et
-          aliquyam dolore sed erat. Magna sanctus sed eos tempor rebum dolor,
-          tempor takimata clita sit et elitr ut eirmod.
-        </div>
+      
+  
+        {/* T
         {/* Plain Text End */}
       </div>
       {/* Sidebar End */}

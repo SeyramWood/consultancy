@@ -7,9 +7,9 @@ function Footer() {
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
                         <Link href="">
-                            <h1 className="text-secondary mb-3">
-                                <span className="text-white">DRY</span>ME
-                            </h1>
+                            {/* <h1 className="text-secondary mb-3">
+                                <span className="text-white mb-4" >Center For Diplomacy And Foriegn Policy</span>
+                            </h1> */}
                         </Link>
                         <p>
                             Volup amet magna clita tempor. Tempor sea eos vero

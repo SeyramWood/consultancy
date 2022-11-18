@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/inertia-react";
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -5,10 +6,10 @@ import Header from "./components/Header";
 function Welcome() {
     return (
         <>
-         
-           <Header />
+
+            <Header />
             {/* Carousel Start */}
-            <div className="container-fluid p-0">
+            <div className="container-fluid p-0" >
                 <div
                     id="header-carousel"
                     className="carousel slide"
@@ -23,12 +24,12 @@ function Welcome() {
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{ maxWidth: 900 }}>
-                                    <h4 className="text-white text-uppercase mb-md-3">
+                                    {/* <h4 className="text-white text-uppercase mb-md-3">
                                         Laundry &amp; Dry Cleaning
-                                    </h4>
-                                    <h1 className="display-3 text-white mb-md-4">
-                                        Best For Laundry Services
-                                    </h1>
+                                    </h4> */}
+                                    <h3 className="display-3 display-sm-3 text-white mb-md-3">
+                                        CENTRE FOR FOREIGN POLICY &amp; DIPLOMACY
+                                    </h3>
                                     <a
                                         href=""
                                         className="btn btn-primary py-md-3 px-md-5 mt-2"
@@ -46,18 +47,18 @@ function Welcome() {
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{ maxWidth: 900 }}>
-                                    <h4 className="text-white text-uppercase mb-md-3">
+                                    {/* <h4 className="text-white text-uppercase mb-md-3">
                                         Laundry &amp; Dry Cleaning
-                                    </h4>
-                                    <h1 className="display-3 text-white mb-md-4">
-                                        Highly Professional Staff
-                                    </h1>
-                                    <a
+                                    </h4> */}
+                                    <h3 className="display-3 text-white mb-md-4">
+                                        CENTRE FOR FOREIGN POLICY &amp; DIPLOMACY
+                                    </h3>
+                                    <Link
                                         href=""
                                         className="btn btn-primary py-md-3 px-md-5 mt-2"
                                     >
                                         Learn More
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +91,7 @@ function Welcome() {
             </div>
             {/* Carousel End */}
             {/* Contact Info Start */}
-            <div className="container-fluid contact-info mt-5 mb-4">
+            <div className="container-fluid contact-info  mb-4">
                 <div className="container" style={{ padding: "0 30px" }}>
                     <div className="row">
                         <div
@@ -145,233 +146,276 @@ function Welcome() {
                 </div>
             </div>
             {/* Contact Info End */}
-            {/* About Start */}
-            <div className="container-fluid py-5">
-                <div className="container pt-0 pt-lg-4">
-                    <div className="row align-items-center">
-                        <div className="col-lg-5">
-                            <img
-                                className="img-fluid"
-                                src="template/img/about.jpg"
-                                alt=""
-                            />
+
+            {/* Custom research */}
+            <div className="container"  >
+
+                <div className="row" >
+                    <div className="border-bottom" style={{ width: "100%" }}>
+                        <h2 className="display-4  text-center mb-0" ><u>Research</u></h2>
+                    </div>
+
+                    <div className="p-4 m-3" >
+                        <div className="col-12 p-2">
+                            <div className="row p-2"  >
+                              <div className="col-4">
+                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eveniet id nulla nesciunt pariatur eaque
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="col-lg-7 mt-5 mt-lg-0 pl-lg-5">
-                            <h6 className="text-secondary text-uppercase font-weight-medium mb-3">
-                                Learn About Us
-                            </h6>
-                            <h1 className="mb-4">
-                                We Are Quality Laundry Provider In Your City
-                            </h1>
-                            <h5 className="font-weight-medium font-italic mb-4">
-                                Clita sit et ipsum sed. Volup duo sea dolor
-                                rebum ea rebum kasd stet. Dolor at duo dolor sit
-                                stet.
-                            </h5>
-                            <p className="mb-2">
-                                Invidunt lorem justo sanctus clita. Erat lorem
-                                labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed
-                                sed diam. Ea et erat ut sed diam sea ipsum est
-                                dolor
-                            </p>
-                            <div className="row">
-                                <div className="col-sm-6 pt-3">
-                                    <div className="d-flex align-items-center">
-                                        <i className="fa fa-check text-primary mr-2" />
-                                        <p className="text-secondary font-weight-medium m-0">
-                                            Quality Laundry Service
-                                        </p>
-                                    </div>
+                        <div className="col-12 p-2">
+                            <div className="row p-2"  >
+                              <div className="col-4">
+                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
-                                <div className="col-sm-6 pt-3">
-                                    <div className="d-flex align-items-center">
-                                        <i className="fa fa-check text-primary mr-2" />
-                                        <p className="text-secondary font-weight-medium m-0">
-                                            Express Fast Delivery
-                                        </p>
-                                    </div>
+                                <div className="col-8">
+                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eveniet id nulla nesciunt pariatur eaque
+                                    </p>
                                 </div>
-                                <div className="col-sm-6 pt-3">
-                                    <div className="d-flex align-items-center">
-                                        <i className="fa fa-check text-primary mr-2" />
-                                        <p className="text-secondary font-weight-medium m-0">
-                                            Highly Professional Staff
-                                        </p>
-                                    </div>
+                            </div>
+                        </div>
+                        <div className="col-12 p-2">
+                            <div className="row p-2"  >
+                              <div className="col-4">
+                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
-                                <div className="col-sm-6 pt-3">
-                                    <div className="d-flex align-items-center">
-                                        <i className="fa fa-check text-primary mr-2" />
-                                        <p className="text-secondary font-weight-medium m-0">
-                                            100% Satisfaction Gguarantee
-                                        </p>
-                                    </div>
+                                <div className="col-8">
+                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eveniet id nulla nesciunt pariatur eaque
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 p-2">
+                            <div className="row p-2"  >
+                              <div className="col-4">
+                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eveniet id nulla nesciunt pariatur eaque
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 p-2">
+                            <div className="row p-2"  >
+                              <div className="col-4">
+                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eveniet id nulla nesciunt pariatur eaque
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+            {/* End Custom research */}
+
+            {/* custom events */}
+            <div className="" style={{ marginBottom: "90px" }}>
+                <div className="col-12 " >
+                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Events</u></h2>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row">
+                                
+                                <div className="col-4 ">
+                                    
+                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8 ">
+                                    
+                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+                                    <Link href="/publications">
+                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                    </Link>
+                                    <p className="" style={{fontSize:"12px"}}>Date: Jan 14 Venue: South Africa
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row ">
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+                                    <Link href="/publications">
+                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                    </Link>
+                                    <p className="" style={{fontSize:"14px"}}>Date: Jan 14 Venue: South Africa
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 ">
+                            <div className="row">
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+                                    <Link href="/publications">
+                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                    </Link>
+                                    <p className=""style={{fontSize:"12px"}}>Date: Jan 14 Venue: South Africa
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div className="text-center">
+                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>View More</button>
+                </div>
+                </div>
+               
+                 </div>
+            {/* End custom events */}
+
+            {/* custom blogs */}
+            <div className=" p-3" style={{ marginBottom: "90px" }}>
+                <div className="col-12 " >
+                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Articles</u></h2>
+                    <div className="row" >
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row">
+                                
+                                <div className="col-4">
+                                    <img src="template/img/img/dr.png" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <Link href="/">
+                                    <h5 className="lead">A development and international relations analyst, Professor Lord Mawuko-Yevugah </h5>
+                                    </Link> {/* <p className="" style={{fontSize:"12px"}}>Date: Jan 14 
+                                    </p> */}
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row ">
+                                <div className="col-4">
+                                    <img src="template/img/img/dr2.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <Link href="/">
+                                    <h5 className="lead">Ghana needs to build a robust local economy – Prof Mawuko-Yevugah</h5>
+                                    </Link>{/* <p className="">Date: Jan 14 
+                                    </p> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row ">
+                                <div className="col-4">
+                                    <img src="template/img/img/dr.png" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <Link href="/">
+                                    <h5 className="lead">Professor Lord Mawuko-Yevugah</h5></Link>
+                                    {/* <p className="">Date: Jan 14 
+                                    </p> */}
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div className="text-center">
+                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>View More</button>
+                </div>
+                </div>
+               
+                 </div>
+            {/* end custom blogs */}
+
+            {/* custom books */}
+            <div className=" p-3" style={{ marginBottom: "90px" }}>
+                <div className="col-12 " >
+                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Books</u></h2>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row">
+                                <div className="col-4">
+                                    <img src="template/img/img/book1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h5>Made In Ghana</h5>
+                                    <p className="">Date: Jan 14 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
+                            <div className="row ">
+                                <div className="col-4">
+                                    <img src="template/img/img/book2.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h5>Reinventing Development</h5>
+                                    <p className="">Date: Jan 14 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-12 col-sm-12 ">
+                            <div className="row ">
+                                <div className="col-4">
+                                    <img src="template/img/img/book3.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                </div>
+                                <div className="col-8">
+                                    <h5><a href="">African Time</a></h5>
+                                    <p className="">Date: Jan 14 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div className="text-center">
+                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>
+                        View More Books
+                    </button>
+                </div>
+                     
+                </div>
+               
+                 </div>
+            {/* end custom books */}
+
+            {/* About Start */}
+        
             {/* About End */}
             {/* Services Start */}
-            <div className="container-fluid pt-5 pb-3">
-                <div className="container">
-                    <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
-                        Our Services
-                    </h6>
-                    <h1 className="display-4 text-center mb-5">
-                        What We Offer
-                    </h1>
-                    <div className="row">
-                        <div className="col-lg-3 col-md-6 pb-1">
-                            <div
-                                className="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
-                                style={{ height: 300 }}
-                            >
-                                <div
-                                    className="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
-                                    style={{ width: 100, height: 100 }}
-                                >
-                                    <i className="fa fa-3x fa-cloud-sun text-secondary" />
-                                </div>
-                                <h4 className="font-weight-bold m-0">
-                                    Dry Cleaning
-                                </h4>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 pb-1">
-                            <div
-                                className="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
-                                style={{ height: 300 }}
-                            >
-                                <div
-                                    className="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
-                                    style={{ width: 100, height: 100 }}
-                                >
-                                    <i className="fas fa-3x fa-soap text-secondary" />
-                                </div>
-                                <h4 className="font-weight-bold m-0">
-                                    Wash &amp; Laundry
-                                </h4>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 pb-1">
-                            <div
-                                className="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
-                                style={{ height: 300 }}
-                            >
-                                <div
-                                    className="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
-                                    style={{ width: 100, height: 100 }}
-                                >
-                                    <i className="fa fa-3x fa-burn text-secondary" />
-                                </div>
-                                <h4 className="font-weight-bold m-0">
-                                    Curtain Laundry
-                                </h4>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-md-6 pb-1">
-                            <div
-                                className="d-flex flex-column align-items-center justify-content-center text-center bg-light mb-4 px-4"
-                                style={{ height: 300 }}
-                            >
-                                <div
-                                    className="d-inline-flex align-items-center justify-content-center bg-white shadow rounded-circle mb-4"
-                                    style={{ width: 100, height: 100 }}
-                                >
-                                    <i className="fa fa-3x fa-tshirt text-secondary" />
-                                </div>
-                                <h4 className="font-weight-bold m-0">
-                                    Suits Cleaning
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             {/* Services End */}
             {/* Features Start */}
-            <div className="container-fluid py-5">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-7 m-0 my-lg-5 pt-0 pt-lg-5 pr-lg-5">
-                            <h6 className="text-secondary text-uppercase font-weight-medium mb-3">
-                                Our Features
-                            </h6>
-                            <h1 className="mb-4">Why Choose Us</h1>
-                            <p>
-                                Invidunt lorem justo sanctus clita. Erat lorem
-                                labore ea, justo dolor lorem ipsum ut sed eos,
-                                ipsum et dolor kasd sit ea justo. Erat justo sed
-                                sed diam. Ea et erat ut sed diam sea ipsum est
-                                dolor
-                            </p>
-                            <div className="row">
-                                <div className="col-sm-6 mb-4">
-                                    <h1
-                                        className="text-secondary"
-                                        data-toggle="counter-up"
-                                    >
-                                        10
-                                    </h1>
-                                    <h5 className="font-weight-bold">
-                                        Years Expereince
-                                    </h5>
-                                </div>
-                                <div className="col-sm-6 mb-4">
-                                    <h1
-                                        className="text-secondary"
-                                        data-toggle="counter-up"
-                                    >
-                                        250
-                                    </h1>
-                                    <h5 className="font-weight-bold">
-                                        Expert Worker
-                                    </h5>
-                                </div>
-                                <div className="col-sm-6 mb-4">
-                                    <h1
-                                        className="text-secondary"
-                                        data-toggle="counter-up"
-                                    >
-                                        1250
-                                    </h1>
-                                    <h5 className="font-weight-bold">
-                                        Happy Clients
-                                    </h5>
-                                </div>
-                                <div className="col-sm-6 mb-4">
-                                    <h1
-                                        className="text-secondary"
-                                        data-toggle="counter-up"
-                                    >
-                                        9550
-                                    </h1>
-                                    <h5 className="font-weight-bold">
-                                        Dry Cleaning
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-5">
-                            <div className="d-flex flex-column align-items-center justify-content-center bg-secondary h-100 py-5 px-3">
-                                <i className="fa fa-5x fa-certificate text-white mb-5" />
-                                <h1 className="display-1 text-white mb-3">
-                                    10+
-                                </h1>
-                                <h1 className="text-white m-0">
-                                    Years Experience
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
             {/* Features End */}
             {/* Working Process Start */}
-            {/* <div className="container-fluid pt-5">
+           {/*}
+           <div className="container-fluid pt-5">
                 <div className="container">
                     <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
                         Working Process
@@ -614,126 +658,7 @@ function Welcome() {
             </div> */}
             {/* Pricing Plan End */}
             {/* Testimonial Start */}
-            <div className="container-fluid py-5">
-                <div className="container">
-                    <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
-                        Testimonial
-                    </h6>
-                    <h1 className="display-4 text-center mb-5">
-                        Our Clients Say
-                    </h1>
-                    <div className="owl-carousel testimonial-carousel">
-                        <div className="testimonial-item">
-                            <img
-                                className="position-relative rounded-circle bg-white shadow mx-auto"
-                                src="template/img/testimonial-1.jpg"
-                                style={{
-                                    width: 100,
-                                    height: 100,
-                                    padding: 12,
-                                    marginBottom: "-50px",
-                                    zIndex: 1,
-                                }}
-                                alt=""
-                            />
-                            <div className="bg-light text-center p-4 pt-0">
-                                <h5 className="font-weight-medium mt-5">
-                                    Client Name
-                                </h5>
-                                <p className="text-muted font-italic">
-                                    Profession
-                                </p>
-                                <p className="m-0">
-                                    Sed ea amet kasd elitr stet, stet rebum et
-                                    ipsum est duo elitr eirmod clita lorem.
-                                    Dolor ipsum clita
-                                </p>
-                            </div>
-                        </div>
-                        <div className="testimonial-item">
-                            <img
-                                className="position-relative rounded-circle bg-white shadow mx-auto"
-                                src="template/img/testimonial-2.jpg"
-                                style={{
-                                    width: 100,
-                                    height: 100,
-                                    padding: 12,
-                                    marginBottom: "-50px",
-                                    zIndex: 1,
-                                }}
-                                alt=""
-                            />
-                            <div className="bg-light text-center p-4 pt-0">
-                                <h5 className="font-weight-medium mt-5">
-                                    Client Name
-                                </h5>
-                                <p className="text-muted font-italic">
-                                    Profession
-                                </p>
-                                <p className="m-0">
-                                    Sed ea amet kasd elitr stet, stet rebum et
-                                    ipsum est duo elitr eirmod clita lorem.
-                                    Dolor ipsum clita
-                                </p>
-                            </div>
-                        </div>
-                        <div className="testimonial-item">
-                            <img
-                                className="position-relative rounded-circle bg-white shadow mx-auto"
-                                src="template/img/testimonial-3.jpg"
-                                style={{
-                                    width: 100,
-                                    height: 100,
-                                    padding: 12,
-                                    marginBottom: "-50px",
-                                    zIndex: 1,
-                                }}
-                                alt=""
-                            />
-                            <div className="bg-light text-center p-4 pt-0">
-                                <h5 className="font-weight-medium mt-5">
-                                    Client Name
-                                </h5>
-                                <p className="text-muted font-italic">
-                                    Profession
-                                </p>
-                                <p className="m-0">
-                                    Sed ea amet kasd elitr stet, stet rebum et
-                                    ipsum est duo elitr eirmod clita lorem.
-                                    Dolor ipsum clita
-                                </p>
-                            </div>
-                        </div>
-                        <div className="testimonial-item">
-                            <img
-                                className="position-relative rounded-circle bg-white shadow mx-auto"
-                                src="template/img/testimonial-4.jpg"
-                                style={{
-                                    width: 100,
-                                    height: 100,
-                                    padding: 12,
-                                    marginBottom: "-50px",
-                                    zIndex: 1,
-                                }}
-                                alt=""
-                            />
-                            <div className="bg-light text-center p-4 pt-0">
-                                <h5 className="font-weight-medium mt-5">
-                                    Client Name
-                                </h5>
-                                <p className="text-muted font-italic">
-                                    Profession
-                                </p>
-                                <p className="m-0">
-                                    Sed ea amet kasd elitr stet, stet rebum et
-                                    ipsum est duo elitr eirmod clita lorem.
-                                    Dolor ipsum clita
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             {/* Testimonial End */}
             {/* Blog Start */}
             <div className="container-fluid mt-5 pb-2">
