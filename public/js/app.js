@@ -5320,16 +5320,6 @@ function ModalFour() {
 
 /***/ }),
 
-/***/ "./resources/js/Pages/n.js":
-/*!*********************************!*\
-  !*** ./resources/js/Pages/n.js ***!
-  \*********************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -61727,9 +61717,7 @@ var map = {
 	"./components/ModalThree": "./resources/js/Pages/components/ModalThree.js",
 	"./components/ModalThree.js": "./resources/js/Pages/components/ModalThree.js",
 	"./components/ModalTwo": "./resources/js/Pages/components/ModalTwo.js",
-	"./components/ModalTwo.js": "./resources/js/Pages/components/ModalTwo.js",
-	"./n": "./resources/js/Pages/n.js",
-	"./n.js": "./resources/js/Pages/n.js"
+	"./components/ModalTwo.js": "./resources/js/Pages/components/ModalTwo.js"
 };
 
 
