@@ -136,22 +136,22 @@ function About() {
               <img className="img-fluid" src="template/img/img/gb1.jpg" style={{height:500,width:"100%"}} alt="" />
             </div>
             <div className="col-lg-7 mt-lg-0 pl-lg-5">
-              <h5 >
-                <b>Global Relations</b></h5>
+              <h4 className="mt-1">
+                <b>Global Relations</b></h4>
               <p>
                 We make a well informed and independent input into Africa's global relations.
               </p>
-              <h5><b>Public Policies</b></h5>
+              <h4 className="pt-1"><b>Public Policies</b></h4>
               <p>
                 We undertake high level research on how current global issues intersect with Africa
                 and Ghana’s public policy issues.
               </p>
-              <h5><b>International Programs</b></h5>
+              <h4 className="pt-1"><b>International Programs</b></h4>
               <p>
                 Developing alliances and joint programmes with international organizations and
                 agencies within the West African sub-region, the African region and throughout the world.
               </p>
-              <h5><b>Conferences</b> </h5>
+              <h4 className="pt-1"><b>Conferences</b> </h4>
               <p>
                 Organizing conferences, seminars and speakers’ meetings on a wide range of
                 topics addressed by prominent scholars, experts and practitioners from Ghana and abroad.

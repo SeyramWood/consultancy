@@ -35,10 +35,10 @@ function Publication() {
           {/* Blog Detail Start */}
           <div className="col-lg-8">
             <div className="d-flex flex-column text-left mb-4">
-              <h6 className="text-primary font-weight-normal text-uppercase mb-3">
+              {/* <h6 className="text-primary font-weight-normal text-uppercase mb-3">
                 Publications
-              </h6>
-              <h1 className="mb-4 section-title">
+              </h6> */}
+              <h1 className="mb-4 text-green tsection-title">
                 Diam dolor est ipsum clita lorem
               </h1>
               <div className="d-index-flex mb-2">

@@ -2195,25 +2195,29 @@ function About() {
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "col-lg-7 mt-lg-0 pl-lg-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+              className: "mt-1",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                 children: "Global Relations"
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "We make a well informed and independent input into Africa's global relations."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+              className: "pt-1",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                 children: "Public Policies"
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "We undertake high level research on how current global issues intersect with Africa and Ghana\u2019s public policy issues."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h4", {
+              className: "pt-1",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                 children: "International Programs"
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
               children: "Developing alliances and joint programmes with international organizations and agencies within the West African sub-region, the African region and throughout the world."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h5", {
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("h4", {
+              className: "pt-1",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                 children: "Conferences"
               }), " "]
@@ -2412,7 +2416,7 @@ function Events() {
             className: "col-md-6 text-center text-md-left",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               className: "mb-4 mb-md-0 text-white",
-              children: "Articles"
+              children: "Events"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "col-md-6 text-center text-md-right",
@@ -2427,7 +2431,7 @@ function Events() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
                 className: "btn text-white disabled",
                 href: "",
-                children: "Articles"
+                children: "Events"
               })]
             })
           })]
@@ -3256,11 +3260,8 @@ function Publication() {
           className: "col-lg-8",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "d-flex flex-column text-left mb-4",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h6", {
-              className: "text-primary font-weight-normal text-uppercase mb-3",
-              children: "Publications"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
-              className: "mb-4 section-title",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+              className: "mb-4 text-green tsection-title",
               children: "Diam dolor est ipsum clita lorem"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "d-index-flex mb-2",
@@ -3720,7 +3721,7 @@ function Service() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
               children: "Annual Lecture on Foreign Policy and Diplomacy"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-              children: "As part of its outreach and in putting issues of foreign and diplomatic relations on the national agenda, the Centre through its Advocacy and Communication Unit will organize periodic public for seminars. An Annual Lecture on a topical foreign policy and diplomatic issue to be delivered by a noted scholar or practitioner will also be delivered. Such lectures could be named after a distinguished Ghanaian in the area of foreignserviceand diplomacy such as Alex Quaison-Sackey (Former Ambassador and Minister for Foreign Affairs and the first Ghanaian/African to Head the UN General Assembly); Kenneth Dadzie(Former Ambassador and First African Secretary General of United Nations Conferenceon Trade and Development); Robert Gardiner (Former UN Under-Secretary General and Executive Secretary of the UN Economic Commission for Africa); Kofi Annan (Former UN Secretary General), etc. Such a lecture will not only be an opportunity for deep and intellectual engagement on key issues of global importance but by naming it after such distinguished Ghanaians will provide an opportunity to recognize and celebrate them as role-models for current and future generations of Ghanaian diplomats."
+              children: "As part of its outreach and in putting issues of foreign and diplomatic relations on the national agenda, the Centre through its Advocacy and Communication Unit will organize periodic public for seminars. An Annual Lecture on a topical foreign policy and diplomatic issue to be delivered by a noted scholar or practitioner will also be delivered. Such lectures could be named after a distinguished Ghanaian in the area of foreign service and diplomacy such as Alex Quaison-Sackey (Former Ambassador and Minister for Foreign Affairs and the first Ghanaian/African to Head the UN General Assembly); Kenneth Dadzie(Former Ambassador and First African Secretary General of United Nations Conferenceon Trade and Development); Robert Gardiner (Former UN Under-Secretary General and Executive Secretary of the UN Economic Commission for Africa); Kofi Annan (Former UN Secretary General), etc. Such a lecture will not only be an opportunity for deep and intellectual engagement on key issues of global importance but by naming it after such distinguished Ghanaians will provide an opportunity to recognize and celebrate them as role-models for current and future generations of Ghanaian diplomats."
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
             className: "mb-4",
@@ -3737,7 +3738,47 @@ function Service() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
         className: "row p-3",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-          className: "col-lg-6 col-sm-12 ",
+          className: "col-lg-6 mb-5 col-sm-12 ",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "border",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+              src: "template/img/img/pub.jpg",
+              className: "img-fluid",
+              style: {
+                width: "100%",
+                height: 350
+              },
+              alt: "lectures"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "p-3 border",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
+              className: "text-left",
+              children: "Publications"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "col-lg-6 mb-5 col-sm-12  ",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "border",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+              src: "template/img/img/africanLectures.jpg",
+              className: "img-fluid",
+              style: {
+                width: "100%",
+                height: 350
+              },
+              alt: "mps"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "p-3 border",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
+              className: "text-left",
+              children: "Training"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "col-lg-6 mb-5 col-sm-12  ",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "border",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
@@ -3747,16 +3788,17 @@ function Service() {
                 width: "100%",
                 height: 350
               },
-              alt: "lectures"
+              alt: "mps"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            className: "pt-2",
+            className: "p-3 border",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
-              children: "Lectures"
+              className: "text-left",
+              children: "Communication"
             })
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-          className: "col-lg-6 col-sm-12  ",
+          className: "col-lg-6 mb-5 col-sm-12  ",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
             className: "border",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
@@ -3769,8 +3811,9 @@ function Service() {
               alt: "mps"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-            className: "pt-2",
+            className: "p-3 border",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h3", {
+              className: "text-left",
               children: "Communication"
             })
           })]
@@ -4230,7 +4273,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg ",
+                  src: "template/img/img/resh.jpg ",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4264,7 +4307,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg ",
+                  src: "template/img/img/resh.jpg ",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4297,7 +4340,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg ",
+                  src: "template/img/img/resh.jpg ",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4330,7 +4373,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg ",
+                  src: "template/img/img/resh.jpg ",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4363,7 +4406,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg ",
+                  src: "template/img/img/resh.jpg ",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4414,7 +4457,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4 ",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg",
+                  src: "template/img/img/event.jpg",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4432,7 +4475,9 @@ function Welcome() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
                   href: "/publications",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
-                    children: "TITLE OR HEADING OF THE EVENT"
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "TITLE OR HEADING OF THE EVENT"
+                    })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",
@@ -4450,7 +4495,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg",
+                  src: "template/img/img/event.jpg",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4468,7 +4513,9 @@ function Welcome() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
                   href: "/publications",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
-                    children: "TITLE OR HEADING OF THE EVENT"
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "TITLE OR HEADING OF THE EVENT"
+                    })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",
@@ -4486,7 +4533,7 @@ function Welcome() {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/blog-3.jpg",
+                  src: "template/img/img/event.jpg",
                   className: "float-right",
                   alt: "",
                   style: {
@@ -4504,7 +4551,9 @@ function Welcome() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
                   href: "/publications",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
-                    children: "TITLE OR HEADING OF THE EVENT"
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "TITLE OR HEADING OF THE EVENT"
+                    })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",
@@ -4610,7 +4659,7 @@ function Welcome() {
                 className: "position-relative",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
                   className: "img-fluid w-100",
-                  src: "template/img/img/dr2.jpg",
+                  src: "template/img/img/dr.png",
                   alt: "",
                   style: {
                     height: "225px",
@@ -4678,8 +4727,10 @@ function Welcome() {
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                  children: "Made In Ghana"
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                    children: "Made In Ghana"
+                  })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",
                   children: "Made in Ghana is a collection of essays on wide-ranging issues highlighting the challenges of democratic governance and socio-economic transformation in Ghana and Africa ..."
@@ -4703,8 +4754,10 @@ function Welcome() {
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                  children: "Reinventing Development"
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                    children: "Reinventing Development"
+                  })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",
                   children: "This book shows how the new architecture of aid has important implications in three distinct but related ways: the discursive construction and production of post-colonial societies .."
@@ -4728,10 +4781,12 @@ function Welcome() {
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                    href: "",
-                    children: "African Time"
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      href: "",
+                      children: "African Time"
+                    })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "",

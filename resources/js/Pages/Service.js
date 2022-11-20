@@ -80,7 +80,7 @@ function Service() {
               Advocacy and Communication Unit will organize periodic public for seminars. An Annual Lecture on a topical foreign policy
               and diplomatic issue to be delivered by a noted scholar or practitioner will also be delivered.
                Such lectures could be named after a
-              distinguished Ghanaian in the area of foreignserviceand diplomacy such as Alex Quaison-Sackey 
+              distinguished Ghanaian in the area of foreign service and diplomacy such as Alex Quaison-Sackey 
               (Former Ambassador and Minister for
               Foreign Affairs and the first Ghanaian/African to Head the UN General Assembly); Kenneth Dadzie(Former Ambassador and First African Secretary
               General of United Nations Conferenceon Trade and Development); Robert Gardiner (Former UN Under-Secretary General and Executive Secretary of
@@ -112,27 +112,45 @@ function Service() {
 
       {/* Services End */}
 
-      {/*  */}
+      {/* service images  */}
       <div className="container  text-center">
-        <div className="row p-3">
+       <div className="row p-3">
        
-        <div className="col-lg-6 col-sm-12 ">
-        <div className="border">
-        <img src="template/img/img/lectures.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="lectures" />
+        <div className="col-lg-6 mb-5 col-sm-12 ">
+          <div className="border">
+           <img src="template/img/img/pub.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="lectures" />
           </div>
-          <div className="pt-2">
-             <h3>Lectures</h3>
+          <div className="p-3 border">
+             <h3 className="text-left">Publications</h3>
           </div>
         </div>
-        <div className="col-lg-6 col-sm-12  ">
+        <div className="col-lg-6 mb-5 col-sm-12  ">
+        <div className="border">
+        <img src="template/img/img/africanLectures.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="mps" />
+          </div>
+          <div className="p-3 border">
+             <h3 className="text-left">Training</h3>
+          </div>
+        </div>
+        <div className="col-lg-6 mb-5 col-sm-12  ">
+        <div className="border">
+        <img src="template/img/img/lectures.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="mps" />
+          </div>
+          <div className="p-3 border">
+             <h3 className="text-left">Communication</h3>
+          </div>
+        </div>
+        <div className="col-lg-6 mb-5 col-sm-12  ">
         <div className="border">
         <img src="template/img/img/mps.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="mps" />
           </div>
-          <div className="pt-2">
-             <h3>Communication</h3>
+          <div className="p-3 border">
+             <h3 className="text-left">Communication</h3>
           </div>
         </div>
-      </div>
+        
+
+       </div>
       </div>
 
       <div className="container mt-4">

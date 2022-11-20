@@ -11,7 +11,7 @@ function Events() {
         <div className="container py-5">
           <div className="row align-items-center py-4">
             <div className="col-md-6 text-center text-md-left">
-              <h1 className="mb-4 mb-md-0 text-white">Articles</h1>
+              <h1 className="mb-4 mb-md-0 text-white">Events</h1>
             </div>
             <div className="col-md-6 text-center text-md-right">
               <div className="d-inline-flex align-items-center">
@@ -20,7 +20,7 @@ function Events() {
                 </Link>
                 <i className="fas fa-angle-right text-white" />
                 <a className="btn text-white disabled" href="">
-                  Articles
+                 Events
                 </a>
               </div>
             </div>

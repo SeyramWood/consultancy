@@ -152,7 +152,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -166,7 +166,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -180,7 +180,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -194,7 +194,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -208,7 +208,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -241,13 +241,13 @@ function Welcome() {
 
                                 <div className="col-4 ">
 
-                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8 ">
 
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -257,12 +257,12 @@ function Welcome() {
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row ">
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "14px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -272,12 +272,12 @@ function Welcome() {
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="row">
                                 <div className="col-4">
-                                    <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6 ><b>TITLE OR HEADING OF THE EVENT</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -362,7 +362,7 @@ function Welcome() {
                                 <div className="position-relative">
                                     <img
                                         className="img-fluid w-100"
-                                        src="template/img/img/dr2.jpg"
+                                        src="template/img/img/dr.png"
                                         alt=""
                                         style={{ height: "225px", width: "" }}
                                     />
@@ -416,7 +416,7 @@ function Welcome() {
                                     <img src="template/img/img/book1.jpeg" className=" float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h5>Made In Ghana</h5>
+                                    <h6><b>Made In Ghana</b></h6>
                                     <p className="">Made in Ghana is a collection of essays on 
                                     wide-ranging issues highlighting the challenges of democratic 
                                     governance and 
@@ -431,7 +431,7 @@ function Welcome() {
                                     <img src="template/img/img/book2.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h5>Reinventing Development</h5>
+                                    <h6><b>Reinventing Development</b></h6>
                                     <p className="">This book shows how 
                                     the new architecture of aid has important implications in three 
                                     distinct but related ways: the discursive construction and 
@@ -446,7 +446,7 @@ function Welcome() {
                                     <img src="template/img/img/book3.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h5><a href="">African Time</a></h5>
+                                    <h6><b><a href="">African Time</a></b></h6>
                                     <p className="">AFRICAN TIME In this wide-ranging collection of 
                                     essays, Lord Mawuko-Yevugah explores the challenges of political 
                                     reform and democratic 
