@@ -1,3 +1,4 @@
+import { Link } from "@inertiajs/inertia-react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -14,9 +15,9 @@ function About() {
             </div>
             <div className="col-md-6 text-center text-md-right">
               <div className="d-inline-flex align-items-center">
-                <a className="btn text-white" href="">
+                <Link className="btn text-white" href="/">
                   Home
-                </a>
+                </Link>
                 <i className="fas fa-angle-right text-white" />
                 <a className="btn text-white disabled" href="">
                   About Us
@@ -92,9 +93,9 @@ function About() {
       <div className="container-fluid pt-5">
         <div className="container">
 
-          <h1 className="display-4 text-center ">Who We Are</h1>
+          <h1 className="display-4 text-green border-bottom  text-center ">Who We Are</h1>
           <div className=" mb-5">
-            <h5>Our Purpose</h5>
+            <h4 className="" style={{ marginTop: "40px" }}> <b> Our Purpose</b></h4>
             <p>
               The purpose of the Centre is to serve as a hub for providing cutting edge research
               and training in foreign and public policy analysis using multi-disciplinary perspectives,
@@ -104,7 +105,7 @@ function About() {
             </p>
           </div>
           <div className="mb-5">
-            <h5>Our Vision</h5>
+            <h4> <b>Our Vision</b> </h4>
             <p>
               The vision of the Centre is to become the leading hub for research and training in foreign policy,
               diplomacy and Africa’s global relations, and to provide the intellectual space for a balanced dialogue
@@ -113,7 +114,7 @@ function About() {
             </p>
           </div>
           <div className="mb-5">
-            <h5>Our Mission</h5>
+            <h4> <b> Our Mission</b> </h4>
             <p>
               The Centre is committed to advancing academic and professional excellence inforeign
               policy and diplomacy, through innovative research and advocacy, and preparing
@@ -124,60 +125,213 @@ function About() {
 
         </div>
       </div>
-      {/* Working Process End */}
-      {/* Features Start */}
-      <div className="container-fluid pt-5">
+
+      {/* What we do Start */}
+      <div className="container-fluid py-5">
+        
+        <div className="container">
+        <h1 className="display-4 text-green text-center border-bottom ">What We Do</h1>
+          <div className="row m-2 align-items-center">
+            <div className="col-lg-5 mt-5">
+              <img className="img-fluid" src="template/img/img/gb1.jpg" style={{height:500,width:"100%"}} alt="" />
+            </div>
+            <div className="col-lg-7 mt-lg-0 pl-lg-5">
+              <h5 >
+                <b>Global Relations</b></h5>
+              <p>
+                We make a well informed and independent input into Africa's global relations.
+              </p>
+              <h5><b>Public Policies</b></h5>
+              <p>
+                We undertake high level research on how current global issues intersect with Africa
+                and Ghana’s public policy issues.
+              </p>
+              <h5><b>International Programs</b></h5>
+              <p>
+                Developing alliances and joint programmes with international organizations and
+                agencies within the West African sub-region, the African region and throughout the world.
+              </p>
+              <h5><b>Conferences</b> </h5>
+              <p>
+                Organizing conferences, seminars and speakers’ meetings on a wide range of
+                topics addressed by prominent scholars, experts and practitioners from Ghana and abroad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      {/* Features End */}
+
+      {/* start goals */}
+
+      {/* end goals */}
+      <div className="container-fluid ">
         <div className="container">
           <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
             {/* Working Process */}
           </h6>
-          <h1 className="display-4 text-center ">What We Do</h1>
-          <div className="mb-5">
-            <h5>Global Relations</h5>
-            <p>
-              We make a well informed and independent input into Africa's global relations.
-            </p>
-          </div>
-          <div className="mb-5">
-            <h5>Public Policies</h5>
-            <p>
-              We undertake high level research on how current global issues intersect with Africa 
-              and Ghana’s public policy issues.
-            </p>
-          </div>
-          <div className="mb-5">
-            <h5>International Programs</h5>
-            <p>
-              Developing alliances and joint programmes with international organizations and
-              agencies within the West African sub-region, the African region and throughout the world.
-            </p>
-          </div>
-          <div className="mb-5">
-            <h5>Resource Center</h5>
-            <p>
-              Maintaining a resource centre and reference library for students and scholars of foreign policy and 
-              diplomacy.</p>
-          </div>
-          <div className="mb-5">
-            <h5>Conferences</h5>
-            <p>
-              Organizing conferences, seminars and speakers’ meetings on a wide range of
-              topics addressed by prominent scholars, experts and practitioners from Ghana and abroad.
-            </p>
-          </div>
-          <div className="mb-5">
-            <h5>Training Programs</h5>
-            <p>
-              Encouraging an interest in foreign affairs and diplomatic relations among the youth through internship and 
-              training programmes for current students and recent graduates.
-            </p>
-          </div>
+          <h1 className="display-4 text-green border-bottom text-center ">Our Goals</h1>
 
+          <div className="mt-4 pt-3 mb-5">
+
+            <p>
+              The Centre aims to be an independent and autonomous national research hub
+              and think-tank that
+              provides scholarly and practical inputs into national and international
+              agendas focused on all aspects of Ghana’s engagements with the world. The
+              research will also be used to promote
+              a robust response to the myriad of challenges of the 21st Century global
+              environment. In doing so, the Centre will contribute to the development and
+              promotion of policy options on any given issue of foreign and diplomatic
+              relationships.
+              Academic publications will be a core activity of the Centre to contribute to
+              international
+              scholarship on Ghana’s foreign and diplomatic relations. Conferences and
+              symposia will enable the Centre to share and exchange its projects with a broader intellectual and policy communities in the broad areas of
+              international relations, foreign policy and diplomacy, and security.
+            </p>
+          </div>
+          <div className="mb-5">
+            <p>
+              The Centre will also provide avenues for internship and practical training
+              for both
+              current students and recent graduates as its contribution to the training and
+              development of critical human resources for various Ministries, Agencies and
+              Departments (MDAs). It will provide a resource centre for researchers and
+              policy makers from the various MDAs to engage critically in policy debates
+              and decisions. It will serve as an advisory body to public and private
+              organisations in the field of foreign and diplomatic relations.
+            </p>
+          </div>
+          <div className="mb-5">
+            <p>
+              The Centre will be dedicated to developing practical and accessible
+              training resources for the wider Ghanaian public to draw on. The aim is to
+              develop innovative approaches that
+              challenge existing inefficiencies and ineffectiveness with a particular focus
+              on promoting understanding and appreciation of the changing global context.
+              Besides, the Centre will focus keenly on the business environment including the role of
+              multinational corporations, foreign direct investment by conducting relevant research which
+              will be useful for policy makers as well as other stakeholders both within and outside the country.
+            </p>
+          </div>
+          <div className="mb-5">
+
+            <p>
+              The long-term focus of the Centre includes the mentoring of
+              emerging scholars around foreign policy and diplomacy. Through this
+              mentoring process, particular emphasis and value will be placed on
+              bringing together traditional and emerging knowledge to create
+              state of the art methodologies and practices designed to maximize impact.
+              The mentoring of emerging researchers through the Centre will generate new
+              knowledge, innovative solutions and position our country appropriately as
+              a regional leader within the changing global political economy.
+            </p>
+          </div>
 
         </div>
       </div>
-      {/* Features End */}
-      
+
+      {/* our consultants */}
+      <div className="container-fluid py-5">
+        <div className="container">
+
+          <h1 className="display-4 text-green border-bottom text-center mb-5">Our Team</h1>
+          <div className="owl-carousel testimonial-carousel">
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/img/ceo1.jpg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Client Name</h5>
+                <p className="text-muted font-italic">Profession</p>
+                <p className="m-0">
+                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+                  eirmod clita lorem. Dolor ipsum clita
+                </p>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/img/ceo3.jpg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Client Name</h5>
+                <p className="text-muted font-italic">Profession</p>
+                <p className="m-0">
+                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+                  eirmod clita lorem. Dolor ipsum clita
+                </p>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/img/ceo2.jpg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Client Name</h5>
+                <p className="text-muted font-italic">Profession</p>
+                <p className="m-0">
+                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+                  eirmod clita lorem. Dolor ipsum clita
+                </p>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/img/ceo4.jpg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Client Name</h5>
+                <p className="text-muted font-italic">Profession</p>
+                <p className="m-0">
+                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
+                  eirmod clita lorem. Dolor ipsum clita
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Footer Start */}
       <Footer />
     </>

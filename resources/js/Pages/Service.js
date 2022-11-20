@@ -1,9 +1,11 @@
+import { Link } from "@inertiajs/inertia-react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function Service() {
   return (
     <>
+    
       <Header />
       {/* Page Header Start */}
       <div className="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
@@ -14,9 +16,9 @@ function Service() {
             </div>
             <div className="col-md-6 text-center text-md-right">
               <div className="d-inline-flex align-items-center">
-                <a className="btn text-white" href="">
+                <Link className="btn text-white" href="/">
                   Home
-                </a>
+                </Link>
                 <i className="fas fa-angle-right text-white" />
                 <a className="btn text-white disabled" href="">
                   Services
@@ -30,13 +32,11 @@ function Service() {
       {/* Services Start */}
       <div className="container-fluid pt-5 pb-3">
         <div className="container">
-          <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
-            Our Services
-          </h6>
-          <h1 className="display-4 text-center mb-5">What We Offer</h1>
+          
+          <h1 className="display-4 text-green border-bottom text-center mb-5">What We Offer</h1>
           <div className="row">
             <div className="mb-4">
-              <h3>Research and Publication Unit</h3>
+              <h3>Research and Publication</h3>
             <p>
               
               The Centre’s research unit will promote the generation of scientific evidence and
@@ -54,7 +54,7 @@ function Service() {
             </p>
             </div>
             <div className="mb-4">
-              <h3>Training and Mentorship Unit</h3>
+              <h3>Training and Mentorship</h3>
             <p>
               
               The Centre will provide learning opportunities to build and strengthen capacity in foreign 
@@ -91,7 +91,7 @@ function Service() {
             </p>
             </div>
             <div className="mb-4">
-              <h3>Advocacy and Communication Unit</h3>
+              <h3>Advocacy and Communication</h3>
             <p>
               
               This Unit will be responsible for providing platform to share Centre’s research and other
@@ -107,8 +107,81 @@ function Service() {
           </div>
           
         </div>
+
       </div>
+
       {/* Services End */}
+
+      {/*  */}
+      <div className="container  text-center">
+        <div className="row p-3">
+       
+        <div className="col-lg-6 col-sm-12 ">
+        <div className="border">
+        <img src="template/img/img/lectures.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="lectures" />
+          </div>
+          <div className="pt-2">
+             <h3>Lectures</h3>
+          </div>
+        </div>
+        <div className="col-lg-6 col-sm-12  ">
+        <div className="border">
+        <img src="template/img/img/mps.jpg" className="img-fluid" style={{width:"100%",height:350}}  alt="mps" />
+          </div>
+          <div className="pt-2">
+             <h3>Communication</h3>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div className="container mt-4">
+        <div className="row">
+          <div className="p-4">
+            <h1 className="text-green border-bottom text-center">
+            THE BASIS FOR THE CENTRE
+            </h1>
+            <p className="pt-4 mt-4">
+            Ghana has established itself not only as a pacesetter in Africa’s 
+            post-colonial foreign policy but also as a leader in the continent’s 
+            recent renaissance in democratic governance and economic stability. 
+            Thus, since the attainment of political independence, Ghana has served
+             as initiator and driver of Africa’s post-independence strategies for 
+             engaging the rest of the world. This historic role has crystallized 
+             in the form of a strong Pan-Africanist foreign policy agenda and 
+            commitment to multilateralism through relevant global institutions. 
+            The country has also contributed its fair share of human resources in 
+            the form of a generation of distinguished Ghanaian diplomats and 
+            international public servants. Centre Foreign Policy and Diplomacy 
+            (CFPD) was conceived and envisioned as an independent, 
+            non-governmental, non-profit think-tank whose vision is to become 
+            the leading African voice on global affairs and Africa’s diplomatic 
+            relations through research, advocacy and public debate.
+            </p>
+            <p>
+            The establishment of the Centre will therefore provide the needed 
+            space not only for scholars and practitioners of foreign affairs and 
+            diplomacy to interact but more importantly it will help provide a 
+            much-needed intellectual base for shaping our country’s foreign 
+            policy agenda and diplomatic engagements in an increasingly complex 
+            global environment. Combining cutting edge research with training and 
+            advocacy, the Centre aims to become a regional hub for international 
+            relations, foreign policy studies, diplomacy and negotiation, 
+            international development, strategic and security studies, 
+            international law and
+             international political economy. Our ultimate aim is to position 
+             ourselves as a leading think-tank presenting Ghanaian and African 
+             perspective on global affairs and in training the next generation of 
+             African experts in global affairs and diplomacy. Having played host to 
+             some of the major global events of the 20th century, Ghana and the 
+             historic city of Accra are poised, through the activities of the 
+             Centre to once again, showcase the ‘African Genius’ which 
+             Nkrumah had envisioned at the dawn of African liberation.
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Testimonial Start */}
      
       {/* Testimonial End */}

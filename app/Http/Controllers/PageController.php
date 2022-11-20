@@ -26,9 +26,9 @@ class PageController extends Controller
     }
 
     // news
-    public function news()
+    public function events()
     {
-        return Inertia::render('News');
+        return Inertia::render('Events');
     }
 
     // publication
@@ -36,5 +36,12 @@ class PageController extends Controller
     {
         return Inertia::render('Publications');
     }
+
+     //text
+     public function test()
+    {
+        return Inertia::render('Test');
+    }
+
 }
 

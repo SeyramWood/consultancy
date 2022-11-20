@@ -11,7 +11,7 @@ function Footer() {
                                 <span className="text-white mb-4" >Center For Diplomacy And Foriegn Policy</span>
                             </h1> */}
                         </Link>
-                        <p>
+                        <p className="text-white">
                             Volup amet magna clita tempor. Tempor sea eos vero
                             ipsum. Lorem lorem sit sed elitr sit no, sed kasd et
                             ipsum dolor duo dolor
@@ -49,19 +49,19 @@ function Footer() {
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-white mb-4">Get In Touch</h4>
-                        <p>
+                        <p className="text-white">
                             Dolor clita stet nonumy clita diam vero, et et ipsum
                             diam labore
                         </p>
-                        <p>
+                        <p className="text-white">
                             <i className="fa fa-map-marker-alt mr-2" />
                             123 Street, New York, USA
                         </p>
-                        <p>
+                        <p className="text-white">
                             <i className="fa fa-phone-alt mr-2" />
                             +012 345 67890
                         </p>
-                        <p>
+                        <p className="text-white">
                             <i className="fa fa-envelope mr-2" />
                             info@example.com
                         </p>
@@ -126,15 +126,9 @@ function Footer() {
                 <p className="m-0 text-center text-white">
                     ©{" "}
                     <a className="text-white font-weight-medium" href="#">
-                        Your Site Name
+                        Center For Foriegn Policy And Diplomacy
                     </a>
-                    . All Rights Reserved. Designed by
-                    <a
-                        className="text-white font-weight-medium"
-                        href="https://htmlcodex.com"
-                    >
-                        HTML Codex
-                    </a>
+                    . All Rights Reserved. 
                 </p>
             </div>
             {/* Footer End */}

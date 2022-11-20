@@ -22,8 +22,11 @@ Route::get('/about', 'PageController@about');
 Route::get('/service', 'PageController@service');
 
 // news route
-Route::get('/news', 'PageController@news');
+Route::get('/events', 'PageController@events');
 
 //publications route
 Route::get('/publications', 'PageController@publications');
+
+//test
+Route::get("/test", 'PageController@test');
 

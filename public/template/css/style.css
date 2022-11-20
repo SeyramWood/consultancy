@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color:#000;
 }
 
 abbr[title],
@@ -364,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #194376;
+  color: black;
 }
 
 h1, .h1 {
@@ -2371,8 +2372,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #123156;
-  border-color: #102b4c;
+  background-color: #06550E;
+  border-color: #1c8c1e;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2402,14 +2403,14 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #212529;
-  background-color: #46C6CE;
-  border-color: #46C6CE;
+  background-color: #06550E;
+  border-color: #78d237;
 }
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #32b4bc;
-  border-color: #2faab2;
+  background-color: #06550E;
+  border-color: #45b22f;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
@@ -6104,7 +6105,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #46C6CE !important;
+  background-color: #5E8E57 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9262,6 +9263,9 @@ button.bg-dark:focus {
 .text-white {
   color: #fff !important;
 }
+.text-green{
+  color:#5E8E57 !important;
+}
 
 .text-primary {
   color: var(--primary) !important;
@@ -9515,7 +9519,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--secondary);
+  color: #06550E;
 }
 
 @media (max-width: 991.98px) {
@@ -9523,6 +9527,7 @@ h6,
     padding: 10px 15px;
   }
 }
+
 
 @media (min-width: 992px) {
   #header-carousel,

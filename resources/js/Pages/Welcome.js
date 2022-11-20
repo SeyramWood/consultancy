@@ -19,7 +19,7 @@ function Welcome() {
                         <div className="carousel-item active">
                             <img
                                 className="w-100"
-                                src="template/img/carousel-1.jpg"
+                                src="template/img/img/banner3.jpg"
                                 alt="Image"
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -27,7 +27,7 @@ function Welcome() {
                                     {/* <h4 className="text-white text-uppercase mb-md-3">
                                         Laundry &amp; Dry Cleaning
                                     </h4> */}
-                                    <h3 className="display-3 display-sm-3 text-white mb-md-3">
+                                    <h3 className="display-3 text-white mb-md-3">
                                         CENTRE FOR FOREIGN POLICY &amp; DIPLOMACY
                                     </h3>
                                     <a
@@ -42,8 +42,9 @@ function Welcome() {
                         <div className="carousel-item">
                             <img
                                 className="w-100"
-                                src="template/img/carousel-2.jpg"
+                                src="template/img/img/banner1.jpg"
                                 alt="Image"
+
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                 <div className="p-3" style={{ maxWidth: 900 }}>
@@ -69,7 +70,7 @@ function Welcome() {
                         data-slide="prev"
                     >
                         <div
-                            className="btn btn-secondary"
+                            className="btn "
                             style={{ width: 45, height: 45 }}
                         >
                             <span className="carousel-control-prev-icon mb-n2" />
@@ -81,7 +82,7 @@ function Welcome() {
                         data-slide="next"
                     >
                         <div
-                            className="btn btn-secondary"
+                            className="btn "
                             style={{ width: 45, height: 45 }}
                         >
                             <span className="carousel-control-next-icon mb-n2" />
@@ -99,14 +100,12 @@ function Welcome() {
                             style={{ height: 100 }}
                         >
                             <div className="d-inline-flex">
-                                <i className="fa fa-2x fa-map-marker-alt text-white m-0 mr-3" />
                                 <div className="d-flex flex-column">
-                                    <h5 className="text-white font-weight-medium">
-                                        Our Location
+
+                                    <h5 className="text-white text-center font-weight-medium">
+
+                                        CONDUCTING EVIDENCE - BASED RESEARCH
                                     </h5>
-                                    <p className="m-0 text-white">
-                                        123 Street, New York, USA
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -115,14 +114,11 @@ function Welcome() {
                             style={{ height: 100 }}
                         >
                             <div className="d-inline-flex text-left">
-                                <i className="fa fa-2x fa-envelope text-white m-0 mr-3" />
                                 <div className="d-flex flex-column">
-                                    <h5 className="text-white font-weight-medium">
-                                        Email Us
+                                    <h5 className="text-white text-center font-weight-medium">
+                                        TRAINGING AN EXCELLENT CORPS OF RESEARCHERS AND LEADERS
                                     </h5>
-                                    <p className="m-0 text-white">
-                                        info@example.com
-                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -131,14 +127,11 @@ function Welcome() {
                             style={{ height: 100 }}
                         >
                             <div className="d-inline-flex text-left">
-                                <i className="fa fa-2x fa-phone-alt text-white m-0 mr-3" />
                                 <div className="d-flex flex-column">
-                                    <h5 className="text-white font-weight-medium">
-                                        Call Us
+                                    <h5 className="text-white text-center font-weight-medium">
+                                        STIMULATING INFORMED PUBLIC GEBATE
                                     </h5>
-                                    <p className="m-0 text-white">
-                                        +012 345 6789
-                                    </p>
+
                                 </div>
                             </div>
                         </div>
@@ -152,19 +145,19 @@ function Welcome() {
 
                 <div className="row" >
                     <div className="border-bottom" style={{ width: "100%" }}>
-                        <h2 className="display-4  text-center mb-0" ><u>Research</u></h2>
+                        <h2 className="display-4 text-green text-center mb-0" >Research</h2>
                     </div>
 
                     <div className="p-4 m-3" >
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
-                              <div className="col-4">
-                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
-                                    <h6><b>Heading of Researchs comes here</b></h6>
-                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
+                                    <h6 className=""><b>Heading of Researchs comes here</b></h6>
+                                    <p className="pt-0 mt-0" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eveniet id nulla nesciunt pariatur eaque
                                     </p>
                                 </div>
@@ -172,13 +165,13 @@ function Welcome() {
                         </div>
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
-                              <div className="col-4">
-                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
                                     <h6><b>Heading of Researchs comes here</b></h6>
-                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className="pt-0 mt-0" >Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eveniet id nulla nesciunt pariatur eaque
                                     </p>
                                 </div>
@@ -186,13 +179,13 @@ function Welcome() {
                         </div>
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
-                              <div className="col-4">
-                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
                                     <h6><b>Heading of Researchs comes here</b></h6>
-                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className="pt-0 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eveniet id nulla nesciunt pariatur eaque
                                     </p>
                                 </div>
@@ -200,13 +193,13 @@ function Welcome() {
                         </div>
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
-                              <div className="col-4">
-                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
                                     <h6><b>Heading of Researchs comes here</b></h6>
-                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className="pt-0 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eveniet id nulla nesciunt pariatur eaque
                                     </p>
                                 </div>
@@ -214,13 +207,13 @@ function Welcome() {
                         </div>
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
-                              <div className="col-4">
-                                    <img src="template/img/blog-3.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                <div className="col-4">
+                                    <img src="template/img/blog-3.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 className="lead" style={{fontSize:"12px"}}>Type Of Research</h6>
+                                    <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
                                     <h6><b>Heading of Researchs comes here</b></h6>
-                                    <p className="pt-0 mt-0" style={{fontSize:"14px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <p className="pt-0 mt-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                         Eveniet id nulla nesciunt pariatur eaque
                                     </p>
                                 </div>
@@ -235,22 +228,28 @@ function Welcome() {
             {/* custom events */}
             <div className="" style={{ marginBottom: "90px" }}>
                 <div className="col-12 " >
-                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Events</u></h2>
-                    <div className="row">
+                    <div className="container border-bottom">
+                        <h2 className="display-4 m-0 p-0 text-green text-center" >
+                            Events
+                        </h2>
+                    </div>
+
+
+                    <div className="row mt-5">
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row">
-                                
+
                                 <div className="col-4 ">
-                                    
+
                                     <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8 ">
-                                    
-                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+
+                                    <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
                                     </Link>
-                                    <p className="" style={{fontSize:"12px"}}>Date: Jan 14 Venue: South Africa
+                                    <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
                                 </div>
                             </div>
@@ -261,11 +260,11 @@ function Welcome() {
                                     <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+                                    <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
                                     </Link>
-                                    <p className="" style={{fontSize:"14px"}}>Date: Jan 14 Venue: South Africa
+                                    <p className="" style={{ fontSize: "14px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
                                 </div>
                             </div>
@@ -276,94 +275,152 @@ function Welcome() {
                                     <img src="template/img/blog-3.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6 style={{fontSize:"12px"}}>UPCOMING EVENT</h6>
+                                    <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/publications">
-                                    <h6>TITLE OR HEADING OF THE EVENT</h6>
+                                        <h6>TITLE OR HEADING OF THE EVENT</h6>
                                     </Link>
-                                    <p className=""style={{fontSize:"12px"}}>Date: Jan 14 Venue: South Africa
+                                    <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
-                     <div className="text-center">
-                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>View More</button>
+                    <div className="text-center pt-4">
+                        <Link href="/events">
+                            <button className="btn btn-primary text-center"
+                                style={{ width: "30%", borderRadius: "40px" }}>  More Events
+                            </button></Link>
+                    </div>
                 </div>
-                </div>
-               
-                 </div>
+
+            </div>
             {/* End custom events */}
 
             {/* custom blogs */}
-            <div className=" p-3" style={{ marginBottom: "90px" }}>
-                <div className="col-12 " >
-                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Articles</u></h2>
-                    <div className="row" >
-                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
-                            <div className="row">
-                                
-                                <div className="col-4">
-                                    <img src="template/img/img/dr.png" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+            <div className="" style={{ marginBottom: "90px" }}>
+                <div className="container" >
+                    <div className="container border-bottom">
+                        <h2 className="display-4 m-0 p-0 text-green text-center" >
+                            Articles
+                        </h2></div>
+                    <div className="row mt-5">
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <div className="position-relative">
+                                    <img
+                                        className="img-fluid w-100"
+                                        src="template/img/img/dr.png"
+                                        alt=""
+                                        style={{ height: "225px", width: "" }}
+                                    />
+                                    <a
+                                        href=""
+                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
+                                        style={{
+                                            top: 0,
+                                            left: 0,
+                                            background: "rgba(0, 0, 0, .4)",
+                                        }}
+                                    >
+                                    </a>
                                 </div>
-                                <div className="col-8">
-                                    <Link href="/">
-                                    <h5 className="lead">A development and international relations analyst, Professor Lord Mawuko-Yevugah </h5>
-                                    </Link> {/* <p className="" style={{fontSize:"12px"}}>Date: Jan 14 
-                                    </p> */}
-                                </div>
-                               
+                                <p className="m-0 p-4">
+                                    A development and international relations analyst,
+                                    Professor Lord Mawuko-Yevugah
+                                </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
-                            <div className="row ">
-                                <div className="col-4">
-                                    <img src="template/img/img/dr2.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <div className="position-relative">
+                                    <img
+                                        className="img-fluid w-100"
+                                        src="template/img/img/dr2.jpg"
+                                        alt=""
+                                        style={{ height: "225px", width: "" }}
+                                    />
+                                    <a
+                                        href=""
+                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
+                                        style={{
+                                            top: 0,
+                                            left: 0,
+                                            background: "rgba(0, 0, 0, .4)",
+                                        }}
+                                    >
+                                    </a>
                                 </div>
-                                <div className="col-8">
-                                    <Link href="/">
-                                    <h5 className="lead">Ghana needs to build a robust local economy – Prof Mawuko-Yevugah</h5>
-                                    </Link>{/* <p className="">Date: Jan 14 
-                                    </p> */}
-                                </div>
+                                <p className="m-0 p-4">
+                                    A development and international relations analyst,
+                                    Professor Lord Mawuko-Yevugah
+                                </p>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
-                            <div className="row ">
-                                <div className="col-4">
-                                    <img src="template/img/img/dr.png" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <div className="position-relative">
+                                    <img
+                                        className="img-fluid w-100"
+                                        src="template/img/img/dr2.jpg"
+                                        alt=""
+                                        style={{ height: "225px", width: "" }}
+                                    />
+                                    <a
+                                        href=""
+                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
+                                        style={{
+                                            top: 0,
+                                            left: 0,
+                                            background: "rgba(0, 0, 0, .4)",
+                                        }}
+                                    >
+                                    </a>
                                 </div>
-                                <div className="col-8">
-                                    <Link href="/">
-                                    <h5 className="lead">Professor Lord Mawuko-Yevugah</h5></Link>
-                                    {/* <p className="">Date: Jan 14 
-                                    </p> */}
-                                </div>
+                                <p className="m-0 p-4">
+                                    A development and international relations analyst,
+                                    Professor Lord Mawuko-Yevugah
+                                </p>
                             </div>
                         </div>
-                        
                     </div>
-                     <div className="text-center">
-                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>View More</button>
+                    <div className="text-center pt-3">
+                        <Link href="/publications">
+                            <button className="btn btn-primary text-center"
+                                style={{ width: "30%", borderRadius: "40px" }}>
+                                More Articles
+                            </button>
+                        </Link>
+
+                    </div>
                 </div>
-                </div>
-               
-                 </div>
+
+            </div>
+
             {/* end custom blogs */}
 
             {/* custom books */}
             <div className=" p-3" style={{ marginBottom: "90px" }}>
                 <div className="col-12 " >
-                    <h2 className="display-4 text-center mb-5 " style={{ marginTop: "30px" }}><u>Books</u></h2>
-                    <div className="row">
+                    <div className="container border-bottom">
+                        <h2 className="display-4 m-0 p-0 text-green text-center" >
+                            Books
+                        </h2>
+                    </div>
+
+
+                    <div className="row mt-5">
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row">
                                 <div className="col-4">
-                                    <img src="template/img/img/book1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/book1.jpeg" className=" float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h5>Made In Ghana</h5>
-                                    <p className="">Date: Jan 14 
+                                    <p className="">Made in Ghana is a collection of essays on 
+                                    wide-ranging issues highlighting the challenges of democratic 
+                                    governance and 
+                                    socio-economic transformation in Ghana and Africa ...
                                     </p>
                                 </div>
                             </div>
@@ -371,11 +428,14 @@ function Welcome() {
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row ">
                                 <div className="col-4">
-                                    <img src="template/img/img/book2.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/book2.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h5>Reinventing Development</h5>
-                                    <p className="">Date: Jan 14 
+                                    <p className="">This book shows how 
+                                    the new architecture of aid has important implications in three 
+                                    distinct but related ways: the discursive construction and 
+                                    production of post-colonial societies ..
                                     </p>
                                 </div>
                             </div>
@@ -383,38 +443,44 @@ function Welcome() {
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="row ">
                                 <div className="col-4">
-                                    <img src="template/img/img/book3.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    <img src="template/img/img/book3.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h5><a href="">African Time</a></h5>
-                                    <p className="">Date: Jan 14 
+                                    <p className="">AFRICAN TIME In this wide-ranging collection of 
+                                    essays, Lord Mawuko-Yevugah explores the challenges of political 
+                                    reform and democratic 
+                                    governance in Africa at the beginning ...
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                        <div className="text-center">
-                    <button className="btn btn-primary text-center" style={{width:"30%",borderRadius:"40px"}}>
-                        View More Books
-                    </button>
+                    <div className="text-center pt-4">
+                        <Link href="/publications">
+                          <button className="btn btn-primary text-center" style={{ width: "30%", borderRadius: "40px" }}>
+                            More Books
+                        </button>
+                        </Link>
+                        
+                    </div>
+
                 </div>
-                     
-                </div>
-               
-                 </div>
+
+            </div>
             {/* end custom books */}
 
             {/* About Start */}
-        
+
             {/* About End */}
             {/* Services Start */}
-           
+
             {/* Services End */}
             {/* Features Start */}
-        
+
             {/* Features End */}
             {/* Working Process Start */}
-           {/*}
+            {/*}
            <div className="container-fluid pt-5">
                 <div className="container">
                     <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
@@ -658,16 +724,14 @@ function Welcome() {
             </div> */}
             {/* Pricing Plan End */}
             {/* Testimonial Start */}
-            
+
             {/* Testimonial End */}
             {/* Blog Start */}
             <div className="container-fluid mt-5 pb-2">
                 <div className="container">
-                    <h6 className="text-secondary text-uppercase text-center font-weight-medium mb-3">
-                        Our Blog
-                    </h6>
-                    <h1 className="display-4 text-center mb-5">
-                        Latest From Blog
+
+                    <h1 className="display-4 border-bottom text-green text-center mb-5">
+                        Social Media
                     </h1>
                     <div className="row">
                         <div className="col-lg-4 mb-2">
@@ -687,11 +751,11 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                        <h4 className="text-center text-white font-weight-medium mb-3">
+                                        {/* <h4 className="text-center text-white font-weight-medium mb-3">
                                             Dolor site amet clita kasd sanct
                                             ipsum
-                                        </h4>
-                                        <div className="d-flex text-light">
+                                        </h4> */}
+                                        {/* <div className="d-flex text-light">
                                             <small className="mr-2">
                                                 <i className="fa fa-user text-secondary" />{" "}
                                                 Admin
@@ -704,7 +768,7 @@ function Welcome() {
                                                 <i className="fa fa-comments text-secondary" />{" "}
                                                 15
                                             </small>
-                                        </div>
+                                        </div> */}
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
