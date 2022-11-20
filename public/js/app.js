@@ -3262,7 +3262,7 @@ function Publication() {
             className: "d-flex flex-column text-left mb-4",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
               className: "mb-4 text-green tsection-title",
-              children: "Diam dolor est ipsum clita lorem"
+              children: "Diam dolor est ipsum clita lore"
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
               className: "d-index-flex mb-2",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("span", {

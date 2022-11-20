@@ -39,7 +39,7 @@ function Publication() {
                 Publications
               </h6> */}
               <h1 className="mb-4 text-green tsection-title">
-                Diam dolor est ipsum clita lorem
+                Diam dolor est ipsum clita lore
               </h1>
               <div className="d-index-flex mb-2">
                 <span className="mr-3">
