@@ -50,7 +50,7 @@ function Events() {
                       <div className="container">
                         <div className="row m-4">
                           <div className="col-12">
-                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                            <img src="template/img/img/1.jpeg" className="img-fluid" style={{height:"200px"}} alt="" />
                           </div>
                           <div className="col-12">
                             <p className="pt-3">
@@ -77,7 +77,7 @@ function Events() {
                       <div className="modal-footer">
                         <button
                           type="button"
-                          className="btn btn-secondary"
+                          className="btn btn-primary"
                           data-dismiss="modal"
                         >
                           Close
@@ -95,7 +95,7 @@ function Events() {
                 data-target=".bd-example-modal-lg1">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/img/ev.png" alt="" />
+                    <img className="img-fluid w-100" src="template/img/img/1.jpeg" style={{height:"196px"}} alt="" />
 
                   </div>
                   <p className="m-0 p-4">
@@ -148,7 +148,7 @@ function Events() {
                       <div className="modal-footer">
                         <button
                           type="button"
-                          className="btn btn-secondary"
+                          className="btn btn-primary"
                           data-dismiss="modal"
                         >
                           Close
@@ -203,7 +203,7 @@ function Events() {
                       <div className="modal-footer">
                         <button
                           type="button"
-                          className="btn btn-secondary"
+                          className="btn btn-primary"
                           data-dismiss="modal"
                         >
                           Close
@@ -274,7 +274,7 @@ function Events() {
                       <div className="modal-footer">
                         <button
                           type="button"
-                          className="btn btn-secondary"
+                          className="btn btn-primary"
                           data-dismiss="modal"
                         >
                           Close
@@ -322,7 +322,7 @@ function Events() {
                       <div className="container">
                         <div className="row m-4">
                           <div className="col-12">
-                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                            <img src="template/img/img/1.jpeg" className="img-fluid" alt="" />
                           </div>
                           <div className="col-12">
                             <p className="pt-3">

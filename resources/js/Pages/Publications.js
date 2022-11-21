@@ -3,10 +3,10 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function Publication() {
-    return ( 
-      <>
-    
-     <Header />
+  return (
+    <>
+
+      <Header />
       {/* Page Header Start */}
       <div className="page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5">
         <div className="container py-5">
@@ -58,7 +58,7 @@ function Publication() {
                 className="img-fluid w-100 mb-4"
                 src="template/img/img/dr2.jpg"
                 alt="Image"
-                style={{width:"100%",height:"500px"}}
+                style={{ width: "100%", height: "500px" }}
               />
               <p>
                 Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum
@@ -342,48 +342,113 @@ function Publication() {
           {/* Blog Detail End */}
           {/* Sidebar Start */}
           <div className="col-lg-4 mt-5 mt-lg-0">
-        
+
             {/* Category Start */}
             <div className="mb-5">
               <h3 className="font-weight-bold mb-4">Categories</h3>
               <ul className="list-group">
                 <a href="">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
-                  Books
-                  <span className="badge badge-primary badge-pill">150</span>
-                </li>
+                    <div className="dropdown">
+                      <div
+                        // className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                       Articles
+                      </div>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="nav-link" href="#">
+                          Article One
+                        </a>
+                        <a className="nav-link" href="#">
+                          Article Two
+                        </a>
+                        <a className="nav-link" href="#">
+                          Acticle Three
+                        </a>
+                      </div>
+                    </div>
+                  </li>
                 </a>
-                
+
                 <a href="">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
-                  Articles
-                  <span className="badge badge-primary badge-pill">131</span>
-                </li>
+                    <div className="dropdown">
+                      <div
+                        // className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Researches
+                      </div>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="nav-link" href="#">
+                          Research one
+                        </a>
+                        <a className="nav-link" href="#">
+                          Research two
+                        </a>
+                        <a className="nav-link" href="#">
+                          Research three
+                        </a>
+                      </div>
+                    </div>
+
+                   </li>
                 </a>
-                
+
                 <a href="">
-                   <li className="list-group-item d-flex justify-content-between align-items-center">
-                  Research
-                  <span className="badge badge-primary badge-pill">78</span>
-                </li>
+                  <li className="list-group-item d-flex justify-content-between align-items-center">
+                    <div className="dropdown">
+                      <div
+                        // className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Books
+                      </div>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="nav-link" href="#">
+                          Books one
+                        </a>
+                        <a className="nav-link" href="#">
+                          Books two
+                        </a>
+                        <a className="nav-link" href="#">
+                          Books three
+                        </a>
+                      </div>
+                    </div>
+
+                   </li>
                 </a>
-               
-                
+
+
               </ul>
             </div>
-           
+
             {/* Image Start */}
-           
+
           </div>
           {/* Sidebar End */}
         </div>
       </div>
-     
-     <Footer />
-    </>
-    
 
-     );
+      <Footer />
+    </>
+
+
+  );
 }
 
 export default Publication;

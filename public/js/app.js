@@ -2465,8 +2465,11 @@ function Events() {
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                           className: "col-12",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-                            src: "template/img/img/banner2.jpg",
+                            src: "template/img/img/1.jpeg",
                             className: "img-fluid",
+                            style: {
+                              height: "200px"
+                            },
                             alt: ""
                           })
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
@@ -2485,7 +2488,7 @@ function Events() {
                       className: "modal-footer",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                         type: "button",
-                        className: "btn btn-secondary",
+                        className: "btn btn-primary",
                         "data-dismiss": "modal",
                         children: "Close"
                       })
@@ -2503,7 +2506,10 @@ function Events() {
                   className: "position-relative",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                     className: "img-fluid w-100",
-                    src: "template/img/img/ev.png",
+                    src: "template/img/img/1.jpeg",
+                    style: {
+                      height: "196px"
+                    },
                     alt: ""
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
@@ -2551,7 +2557,7 @@ function Events() {
                       className: "modal-footer",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                         type: "button",
-                        className: "btn btn-secondary",
+                        className: "btn btn-primary",
                         "data-dismiss": "modal",
                         children: "Close"
                       })
@@ -2599,7 +2605,7 @@ function Events() {
                       className: "modal-footer",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                         type: "button",
-                        className: "btn btn-secondary",
+                        className: "btn btn-primary",
                         "data-dismiss": "modal",
                         children: "Close"
                       })
@@ -2665,7 +2671,7 @@ function Events() {
                       className: "modal-footer",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
                         type: "button",
-                        className: "btn btn-secondary",
+                        className: "btn btn-primary",
                         "data-dismiss": "modal",
                         children: "Close"
                       })
@@ -2711,7 +2717,7 @@ function Events() {
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                           className: "col-12",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-                            src: "template/img/img/banner2.jpg",
+                            src: "template/img/img/1.jpeg",
                             className: "img-fluid",
                             alt: ""
                           })
@@ -3611,30 +3617,102 @@ function Publication() {
               className: "list-group",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
                 href: "",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
                   className: "list-group-item d-flex justify-content-between align-items-center",
-                  children: ["Books", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-                    className: "badge badge-primary badge-pill",
-                    children: "150"
-                  })]
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "dropdown",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                      // className="btn btn-secondary dropdown-toggle"
+                      type: "button",
+                      id: "dropdownMenuButton",
+                      "data-toggle": "dropdown",
+                      "aria-haspopup": "true",
+                      "aria-expanded": "false",
+                      children: "Articles"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "dropdown-menu",
+                      "aria-labelledby": "dropdownMenuButton",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Article One"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Article Two"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Acticle Three"
+                      })]
+                    })]
+                  })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
                 href: "",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
                   className: "list-group-item d-flex justify-content-between align-items-center",
-                  children: ["Articles", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-                    className: "badge badge-primary badge-pill",
-                    children: "131"
-                  })]
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "dropdown",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                      // className="btn btn-secondary dropdown-toggle"
+                      type: "button",
+                      id: "dropdownMenuButton",
+                      "data-toggle": "dropdown",
+                      "aria-haspopup": "true",
+                      "aria-expanded": "false",
+                      children: "Researches"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "dropdown-menu",
+                      "aria-labelledby": "dropdownMenuButton",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Research one"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Research two"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Research three"
+                      })]
+                    })]
+                  })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
                 href: "",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("li", {
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
                   className: "list-group-item d-flex justify-content-between align-items-center",
-                  children: ["Research", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span", {
-                    className: "badge badge-primary badge-pill",
-                    children: "78"
-                  })]
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                    className: "dropdown",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                      // className="btn btn-secondary dropdown-toggle"
+                      type: "button",
+                      id: "dropdownMenuButton",
+                      "data-toggle": "dropdown",
+                      "aria-haspopup": "true",
+                      "aria-expanded": "false",
+                      children: "Books"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "dropdown-menu",
+                      "aria-labelledby": "dropdownMenuButton",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Books one"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Books two"
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                        className: "nav-link",
+                        href: "#",
+                        children: "Books three"
+                      })]
+                    })]
+                  })
                 })
               })]
             })]
@@ -3841,7 +3919,7 @@ function Service() {
             children: "THE BASIS FOR THE CENTRE"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
             className: "pt-4 mt-4",
-            children: "Ghana has established itself not only as a pacesetter in Africa\u2019s post-colonial foreign policy but also as a leader in the continent\u2019s recent renaissance in democratic governance and economic stability. Thus, since the attainment of political independence, Ghana has served as initiator and driver of Africa\u2019s post-independence strategies for engaging the rest of the world. This historic role has crystallized in the form of a strong Pan-Africanist foreign policy agenda and commitment to multilateralism through relevant global institutions. The country has also contributed its fair share of human resources in the form of a generation of distinguished Ghanaian diplomats and international public servants. Centre Foreign Policy and Diplomacy (CFPD) was conceived and envisioned as an independent, non-governmental, non-profit think-tank whose vision is to become the leading African voice on global affairs and Africa\u2019s diplomatic relations through research, advocacy and public debate."
+            children: "Ghana has established itself not only as a pacesetter in Africa\u2019s post-colonial foreign policy but also as a leader in the continent\u2019s recent renaissance in democratic governance and economic stability. Thus, since the attainment of political independence, Ghana has served as initiator and driver of Africa\u2019s post-independence strategies for engaging the rest of the world. This historic role has crystallized in the form of a strong Pan-Africanist foreign policy agenda and commitment to multilateralism through relevant global institutions. The country has also contributed its fair share of human resources in the form of a generation of distinguished Ghanaian diplomats and international public servants. Centre For Diplomacy And Global Engagement (CFDGE) was conceived and envisioned as an independent, non-governmental, non-profit think-tank whose vision is to become the leading African voice on global affairs and Africa\u2019s diplomatic relations through research, advocacy and public debate."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
             children: "The establishment of the Centre will therefore provide the needed space not only for scholars and practitioners of foreign affairs and diplomacy to interact but more importantly it will help provide a much-needed intellectual base for shaping our country\u2019s foreign policy agenda and diplomatic engagements in an increasingly complex global environment. Combining cutting edge research with training and advocacy, the Centre aims to become a regional hub for international relations, foreign policy studies, diplomacy and negotiation, international development, strategic and security studies, international law and international political economy. Our ultimate aim is to position ourselves as a leading think-tank presenting Ghanaian and African perspective on global affairs and in training the next generation of African experts in global affairs and diplomacy. Having played host to some of the major global events of the 20th century, Ghana and the historic city of Accra are poised, through the activities of the Centre to once again, showcase the \u2018African Genius\u2019 which Nkrumah had envisioned at the dawn of African liberation."
           })]
@@ -4416,14 +4494,17 @@ function Welcome() {
               className: "row",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                 className: "col-4 ",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/img/event.jpg",
-                  className: "float-right",
-                  alt: "",
-                  style: {
-                    width: "80px",
-                    height: "100px"
-                  }
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+                  href: "/events",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    src: "template/img/img/1.jpeg",
+                    className: "float-right",
+                    alt: "",
+                    style: {
+                      width: "80px",
+                      height: "100px"
+                    }
+                  })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8 ",
@@ -4433,10 +4514,10 @@ function Welcome() {
                   },
                   children: "UPCOMING EVENT"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-                  href: "/publications",
+                  href: "/events",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                      children: "TITLE OR HEADING OF THE EVENT"
+                      children: "(CFDGE) LAUNCING"
                     })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
@@ -4453,15 +4534,18 @@ function Welcome() {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "row ",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                className: "col-4",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/img/event.jpg",
-                  className: "float-right",
-                  alt: "",
-                  style: {
-                    width: "80px",
-                    height: "100px"
-                  }
+                className: "col-4 ",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+                  href: "/events",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    src: "template/img/img/1.jpeg",
+                    className: "float-right",
+                    alt: "",
+                    style: {
+                      width: "80px",
+                      height: "100px"
+                    }
+                  })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8",
@@ -4471,10 +4555,10 @@ function Welcome() {
                   },
                   children: "UPCOMING EVENT"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-                  href: "/publications",
+                  href: "/events",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                      children: "TITLE OR HEADING OF THE EVENT"
+                      children: "(CFDGE) LAUNCING"
                     })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
@@ -4491,15 +4575,18 @@ function Welcome() {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "row",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-                className: "col-4",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-                  src: "template/img/img/event.jpg",
-                  className: "float-right",
-                  alt: "",
-                  style: {
-                    width: "80px",
-                    height: "100px"
-                  }
+                className: "col-4 ",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+                  href: "/events",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    src: "template/img/img/1.jpeg",
+                    className: "float-right",
+                    alt: "",
+                    style: {
+                      width: "80px",
+                      height: "100px"
+                    }
+                  })
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
                 className: "col-8",
@@ -4509,10 +4596,10 @@ function Welcome() {
                   },
                   children: "UPCOMING EVENT"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-                  href: "/publications",
+                  href: "/events",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                      children: "TITLE OR HEADING OF THE EVENT"
+                      children: "(CFDGE) LAUNCING"
                     })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {

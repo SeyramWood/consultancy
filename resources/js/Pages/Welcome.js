@@ -240,14 +240,16 @@ function Welcome() {
                             <div className="row">
 
                                 <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
 
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                                   </div>
                                 <div className="col-8 ">
 
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -256,13 +258,16 @@ function Welcome() {
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row ">
-                                <div className="col-4">
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                            <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
+
+                                   </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "14px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -271,13 +276,16 @@ function Welcome() {
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="row">
-                                <div className="col-4">
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                            <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
+
+                                   </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6 ><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6 ><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
