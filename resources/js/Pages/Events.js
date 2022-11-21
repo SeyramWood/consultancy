@@ -20,7 +20,7 @@ function Events() {
                 </Link>
                 <i className="fas fa-angle-right text-white" />
                 <a className="btn text-white disabled" href="">
-                 Events
+                  Events
                 </a>
               </div>
             </div>
@@ -34,18 +34,69 @@ function Events() {
           {/* News Grid Start */}
           <div className="col-lg-8">
             <div className="row">
+              {/* modal 1 display */}
+              <div
+                className="modal fade bd-example-modal-lg1"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="myLargeModalLabel1"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg"
+                  role="document">
 
-              <div className="col-md-6 mb-2">
+                  <div className="modal-content">
+                    <div className="modal-body">
+                      <div className="container">
+                        <div className="row m-4">
+                          <div className="col-12">
+                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                          </div>
+                          <div className="col-12">
+                            <p className="pt-3">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              Delectus enim alias voluptatibus! Eum earum illum deleniti
+                              incidunt sequi odio aliquam iure, iusto dignissimos neque
+                              placeat,
+                              eaque explicabo obcaecati provident! Mollitia.
+
+                            </p>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Corrupti totam eveniet consequuntur enim ad cumque neque
+                              dignissimos illo sunt officiis soluta fuga libero voluptas
+                              molestiae perspiciatis,
+                              aspernatur iste? Deleniti, reprehenderit?
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur libero iusto quidem, reprehenderit eum praesentium optio rerum autem asperiores harum vel blanditiis illum! Aperiam necessitatibus dicta animi totam incidunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              {/* end modal 1 display */}
+              {/* card one */}
+              <div className="col-md-6 mb-2" data-toggle="modal"
+                data-target=".bd-example-modal-lg1">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/blog-1.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
+                    <img className="img-fluid w-100" src="template/img/img/ev.png" alt="" />
 
-                    </a>
                   </div>
                   <p className="m-0 p-4">
                     Amet dolores labore magna et amet tempor dolor et dolor. Et sit
@@ -54,99 +105,291 @@ function Events() {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 mb-2">
+              {/* modal two display */}
+              <div
+                className="modal fade bd-example-modal-lg1"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="myLargeModalLabel2"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg"
+                  role="document">
+
+                  <div className="modal-content">
+                    <div className="modal-body">
+                      <div className="container">
+                        <div className="row m-4">
+                          <div className="col-12">
+                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                          </div>
+                          <div className="col-12">
+                            <p className="pt-3">
+                              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              Delectus enim alias voluptatibus! Eum earum illum deleniti
+                              incidunt sequi odio aliquam iure, iusto dignissimos neque
+                              placeat,
+                              eaque explicabo obcaecati provident! Mollitia.
+
+                            </p>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Corrupti totam eveniet consequuntur enim ad cumque neque
+                              dignissimos illo sunt officiis soluta fuga libero voluptas
+                              molestiae perspiciatis,
+                              aspernatur iste? Deleniti, reprehenderit?
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur libero iusto quidem, reprehenderit eum praesentium optio rerum autem asperiores harum vel blanditiis illum! Aperiam necessitatibus dicta animi totam incidunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              {/* modal two display */}
+              <div
+                className="modal fade bd-example-modal-lg2"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="myLargeModalLabel2"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg"
+                  role="document">
+
+                  <div className="modal-content">
+                    <div className="modal-body">
+                      <div className="container">
+                        <div className="row m-4">
+                          <div className="col-12">
+                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                          </div>
+                          <div className="col-12">
+                            <p className="pt-3">
+                              23Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              Delectus enim alias voluptatibus! Eum earum illum deleniti
+                              incidunt sequi odio aliquam iure, iusto dignissimos neque
+                              placeat,
+                              eaque explicabo obcaecati provident! Mollitia.
+
+                            </p>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Corrupti totam eveniet consequuntur enim ad cumque neque
+                              dignissimos illo sunt officiis soluta fuga libero voluptas
+                              molestiae perspiciatis,
+                              aspernatur iste? Deleniti, reprehenderit?
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur libero iusto quidem, reprehenderit eum praesentium optio rerum autem asperiores harum vel blanditiis illum! Aperiam necessitatibus dicta animi totam incidunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              {/* en of modal two display */}
+              {/* card two */}
+              <div className="col-md-6 mb-2" data-toggle="modal"
+                data-target=".bd-example-modal-lg2">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/blog-2.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
+                    <img className="img-fluid w-100" src="template/img/img/ev.png" alt="" />
 
-                    </a>
                   </div>
                   <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
+                    2Amet dolores labore magna et amet tempor dolor et dolor. Et sit
                     ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
                     labore. Lorem et lorem amet sed sed kasd ipsum rebum
                   </p>
                 </div>
               </div>
-              <div className="col-md-6 mb-2">
+              {/* modal 3 display */}
+              <div
+                className="modal fade bd-example-modal-lg3"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="myLargeModalLabel3"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg"
+                  role="document">
+
+                  <div className="modal-content">
+                    <div className="modal-body">
+                      <div className="container">
+                        <div className="row m-4">
+                          <div className="col-12">
+                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                          </div>
+                          <div className="col-12">
+                            <p className="pt-3">
+                              2Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              Delectus enim alias voluptatibus! Eum earum illum deleniti
+                              incidunt sequi odio aliquam iure, iusto dignissimos neque
+                              placeat,
+                              eaque explicabo obcaecati provident! Mollitia.
+
+                            </p>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Corrupti totam eveniet consequuntur enim ad cumque neque
+                              dignissimos illo sunt officiis soluta fuga libero voluptas
+                              molestiae perspiciatis,
+                              aspernatur iste? Deleniti, reprehenderit?
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur libero iusto quidem, reprehenderit eum praesentium optio rerum autem asperiores harum vel blanditiis illum! Aperiam necessitatibus dicta animi totam incidunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              {/* end of  modal 3 display */}
+              {/* card three */}
+              <div className="col-md-6 mb-2" data-toggle="modal"
+                data-target=".bd-example-modal-lg3">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/blog-3.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
+                    <img className="img-fluid w-100" src="template/img/img/ev.png" alt="" />
 
-                    </a>
                   </div>
                   <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
+                    3Amet dolores labore magna et amet tempor dolor et dolor. Et sit
                     ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
                     labore. Lorem et lorem amet sed sed kasd ipsum rebum
                   </p>
                 </div>
+
+                {/* modal four display */}
+                {/*  end of modal four display */}
+                {/* card four */}
               </div>
-              <div className="col-md-6 mb-2">
+              {/* modal 4 display */}
+              <div
+                className="modal fade bd-example-modal-lg4"
+                tabIndex={-1}
+                role="dialog"
+                aria-labelledby="myLargeModalLabel4"
+                aria-hidden="true"
+              >
+                <div className="modal-dialog modal-lg"
+                  role="document">
+
+                  <div className="modal-content">
+                    <div className="modal-body">
+                      <div className="container">
+                        <div className="row m-4">
+                          <div className="col-12">
+                            <img src="template/img/img/banner2.jpg" className="img-fluid" alt="" />
+                          </div>
+                          <div className="col-12">
+                            <p className="pt-3">
+                              4Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                              Delectus enim alias voluptatibus! Eum earum illum deleniti
+                              incidunt sequi odio aliquam iure, iusto dignissimos neque
+                              placeat,
+                              eaque explicabo obcaecati provident! Mollitia.
+
+                            </p>
+                            <p>
+                              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              Corrupti totam eveniet consequuntur enim ad cumque neque
+                              dignissimos illo sunt officiis soluta fuga libero voluptas
+                              molestiae perspiciatis,
+                              aspernatur iste? Deleniti, reprehenderit?
+                            </p>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur libero iusto quidem, reprehenderit eum praesentium optio rerum autem asperiores harum vel blanditiis illum! Aperiam necessitatibus dicta animi totam incidunt.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="modal-footer">
+                        <button
+                          type="button"
+                          className="btn btn-secondary"
+                          data-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+              {/* end of modal 4 display */}
+              {/* card four */}
+              <div className="col-md-6 mb-2" data-toggle="modal"
+                data-target=".bd-example-modal-lg4">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/blog-3.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
+                    <img className="img-fluid w-100" src="template/img/img/ev.png" alt="" />
 
-                    </a>
                   </div>
                   <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
+                    3Amet dolores labore magna et amet tempor dolor et dolor. Et sit
                     ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
                     labore. Lorem et lorem amet sed sed kasd ipsum rebum
                   </p>
                 </div>
+
+                {/* modal four display */}
+                {/*  end of modal four display */}
+                {/* card four */}
               </div>
+              {/* end of card four */}
             </div>
-            <div className="row">
-              <div className="col-12">
-                <nav aria-label="Page navigation">
-                  <ul className="pagination justify-content-center mb-0">
-                    <li className="page-item disabled">
-                      <a className="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">«</span>
-                        <span className="sr-only">Previous</span>
-                      </a>
-                    </li>
-                    <li className="page-item active">
-                      <a className="page-link" href="#">
-                        1
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        2
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#">
-                        3
-                      </a>
-                    </li>
-                    <li className="page-item">
-                      <a className="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">»</span>
-                        <span className="sr-only">Next</span>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
+
+            {/* modal 4 display */}
+            {/* end of modal 4 display */}
+            {/* card four */}
+
+            {/* end card four */}
+            
           </div>
           {/* Blog Grid End */}
           {/* Sidebar Start */}
@@ -158,7 +401,7 @@ function Events() {
               <div className="d-flex align-items-center border-bottom mb-3 pb-3">
                 <img
                   className="img-fluid"
-                  src="template/img/blog-1.jpg"
+                  src="template/img/img/ev.png"
                   style={{ width: 80, height: 80 }}
                   alt=""
                 />
@@ -166,23 +409,13 @@ function Events() {
                   <a className="text-dark mb-2" href="">
                     Lorem ipsum dolor sit amet consec adipis elit
                   </a>
-                  <div className="d-flex">
-                    <small className="mr-3">
-                      <i className="fa fa-user text-primary" /> Admin
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-folder text-primary" /> Web Design
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-comments text-primary" /> 15
-                    </small>
-                  </div>
+                 
                 </div>
               </div>
               <div className="d-flex align-items-center border-bottom mb-3 pb-3">
                 <img
                   className="img-fluid"
-                  src="template/img/blog-2.jpg"
+                  src="template/img/img/ev.png"
                   style={{ width: 80, height: 80 }}
                   alt=""
                 />
@@ -190,91 +423,11 @@ function Events() {
                   <a className="text-dark mb-2" href="">
                     Lorem ipsum dolor sit amet consec adipis elit
                   </a>
-                  <div className="d-flex">
-                    <small className="mr-3">
-                      <i className="fa fa-user text-primary" /> Admin
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-folder text-primary" /> Web Design
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-comments text-primary" /> 15
-                    </small>
-                  </div>
+              
                 </div>
               </div>
-              <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  className="img-fluid"
-                  src="template/img/blog-3.jpg"
-                  style={{ width: 80, height: 80 }}
-                  alt=""
-                />
-                <div className="d-flex flex-column pl-3">
-                  <a className="text-dark mb-2" href="">
-                    Lorem ipsum dolor sit amet consec adipis elit
-                  </a>
-                  <div className="d-flex">
-                    <small className="mr-3">
-                      <i className="fa fa-user text-primary" /> Admin
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-folder text-primary" /> Web Design
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-comments text-primary" /> 15
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  className="img-fluid"
-                  src="template/img/blog-1.jpg"
-                  style={{ width: 80, height: 80 }}
-                  alt=""
-                />
-                <div className="d-flex flex-column pl-3">
-                  <a className="text-dark mb-2" href="">
-                    Lorem ipsum dolor sit amet consec adipis elit
-                  </a>
-                  <div className="d-flex">
-                    <small className="mr-3">
-                      <i className="fa fa-user text-primary" /> Admin
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-folder text-primary" /> Web Design
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-comments text-primary" /> 15
-                    </small>
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center border-bottom mb-3 pb-3">
-                <img
-                  className="img-fluid"
-                  src="template/img/blog-2.jpg"
-                  style={{ width: 80, height: 80 }}
-                  alt=""
-                />
-                <div className="d-flex flex-column pl-3">
-                  <a className="text-dark mb-2" href="">
-                    Lorem ipsum dolor sit amet consec adipis elit
-                  </a>
-                  <div className="d-flex">
-                    <small className="mr-3">
-                      <i className="fa fa-user text-primary" /> Admin
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-folder text-primary" /> Web Design
-                    </small>
-                    <small className="mr-3">
-                      <i className="fa fa-comments text-primary" /> 15
-                    </small>
-                  </div>
-                </div>
-              </div>
+             
+             
             </div>
             {/* Recent Post End */}
             {/* Image Start */}
@@ -292,7 +445,7 @@ function Events() {
             <div className="border">
               {/* first */}
               <div
-              className=""
+                className=""
                 data-toggle="modal"
                 data-target=".bd-example-modal-four"
               >
