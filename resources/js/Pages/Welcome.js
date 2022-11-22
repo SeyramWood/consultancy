@@ -23,12 +23,12 @@ function Welcome() {
                                 alt="Image"
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{ maxWidth: 900 }}>
+                                <div className="p-2" style={{ maxWidth: 900 }}>
                                     {/* <h4 className="text-white text-uppercase mb-md-3">
                                         Laundry &amp; Dry Cleaning
                                     </h4> */}
                                     <h3 className="display-3 text-white mb-md-3">
-                                        CENTRE FOR FOREIGN POLICY &amp; DIPLOMACY
+                                        CENTRE FOR DIPLOMACY &amp; GLOBAL ENGAGEMENT
                                     </h3>
                                     <a
                                         href=""
@@ -47,12 +47,12 @@ function Welcome() {
 
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                <div className="p-3" style={{ maxWidth: 900 }}>
+                                <div className="p-2" style={{ maxWidth: 900 }}>
                                     {/* <h4 className="text-white text-uppercase mb-md-3">
                                         Laundry &amp; Dry Cleaning
                                     </h4> */}
                                     <h3 className="display-3 text-white mb-md-4">
-                                        CENTRE FOR FOREIGN POLICY &amp; DIPLOMACY
+                                        CENTRE FOR DIPLOMACY &amp; GLOBAL ENGAGEMENT
                                     </h3>
                                     <Link
                                         href=""
@@ -91,7 +91,7 @@ function Welcome() {
                 </div>
             </div>
             {/* Carousel End */}
-            {/* Contact Info Start */}
+            {/* core values Start */}
             <div className="container-fluid contact-info  mb-4">
                 <div className="container" style={{ padding: "0 30px" }}>
                     <div className="row">
@@ -102,10 +102,10 @@ function Welcome() {
                             <div className="d-inline-flex">
                                 <div className="d-flex flex-column">
 
-                                    <h5 className="text-white text-center font-weight-medium">
+                                    <h6 className="text-white text-center font-weight-medium">
 
-                                        CONDUCTING EVIDENCE - BASED RESEARCH
-                                    </h5>
+                                        <i>CONDUCTING EVIDENCE - BASED RESEARCH</i>
+                                    </h6>
                                 </div>
                             </div>
                         </div>
@@ -115,9 +115,9 @@ function Welcome() {
                         >
                             <div className="d-inline-flex text-left">
                                 <div className="d-flex flex-column">
-                                    <h5 className="text-white text-center font-weight-medium">
-                                        TRAINGING AN EXCELLENT CORPS OF RESEARCHERS AND LEADERS
-                                    </h5>
+                                    <h6 className="text-white text-center font-weight-medium">
+                                        <i>TRAINGING AN EXCELLENT CORPS OF RESEARCHERS AND LEADERS</i>
+                                    </h6>
 
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ function Welcome() {
                             <div className="d-inline-flex text-left">
                                 <div className="d-flex flex-column">
                                     <h5 className="text-white text-center font-weight-medium">
-                                        STIMULATING INFORMED PUBLIC GEBATE
+                                        <i>STIMULATING INFORMED PUBLIC DEBATE</i>
                                     </h5>
 
                                 </div>
@@ -180,7 +180,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/img/resh.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -194,7 +194,7 @@ function Welcome() {
                         <div className="col-12 p-2">
                             <div className="row p-2"  >
                                 <div className="col-4">
-                                    <img src="template/img/img/resh.jpg "className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
+                                    <img src="template/img/img/resh.jpg " className="float-right" alt="" style={{ width: "200px", height: "100px" }} />
                                 </div>
                                 <div className="col-8">
                                     <h6 className="lead" style={{ fontSize: "12px" }}>Type Of Research</h6>
@@ -240,14 +240,16 @@ function Welcome() {
                             <div className="row">
 
                                 <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
 
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                                   </div>
                                 <div className="col-8 ">
 
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -256,13 +258,16 @@ function Welcome() {
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row ">
-                                <div className="col-4">
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                            <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
+
+                                   </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "14px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -271,13 +276,16 @@ function Welcome() {
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="row">
-                                <div className="col-4">
-                                    <img src="template/img/img/event.jpg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                </div>
+                            <div className="col-4 ">
+                                    <Link href="/events">
+                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                   </Link>
+
+                                   </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/publications">
-                                        <h6 ><b>TITLE OR HEADING OF THE EVENT</b></h6>
+                                    <Link href="/events">
+                                        <h6 ><b>(CFDGE) LAUNCING</b></h6>
                                     </Link>
                                     <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
                                     </p>
@@ -417,10 +425,10 @@ function Welcome() {
                                 </div>
                                 <div className="col-8">
                                     <h6><b>Made In Ghana</b></h6>
-                                    <p className="">Made in Ghana is a collection of essays on 
-                                    wide-ranging issues highlighting the challenges of democratic 
-                                    governance and 
-                                    socio-economic transformation in Ghana and Africa ...
+                                    <p className="">Made in Ghana is a collection of essays on
+                                        wide-ranging issues highlighting the challenges of democratic
+                                        governance and
+                                        socio-economic transformation in Ghana and Africa ...
                                     </p>
                                 </div>
                             </div>
@@ -432,10 +440,10 @@ function Welcome() {
                                 </div>
                                 <div className="col-8">
                                     <h6><b>Reinventing Development</b></h6>
-                                    <p className="">This book shows how 
-                                    the new architecture of aid has important implications in three 
-                                    distinct but related ways: the discursive construction and 
-                                    production of post-colonial societies ..
+                                    <p className="">This book shows how
+                                        the new architecture of aid has important implications in three
+                                        distinct but related ways: the discursive construction and
+                                        production of post-colonial societies ..
                                     </p>
                                 </div>
                             </div>
@@ -447,10 +455,10 @@ function Welcome() {
                                 </div>
                                 <div className="col-8">
                                     <h6><b><a href="">African Time</a></b></h6>
-                                    <p className="">AFRICAN TIME In this wide-ranging collection of 
-                                    essays, Lord Mawuko-Yevugah explores the challenges of political 
-                                    reform and democratic 
-                                    governance in Africa at the beginning ...
+                                    <p className="">AFRICAN TIME In this wide-ranging collection of
+                                        essays, Lord Mawuko-Yevugah explores the challenges of political
+                                        reform and democratic
+                                        governance in Africa at the beginning ...
                                     </p>
                                 </div>
                             </div>
@@ -458,11 +466,11 @@ function Welcome() {
                     </div>
                     <div className="text-center pt-4">
                         <Link href="/publications">
-                          <button className="btn btn-primary text-center" style={{ width: "30%", borderRadius: "40px" }}>
-                            More Books
-                        </button>
+                            <button className="btn btn-primary text-center" style={{ width: "30%", borderRadius: "40px" }}>
+                                More Books
+                            </button>
                         </Link>
-                        
+
                     </div>
 
                 </div>
@@ -738,8 +746,9 @@ function Welcome() {
                             <div className="shadow mb-4">
                                 <div className="position-relative">
                                     <img
-                                        className="img-fluid w-100"
-                                        src="template/img/blog-1.jpg"
+                                         className="img-fluid"
+                                         style={{width:"100%",height:"230px"}}
+                                        src="template/img/img/fb.png"
                                         alt=""
                                     />
                                     <a
@@ -751,32 +760,11 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                        {/* <h4 className="text-center text-white font-weight-medium mb-3">
-                                            Dolor site amet clita kasd sanct
-                                            ipsum
-                                        </h4> */}
-                                        {/* <div className="d-flex text-light">
-                                            <small className="mr-2">
-                                                <i className="fa fa-user text-secondary" />{" "}
-                                                Admin
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-folder text-secondary" />{" "}
-                                                Web Design
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-comments text-secondary" />{" "}
-                                                15
-                                            </small>
-                                        </div> */}
+                                     
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    Amet dolores labore magna et amet tempor
-                                    dolor et dolor. Et sit ipsum et eos rebum
-                                    labore ea labore sea. Et sed elitr labore
-                                    sed labore. Lorem et lorem amet sed sed kasd
-                                    ipsum rebum
+                                   Social Media Test here
                                 </p>
                             </div>
                         </div>
@@ -784,8 +772,9 @@ function Welcome() {
                             <div className="shadow mb-4">
                                 <div className="position-relative">
                                     <img
-                                        className="img-fluid w-100"
-                                        src="template/img/blog-2.jpg"
+                                         className="img-fluid"
+                                         style={{width:"100%",height:"230px"}}
+                                        src="template/img/img/twitter.jpg"
                                         alt=""
                                     />
                                     <a
@@ -797,32 +786,11 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                        <h4 className="text-center text-white font-weight-medium mb-3">
-                                            Dolor site amet clita kasd sanct
-                                            ipsum
-                                        </h4>
-                                        <div className="d-flex text-light">
-                                            <small className="mr-2">
-                                                <i className="fa fa-user text-secondary" />{" "}
-                                                Admin
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-folder text-secondary" />{" "}
-                                                Web Design
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-comments text-secondary" />{" "}
-                                                15
-                                            </small>
-                                        </div>
+                                       
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    Amet dolores labore magna et amet tempor
-                                    dolor et dolor. Et sit ipsum et eos rebum
-                                    labore ea labore sea. Et sed elitr labore
-                                    sed labore. Lorem et lorem amet sed sed kasd
-                                    ipsum rebum
+                                Social Media Test here
                                 </p>
                             </div>
                         </div>
@@ -830,8 +798,9 @@ function Welcome() {
                             <div className="shadow mb-4">
                                 <div className="position-relative">
                                     <img
-                                        className="img-fluid w-100"
-                                        src="template/img/blog-3.jpg"
+                                        className="img-fluid"
+                                        style={{width:"100%",height:"230px"}}
+                                        src="template/img/img/link.png"
                                         alt=""
                                     />
                                     <a
@@ -843,38 +812,18 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                        <h4 className="text-center text-white font-weight-medium mb-3">
-                                            Dolor site amet clita kasd sanct
-                                            ipsum
-                                        </h4>
-                                        <div className="d-flex text-light">
-                                            <small className="mr-2">
-                                                <i className="fa fa-user text-secondary" />{" "}
-                                                Admin
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-folder text-secondary" />{" "}
-                                                Web Design
-                                            </small>
-                                            <small className="mr-2">
-                                                <i className="fa fa-comments text-secondary" />{" "}
-                                                15
-                                            </small>
-                                        </div>
+                        
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    Amet dolores labore magna et amet tempor
-                                    dolor et dolor. Et sit ipsum et eos rebum
-                                    labore ea labore sea. Et sed elitr labore
-                                    sed labore. Lorem et lorem amet sed sed kasd
-                                    ipsum rebum
+                                Social Media Test here
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+           
             {/* Blog End */}
             <Footer />
         </>

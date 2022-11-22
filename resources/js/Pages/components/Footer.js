@@ -2,6 +2,8 @@ import { Link } from "@inertiajs/inertia-react";
 function Footer() {
     return ( 
         <>
+            <script src="template/lib/owlcarousel/owl.carousel.min.js" defer></script>
+
          {/* Footer Start */}
          <div className="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
                 <div className="row pt-5">
@@ -11,11 +13,9 @@ function Footer() {
                                 <span className="text-white mb-4" >Center For Diplomacy And Foriegn Policy</span>
                             </h1> */}
                         </Link>
-                        <p className="text-white">
-                            Volup amet magna clita tempor. Tempor sea eos vero
-                            ipsum. Lorem lorem sit sed elitr sit no, sed kasd et
-                            ipsum dolor duo dolor
-                        </p>
+                        <h4 className="text-white">
+                            CENTER FOR DIPLOMACY AND GLOBAL ENGAGEMENT
+                        </h4>
                         <div className="d-flex justify-content-start mt-4">
                             <Link
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
@@ -49,21 +49,24 @@ function Footer() {
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
                         <h4 className="text-white mb-4">Get In Touch</h4>
+                        
                         <p className="text-white">
-                            Dolor clita stet nonumy clita diam vero, et et ipsum
-                            diam labore
+                            <i className="fa fa-map-marker-alt mr-2" />15 Kwatei Asuasa St, GE - 358-8736
                         </p>
                         <p className="text-white">
-                            <i className="fa fa-map-marker-alt mr-2" />
-                            123 Street, New York, USA
+                            <i className=" mr-2" />Achimota-Accra
                         </p>
                         <p className="text-white">
                             <i className="fa fa-phone-alt mr-2" />
-                            +012 345 67890
+                            +233 544 831 297
+                        </p>
+                        <p className="text-white">
+                            <i className="fa fa-phone-alt mr-2" />
+                            +233 596 9628
                         </p>
                         <p className="text-white">
                             <i className="fa fa-envelope mr-2" />
-                            info@example.com
+                            secretariat@cdge-gh.org
                         </p>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
@@ -81,9 +84,9 @@ function Footer() {
                                 <i className="fa fa-angle-right mr-2" />
                                 Services
                             </Link>
-                            <Link className="text-white mb-2" href="/news">
+                            <Link className="text-white mb-2" href="/events">
                                 <i className="fa fa-angle-right mr-2" />
-                                News & Events
+                                Events
                             </Link>
                             <Link className="text-white" href="/publication">
                                 <i className="fa fa-angle-right mr-2" />
@@ -112,7 +115,7 @@ function Footer() {
                             </div>
                             <div>
                                 <button
-                                    className="btn btn-lg btn-secondary btn-block border-0"
+                                    className="btn btn-lg btn-secondary text-white btn-block border-0"
                                     type="submit"
                                 >
                                     Submit Now
@@ -122,11 +125,11 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid bg-dark text-white py-4 px-sm-3 px-md-5">
+            <div className="container-fluid bg-green text-white py-4 px-sm-3 px-md-5">
                 <p className="m-0 text-center text-white">
                     ©{" "}
                     <a className="text-white font-weight-medium" href="#">
-                        Center For Foriegn Policy And Diplomacy
+                        Center For Foriegn Diplomacy And Global Engagement
                     </a>
                     . All Rights Reserved. 
                 </p>
@@ -136,6 +139,7 @@ function Footer() {
             <a href="#" className="btn btn-lg btn-primary back-to-top">
                 <i className="fa fa-angle-double-up" />
             </a>
+            
         </>
      );
 }
