@@ -9,36 +9,34 @@ function Header() {
                     <div className="row">
                         <div className="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                             <div className="d-inline-flex align-items-center">
-                                <Link className="text-white pr-3" href="">
-                                    FAQs
-                                </Link>
-                                <span className="text-white">|</span>
-                                <Link className="text-white px-3" href="">
+                                <Link className="text-white pr-3" href="/#contact">
                                     Help
                                 </Link>
                                 <span className="text-white">|</span>
+                                <Link className="text-white px-3" href="/#contact">
+                                    Contact
+                                </Link>
+                                {/* <span className="text-white">|</span>
                                 <Link className="text-white pl-3" href="">
                                     Support
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                         <div className="col-md-6 text-center text-lg-right">
                             <div className="d-inline-flex align-items-center">
-                                <Link className="text-white px-3" href="">
+                                <a className="text-white px-3" 
+                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ">
                                     <i className="fab fa-facebook-f" />
-                                </Link>
-                                <Link className="text-white px-3" href="">
-                                    <i className="fab fa-twitter" />
-                                </Link>
-                                <Link className="text-white px-3" href="">
-                                    <i className="fab fa-linkedin-in" />
-                                </Link>
-                                <Link className="text-white px-3" href="">
-                                    <i className="fab fa-instagram" />
-                                </Link>
-                                <a className="text-white pl-3" href="">
-                                    <i className="fab fa-youtube" />
                                 </a>
+                                <a className="text-white px-3" href="
+                                https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ">
+                                    <i className="fab fa-twitter" />
+                                </a>
+                                <a className="text-white px-3" href="
+                                https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ">
+                                    <i className="fab fa-linkedin-in" />
+                                </a>
+                              
                             </div>
                         </div>
                     </div>

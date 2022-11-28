@@ -14,40 +14,35 @@ function Footer() {
                             </h1> */}
                         </Link>
                         <h4 className="text-white">
-                            CENTER FOR DIPLOMACY AND GLOBAL ENGAGEMENT
+                            CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
                         </h4>
                         <div className="d-flex justify-content-start mt-4">
-                            <Link
+                          
+                            <a
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="#"
-                            >
-                                <i className="fab fa-twitter" />
-                            </Link>
-                            <Link
-                                className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
-                                style={{ width: 38, height: 38 }}
-                                href="#"
+                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
                             >
                                 <i className="fab fa-facebook-f" />
-                            </Link>
-                            <Link
+                            </a>
+                            <a
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="#"
+                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
                             >
                                 <i className="fab fa-linkedin-in" />
-                            </Link>
-                            <Link
+                            </a>
+                             <a
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="#"
+                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
                             >
-                                <i className="fab fa-instagram" />
-                            </Link>
+                                <i className="fab fa-twitter" />
+                            </a>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 mb-5">
+                        <a href="" id="contact"></a>
                         <h4 className="text-white mb-4">Get In Touch</h4>
                         
                         <p className="text-white">
@@ -62,7 +57,7 @@ function Footer() {
                         </p>
                         <p className="text-white">
                             <i className="fa fa-phone-alt mr-2" />
-                            +233 596 9628
+                            +233 596 999 628
                         </p>
                         <p className="text-white">
                             <i className="fa fa-envelope mr-2" />
@@ -88,7 +83,7 @@ function Footer() {
                                 <i className="fa fa-angle-right mr-2" />
                                 Events
                             </Link>
-                            <Link className="text-white" href="/publication">
+                            <Link className="text-white" href="/publications">
                                 <i className="fa fa-angle-right mr-2" />
                                 Publications
                             </Link>
@@ -129,7 +124,7 @@ function Footer() {
                 <p className="m-0 text-center text-white">
                     ©{" "}
                     <a className="text-white font-weight-medium" href="#">
-                        Center For Foriegn Diplomacy And Global Engagement
+                        Centre For African Diplomacy & Global Engagement
                     </a>
                     . All Rights Reserved. 
                 </p>

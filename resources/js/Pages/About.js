@@ -1,8 +1,15 @@
 import { Link } from "@inertiajs/inertia-react";
+import { Inertia } from '@inertiajs/inertia'
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import { useEffect } from "react";
+
 
 function About() {
+
+  Inertia.on('success', (event) => {
+    console.log(event.detail.page.url === "/about" && window.location.reload())
+  })
   return (
     <>
       <Header />
@@ -128,12 +135,12 @@ function About() {
 
       {/* What we do Start */}
       <div className="container-fluid py-5">
-        
+
         <div className="container">
-        <h1 className="display-4 text-green text-center border-bottom ">What We Do</h1>
+          <h1 className="display-4 text-green text-center border-bottom ">What We Do</h1>
           <div className="row m-2 align-items-center">
             <div className="col-lg-5 mt-5">
-              <img className="img-fluid" src="template/img/img/gb1.jpg" style={{height:500,width:"100%"}} alt="" />
+              <img className="img-fluid" src="template/img/img/gb1.jpg" style={{ height: 500, width: "100%" }} alt="" />
             </div>
             <div className="col-lg-7 mt-lg-0 pl-lg-5">
               <h4 className="mt-1">
@@ -161,7 +168,7 @@ function About() {
         </div>
       </div>
 
-      
+
       {/* Features End */}
 
       {/* start goals */}
@@ -234,6 +241,9 @@ function About() {
         </div>
       </div>
 
+
+
+
       {/* our consultants */}
       <div className="container-fluid py-5">
         <div className="container">
@@ -243,7 +253,7 @@ function About() {
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/ceo1.jpg"
+                src="template/img/img/dr.png"
                 style={{
                   width: 100,
                   height: 100,
@@ -254,18 +264,25 @@ function About() {
                 alt=""
               />
               <div className="bg-light text-center p-4 pt-0">
-                <h5 className="font-weight-medium mt-5">Client Name</h5>
-                <p className="text-muted font-italic">Profession</p>
+                <h5 className="font-weight-medium mt-5">Prof. Lord Mawuko-Yevugah </h5>
+                <p className="text-muted font-italic">Independent Researcher</p>
                 <p className="m-0">
-                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-                  eirmod clita lorem. Dolor ipsum clita
+                  Professor Lord Mawuko-Yevugah is the Lead Researcher for the
+                  Center For African Diplomacy And Global Engagement.
                 </p>
+                <Link
+                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                    style={{ width: 38, height: 38 }}
+                    href="https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/"
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
               </div>
             </div>
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/ceo3.jpg"
+                src="template/img/img/jasper.jpg"
                 style={{
                   width: 100,
                   height: 100,
@@ -276,18 +293,25 @@ function About() {
                 alt=""
               />
               <div className="bg-light text-center p-4 pt-0">
-                <h5 className="font-weight-medium mt-5">Client Name</h5>
-                <p className="text-muted font-italic">Profession</p>
+                <h5 className="font-weight-medium mt-5">Prof. Jasper A. Ayelazuno </h5>
+                <p className="text-muted font-italic">Snr. Research Fellow</p>
                 <p className="m-0">
-                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-                  eirmod clita lorem. Dolor ipsum clita
+                  Professor Jasper A. Ayelazuno is a Senior Research Fellow at the
+                  Center For African Diplomacy And Global Engagement.
                 </p>
+                <Link
+                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                    style={{ width: 38, height: 38 }}
+                    href="https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/"
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
               </div>
             </div>
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/ceo2.jpg"
+                src="template/img/img/paulugo.jpg"
                 style={{
                   width: 100,
                   height: 100,
@@ -298,18 +322,28 @@ function About() {
                 alt=""
               />
               <div className="bg-light text-center p-4 pt-0">
-                <h5 className="font-weight-medium mt-5">Client Name</h5>
-                <p className="text-muted font-italic">Profession</p>
+                <h5 className="font-weight-medium mt-5">Prof. Paul Ugor </h5>
+                <p className="text-muted font-italic">Snr. Research Fellow</p>
                 <p className="m-0">
-                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-                  eirmod clita lorem. Dolor ipsum clita
+                  Professor Paul Ugor is a Senior Research Fellow at the
+                  Center For African Diplomacy And Global Engagement.
                 </p>
+              
+                  <Link
+                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                    style={{ width: 38, height: 38 }}
+                    href="https://www.linkedin.com/in/paul-ugor-199634109/"
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
+               
+
               </div>
             </div>
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/ceo4.jpg"
+                src="template/img/img/deaa.jpg"
                 style={{
                   width: 100,
                   height: 100,
@@ -320,12 +354,19 @@ function About() {
                 alt=""
               />
               <div className="bg-light text-center p-4 pt-0">
-                <h5 className="font-weight-medium mt-5">Client Name</h5>
-                <p className="text-muted font-italic">Profession</p>
+                <h5 className="font-weight-medium mt-5">Dr. Emefa Ansah   </h5>
+                <p className="text-muted font-italic">Research Fellow</p>
                 <p className="m-0">
-                  Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr
-                  eirmod clita lorem. Dolor ipsum clita
+                  Doctor Emefa Ansah is a Fellow Researcher at the
+                  Center For African Diplomacy And Global Engagement.
                 </p>
+                <Link
+                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                    style={{ width: 38, height: 38 }}
+                    href="https://peoplepill.com/people/dr-emefa-aku-ansah"
+                  >
+                    <i className="fab fa-linkedin-in" />
+                  </Link>
               </div>
             </div>
           </div>

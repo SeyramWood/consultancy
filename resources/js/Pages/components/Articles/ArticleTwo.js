@@ -1,10 +1,11 @@
-function ResearchComponentThree() {
+function ArticleTwo() {
     return (
         <>
           <div className="mb-5">
+          <h3 className="text-green pb-3 text-left ">Cut down freebies for appointees - Prof. Yevugah urges government</h3>
               <img
                 className="img-fluid w-100 mb-4"
-                src="template/img/img/dr.png"
+                src="template/img/img/ceo2.jpg"
                 alt="Image"
                 style={{ width: "100%", height: "500px" }}
               />
@@ -80,4 +81,4 @@ function ResearchComponentThree() {
       );
 }
 
-export default ResearchComponentThree;
+export default ArticleTwo;

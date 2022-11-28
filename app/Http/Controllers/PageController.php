@@ -37,7 +37,13 @@ class PageController extends Controller
         return Inertia::render('Publications');
     }
 
-     //text
+    // section
+    public function section()
+    {
+        return Inertia::render('Section');
+    }
+
+     //test
      public function test()
     {
         return Inertia::render('Test');

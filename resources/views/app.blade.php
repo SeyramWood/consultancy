@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1" />
-    <title inertia>{{ config('app.name', 'CFD&GE') }}</title>
+    <title inertia>{{ config('app.name', 'Center For Diplomancy & Global Engagement') }}</title>
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
