@@ -253,7 +253,7 @@ function About() {
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/dr.png"
+                src="template/img/img/at1.jpeg"
                 style={{
                   width: 100,
                   height: 100,

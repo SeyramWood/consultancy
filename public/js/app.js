@@ -2279,7 +2279,7 @@ function About() {
             className: "testimonial-item",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
               className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/dr.png",
+              src: "template/img/img/at1.jpeg",
               style: {
                 width: 100,
                 height: 100,
@@ -2628,11 +2628,11 @@ function Events() {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 className: "text-left ",
                                 children: "Theme: "
-                              }), " Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy"]
+                              }), " Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Guest Speaker: "
-                              }), " Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)"]
+                              }), " Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Date: "
@@ -2644,7 +2644,7 @@ function Events() {
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Venue: "
-                              }), " GIMPA Executive Centre"]
+                              }), " GIMPA Executive Conference Centre"]
                             })]
                           })]
                         })
@@ -2721,11 +2721,11 @@ function Events() {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 className: "text-left ",
                                 children: "Theme: "
-                              }), " Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy"]
+                              }), " Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Guest Speaker: "
-                              }), " Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)"]
+                              }), " Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Date: "
@@ -2737,7 +2737,7 @@ function Events() {
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Venue: "
-                              }), " GIMPA Executive Centre"]
+                              }), " GIMPA Executive Conference Centre"]
                             })]
                           })]
                         })
@@ -2793,11 +2793,11 @@ function Events() {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 className: "text-left ",
                                 children: "Theme: "
-                              }), " Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy"]
+                              }), " Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Guest Speaker: "
-                              }), " Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)"]
+                              }), " Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Date: "
@@ -2809,7 +2809,7 @@ function Events() {
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Venue: "
-                              }), " GIMPA Executive Centre"]
+                              }), " GIMPA Executive Conference Centre"]
                             })]
                           })]
                         })
@@ -4904,7 +4904,7 @@ function Welcome() {
                   style: {
                     fontSize: "12px"
                   },
-                  children: "Venue: Gimpa Law School Moot Court Auditorium"
+                  children: "Venue: GIMPA Law School Moot Court Auditorium"
                 })]
               })]
             })
@@ -4951,7 +4951,7 @@ function Welcome() {
                   style: {
                     fontSize: "12px"
                   },
-                  children: "Venue: Gimpa Executive Conference "
+                  children: "Venue: GIMPA Executive Conference Centre"
                 })]
               })]
             })
@@ -4998,7 +4998,7 @@ function Welcome() {
                   style: {
                     fontSize: "12px"
                   },
-                  children: "Venue: Gimpa Executive Conference "
+                  children: "Venue: GIMPA Executive Conference Centre "
                 })]
               })]
             })
@@ -5280,8 +5280,7 @@ function Welcome() {
                   }
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0 p-4",
-                children: "The Socialist Movement of Ghana - S.M.G"
+                className: "m-0 p-4"
               })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -5308,8 +5307,7 @@ function Welcome() {
                   }
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0 p-4",
-                children: "The Socialist Movement of Ghana - S.M.G"
+                className: "m-0 p-4"
               })]
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
@@ -5336,8 +5334,7 @@ function Welcome() {
                   }
                 })]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0 p-4",
-                children: "The Socialist Movement of Ghana - S.M.G"
+                className: "m-0 p-4"
               })]
             })
           })]

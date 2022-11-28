@@ -132,10 +132,10 @@ function Events() {
 
                             </h5>
                             <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy
+                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
                             </p>
                             <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)
+                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
                             </p>
                             <p>
                               <b>Date: </b> Thursday, December 1, 2022
@@ -144,7 +144,7 @@ function Events() {
                               <b>Time: </b> 10:00 AM
                             </p>
                             <p>
-                              <b>Venue: </b> GIMPA Executive Centre
+                              <b>Venue: </b> GIMPA Executive Conference Centre
                             </p>
                           </div>
                         </div>
@@ -204,10 +204,10 @@ function Events() {
 
                             </h5>
                             <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy
+                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
                             </p>
                             <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)
+                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
                             </p>
                             <p>
                               <b>Date: </b> Thursday, December 1, 2022
@@ -216,7 +216,7 @@ function Events() {
                               <b>Time: </b> 10:00 AM
                             </p>
                             <p>
-                              <b>Venue: </b> GIMPA Executive Centre
+                              <b>Venue: </b> GIMPA Executive Conference Centre
                             </p>
                           </div>
                         </div>
@@ -278,10 +278,10 @@ function Events() {
 
                             </h5>
                             <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Risilient And Iclusive Post-Covid Global Economy
+                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
                             </p>
                             <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bargbin (Speaker Of Parliament Of Ghana)
+                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
                             </p>
                             <p>
                               <b>Date: </b> Thursday, December 1, 2022
@@ -290,7 +290,7 @@ function Events() {
                               <b>Time: </b> 10:00 AM
                             </p>
                             <p>
-                              <b>Venue: </b> GIMPA Executive Centre
+                              <b>Venue: </b> GIMPA Executive Conference Centre
                             </p>
                           </div>
                         </div>

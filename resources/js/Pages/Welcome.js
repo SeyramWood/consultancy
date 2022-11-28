@@ -291,7 +291,7 @@ function Welcome() {
                                         <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS</b></h6>
                                     </Link>
                                     <p className="pb-0 mb-0" style={{ fontSize: "12px" }}>Date: Thursday, September 22nd 2022 </p>
-                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: Gimpa Law School Moot Court Auditorium</span>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Law School Moot Court Auditorium</span>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@ function Welcome() {
                                         <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
                                     </Link>
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
-                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: Gimpa Executive Conference </span>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre</span>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +327,7 @@ function Welcome() {
                                     <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
                                     </Link>
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
-                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: Gimpa Executive Conference </span>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre </span>
                                 </div>
                             </div>
                         </div>
@@ -795,7 +795,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                The Socialist Movement of Ghana - S.M.G
+                                {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -821,7 +821,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                The Socialist Movement of Ghana - S.M.G
+                                {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -847,7 +847,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                The Socialist Movement of Ghana - S.M.G
+                                {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
