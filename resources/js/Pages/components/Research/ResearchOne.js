@@ -5,7 +5,7 @@ function ResearchOne() {
         <div className="col-12">
           <div className="row">
             <div className="col-12 text-center">
-            <h3 className="text-green text-center ">THE POLITICS OF ECONOMIC REFORM</h3>
+              <h3 className="text-green text-center ">THE POLITICS OF ECONOMIC REFORM</h3>
               {/* <img src="template/img/img/at1.jpeg" className="img-fluid" style={{ height: "450px" }} alt="img" /> */}
             </div>
             <div className="col-12 pt-4">
@@ -34,9 +34,9 @@ function ResearchOne() {
                 West African state impact its evolving economic policy.
               </p>
 
-              <a href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351018982-2/politicizing-economic-reform-africa-lord-mawuko-yevugah?context=ubx">
-                        <button className="btn btn-primary">Read More</button>
-                        </a> 
+              <a target="_blank" href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781351018982-2/politicizing-economic-reform-africa-lord-mawuko-yevugah?context=ubx">
+                <button className="btn btn-primary">Read More</button>
+              </a>
             </div>
           </div>
         </div>

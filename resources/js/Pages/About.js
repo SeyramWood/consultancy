@@ -8,7 +8,7 @@ import { useEffect } from "react";
 function About() {
 
   Inertia.on('success', (event) => {
-    console.log(event.detail.page.url === "/about" && window.location.reload())
+    event.detail.page.url === "/about" && window.location.reload()
   })
   return (
     <>
@@ -265,18 +265,19 @@ function About() {
               />
               <div className="bg-light text-center p-4 pt-0">
                 <h5 className="font-weight-medium mt-5">Prof. Lord Mawuko-Yevugah </h5>
-                <p className="text-muted font-italic">Independent Researcher</p>
+                <p className="text-muted font-italic">Lead Researcher</p>
                 <p className="m-0">
                   Professor Lord Mawuko-Yevugah is the Lead Researcher for the
                   Center For African Diplomacy And Global Engagement.
                 </p>
-                <Link
+                <a
+                    target="_blank"
                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                     style={{ width: 38, height: 38 }}
                     href="https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/"
                   >
                     <i className="fab fa-linkedin-in" />
-                  </Link>
+                  </a>
               </div>
             </div>
             <div className="testimonial-item">
@@ -299,13 +300,14 @@ function About() {
                   Professor Jasper A. Ayelazuno is a Senior Research Fellow at the
                   Center For African Diplomacy And Global Engagement.
                 </p>
-                <Link
+                <a
+                    target="_blank"
                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                     style={{ width: 38, height: 38 }}
                     href="https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/"
                   >
                     <i className="fab fa-linkedin-in" />
-                  </Link>
+                  </a>
               </div>
             </div>
             <div className="testimonial-item">
@@ -329,13 +331,14 @@ function About() {
                   Center For African Diplomacy And Global Engagement.
                 </p>
               
-                  <Link
+                  <a
                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                     style={{ width: 38, height: 38 }}
+                    target="_blank"
                     href="https://www.linkedin.com/in/paul-ugor-199634109/"
                   >
                     <i className="fab fa-linkedin-in" />
-                  </Link>
+                  </a>
                
 
               </div>
@@ -360,13 +363,14 @@ function About() {
                   Doctor Emefa Ansah is a Fellow Researcher at the
                   Center For African Diplomacy And Global Engagement.
                 </p>
-                <Link
+                <a
                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                     style={{ width: 38, height: 38 }}
+                    target="_blank"
                     href="https://peoplepill.com/people/dr-emefa-aku-ansah"
                   >
                     <i className="fab fa-linkedin-in" />
-                  </Link>
+                  </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
+  <Head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=1" />
     <title inertia>{{ config('app.name', 'Center For Diplomancy & Global Engagement') }}</title>
@@ -21,7 +21,7 @@
     {{-- <link href="{{ mix('/css/app.css') }}" rel="stylesheet" /> --}}
     <script src="{{ mix('/js/app.js') }}" defer></script>
     @inertiaHead
-  </head>
+  </Head>
   <body>
 
     @inertia

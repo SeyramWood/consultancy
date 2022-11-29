@@ -16,7 +16,7 @@ function ResearchTwo() {
                 What space has opened, with the democratic transition in Ghana, for counter-hegemonic civil society organisation from below? What is the nature of this space? These are some of the questions that will be used to interrogate the “democratic state” of Ghana and the nature of the political space for ‘radical activism’ or progressive politics in civil society. And then to press the thesis that the political agency of the subaltern class should be the linchpin in any theory or political programme of the Left that sees civil society as playing ‘a disciplinary role in relation to the [neo-liberal] state’ (White, 2004); counteracting and resisting its harsh market fundamentalist policies which have ‘[made] people’s livelihoods more and more precarious' in Ghana. Simply put, this paper argues that a “bottom-up” civil society, as against a “top-down” one, is the ideal “civil society” for the subalterns.
               </p>
 
-              <a href="https://www.researchgate.net/publication/342467580_Liberal_Democracy_and_Civil_Society_from_Below_in_Ghana_Can_the_Subalterns_Act">
+              <a target="_blank" href="https://www.researchgate.net/publication/342467580_Liberal_Democracy_and_Civil_Society_from_Below_in_Ghana_Can_the_Subalterns_Act">
                 <button className="btn btn-primary">Read More</button>
               </a>
             </div>

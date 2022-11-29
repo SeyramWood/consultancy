@@ -32,7 +32,7 @@ function BookThree() {
                        critical and a rare reflection on the changing landscape of contemporary African politics 
                        and governance through the eyes of a political journalist.
                        </p>
-                       <a href="https://www.amazon.com/African-Time-Contemporary-Politics-Governance/dp/1481797484"><button className="btn btn-primary">Read More</button> </a>
+                       <a target="_blank" href="https://www.amazon.com/African-Time-Contemporary-Politics-Governance/dp/1481797484"><button className="btn btn-primary">Read More</button> </a>
                     </div>
                     
                     <div className="col-12">
