@@ -33,7 +33,7 @@ function Publication() {
                   Home
                 </Link>
                 <i className="fas fa-angle-right text-white" />
-                <a className="btn text-white disabled" href="">
+                <a className="btn text-white disabled" target="_blank" href="">
                   Publications
                 </a>
               </div>
@@ -146,7 +146,7 @@ function Publication() {
                           aria-orientation="vertical"
                         >
                           <a
-                            className="nav-link"
+                            className="nav-link active"
                             id="v-pills-book1-tab"
                             data-toggle="pill"
                             href="#v-pills-book1"
@@ -278,7 +278,8 @@ function Publication() {
                           aria-orientation="vertical"
                         >
                           <a
-                            className="nav-link active"
+                            className="nav-link "
+                            target="_blank"
                             // id="v-pills-a1-tab"
                             // data-toggle="pill"
                             // href="#v-pills-a1"
@@ -291,6 +292,7 @@ function Publication() {
                           </a>
                           <a
                             className="nav-link"
+                            target="_blank"
                             // id="v-pills-a2-tab"
                             // data-toggle="pill"
                             // href="#v-pills-a2"
@@ -303,6 +305,7 @@ function Publication() {
                           </a>
                           <a
                             className="nav-link"
+                            target="_blank"
                             // id="v-pills-a3-tab"
                             // data-toggle="pill"
                             // href="#v-pills-a3"

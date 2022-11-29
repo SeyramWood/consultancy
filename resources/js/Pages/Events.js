@@ -50,16 +50,16 @@ function Events() {
                     <div className="modal-body">
                       <div className="container ">
                         <div className="row m-4">
-                          <div className="col-12 text-center">
-                            <img src="template/img/img/economy.jpeg" className="img-fluid" style={{ height: "300px", width: "80%" }} alt="" />
+                          <div className="col-12 text-center cursor-pointer">
+                            <img src="template/img/img/economy.jpeg" className="img-fluid " style={{ height: "300px", width: "80%" }} alt="" />
                           </div>
                           <div className="col-12 ">
                             <h5 className="text-green pt-4">
-                              <b>COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS</b>
+                              <b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b>
 
                             </h5>
                             <p className="text-left">
-                              <b className="text-left ">Theme: </b>COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS
+                              <b className="text-left ">Theme: </b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
                             </p>
                             <p>
                               <b>Guest Speaker: </b> Prof. Lord Mawuko-Yevugah
@@ -95,14 +95,14 @@ function Events() {
               {/* card one */}
               <div className="col-md-6 mb-2 " data-toggle="modal"
                 data-target=".bd-example-modal-lg1">
-                <div className="bg-light mb-4">
+                <div className="bg-light mb-4" style={{cursor:"pointer"}}>
                   <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/img/economy.jpeg" style={{ height: "300px" }} alt="" />
+                    <img className="img-fluid w-100 " src="template/img/img/economy.jpeg" style={{ height: "300px" }} alt="" />
 
                   </div>
                   <h5 className="text-green m-0 p-3">
 
-                  COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS
+                  COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
 
                   </h5>
                 </div>
@@ -168,7 +168,7 @@ function Events() {
               {/* card two */}
               <div className="col-md-6 mb-2" data-toggle="modal"
                 data-target=".bd-example-modal-lg2">
-                <div className="bg-light mb-4">
+                <div className="bg-light mb-4" style={{cursor:"pointer"}}>
                   <div className="position-relative">
                     <img className="img-fluid w-100" src="template/img/img/1.jpeg" style={{ height: "300px" }} alt="" />
 
@@ -396,6 +396,7 @@ function Events() {
                 className=""
                 data-toggle="modal"
                 data-target=".bd-example-modal-four"
+                style={{cursor:"pointer"}}
               >
                 <img src="template/img/img/banner1.jpg" className="img-fluid w-100" alt="" />
               </div>
@@ -468,6 +469,7 @@ function Events() {
               <div
                 data-toggle="modal"
                 data-target=".bd-example-modal-two"
+                style={{cursor:"pointer"}}
               >
                 <img src="template/img/img/banner3.jpg" className="img-fluid w-100" alt="" />
               </div>

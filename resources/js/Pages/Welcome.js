@@ -145,7 +145,7 @@ function Welcome() {
                 <div className="container">
 
                     <h1 className="display-4 text-green border-bottom  text-center ">Who We Are</h1>
-                    <div className="container mb-5">
+                    <div className="mb-5">
                         <h4 className="text-center" style={{ marginTop: "40px" }}> <b> Our Purpose</b></h4>
                         <p>
                             The purpose of the Centre is to serve as a hub for providing cutting edge research
@@ -288,7 +288,7 @@ function Welcome() {
 
                                     <h6 style={{ fontSize: "12px" }}>PREVIOUS EVENT</h6>
                                     <Link href="/events">
-                                        <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS</b></h6>
+                                        <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b></h6>
                                     </Link>
                                     <p className="pb-0 mb-0" style={{ fontSize: "12px" }}>Date: Thursday, September 22nd 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Law School Moot Court Auditorium</span>
@@ -324,7 +324,7 @@ function Welcome() {
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/events">
-                                    <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
+                                        <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
                                     </Link>
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre </span>
@@ -354,72 +354,75 @@ function Welcome() {
                     <div className="row mt-5">
                         <div className="col-lg-4 mb-2">
                             <div className="shadow mb-4">
-                               <Link
-                                        href="/publications"
-                                        className="text-decoration-none"
-                                       
-                                    >  
+                                <a
+                                    target="_blank"
+                                    href="https://www.graphic.com.gh/news/politics/review-political-incentive-system-development-analyst.html"
+                                    className="text-decoration-none"
+
+                                >
                                     <div className="position-relative">
-                                   
-                                    <img
-                                        className="img-fluid w-100"
-                                        src="template/img/img/dr.png"
-                                        alt=""
-                                        style={{ height: "225px", width: "" }}
-                                    />
-                                    
-                                   
-                                </div>
-                                <p className="m-0 p-4">
-                                Professor Lord Mawuko-Yevugah has called for a review of the country’s political and public incentive system
-                                </p> </Link>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 mb-2">
-                            <div className="shadow mb-4">
-                                <Link
-                                        href="/publications"
-                                        className="text-decoration-none"
-                                        style={{
-                                            top: 0,
-                                            left: 0,
-                                            background: "rgba(0, 0, 0, .4)",
-                                        }}
-                                    >
-                                        <div className="position-relative">
-                                    <img
-                                        className="img-fluid w-100"
-                                        src="template/img/img/dr2.jpg"
-                                        alt=""
-                                        style={{ height: "225px", width: "" }}
-                                    />
-                                    
-                                </div>
-                                <p className="m-0 p-4">
-                                Ghana needs to build a robust local economy to withstand future shocks in the economy – Prof Mawuko-Yevugah
-                                </p>
-                                </Link>
+
+                                        <img
+                                            className="img-fluid w-100"
+                                            src="template/img/img/dr.png"
+                                            alt=""
+                                            style={{ height: "225px", width: "" }}
+                                        />
+
+
+                                    </div>
+                                    <p className="m-0 p-4">
+                                        Professor Lord Mawuko-Yevugah has called for a review of the country’s political and public incentive system
+                                    </p> 
+                                    </a>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-2">
                             <div className="shadow mb-4">
                                 <a
-                                        href="/publications"
-                                        className=" text-decoration-none"
-                                       
-                                    ><div className="position-relative">
-                                    <img
-                                        className="img-fluid w-100"
-                                        src="template/img/img/article.jpg"
-                                        alt=""
-                                        style={{ height: "225px", width: "" }}
-                                    />
-                                    
-                                   
-                                </div>
-                                <p className="m-0 p-4">
-                                Build robust local economy to salvage cedi depreciation – Prof. Mawuko-Yevuga
-                                </p> </a>
+                                    target="_blank"
+                                    href="https://newsghana.com.gh/ghana-needs-to-build-a-robust-local-economy-prof-mawuko-yevugah/?amp"
+                                    className="text-decoration-none"
+                                    style={{
+                                        top: 0,
+                                        left: 0,
+                                        background: "rgba(0, 0, 0, .4)",
+                                    }}
+                                >
+                                    <div className="position-relative">
+                                        <img
+                                            className="img-fluid w-100"
+                                            src="template/img/img/dr2.jpg"
+                                            alt=""
+                                            style={{ height: "225px", width: "" }}
+                                        />
+
+                                    </div>
+                                    <p className="m-0 p-4">
+                                        Ghana needs to build a robust local economy to withstand future shocks in the economy – Prof Mawuko-Yevugah
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <a
+                                    href="https://mobile.ghanaweb.com/GhanaHomePage/business/Cut-down-freebies-for-appointees-Prof-Yevugah-urges-government-1635488"
+                                    className=" text-decoration-none"
+
+                                ><div className="position-relative">
+                                        <img
+                                            className="img-fluid w-100"
+                                            src="template/img/img/article.jpg"
+                                            alt=""
+                                            style={{ height: "225px", width: "" }}
+                                        />
+
+
+                                    </div>
+                                    <p className="m-0 p-4">
+                                        Cut freebies apointees due to general economic difficulties – Prof. Mawuko-Yevuga
+                                    </p> </a>
                             </div>
                         </div>
                     </div>
@@ -455,7 +458,7 @@ function Welcome() {
                                     <img src="template/img/img/book1.jpeg" className=" float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6><b><a href="https://www.amazon.com/Made-Ghana-Reflections-Governance-Shifts-ebook/dp/B07LG4BJ1X">Made In Ghana</a></b></h6>
+                                    <h6><b><a target="_blank" href="https://www.amazon.com/Made-Ghana-Reflections-Governance-Shifts-ebook/dp/B07LG4BJ1X">Made In Ghana</a></b></h6>
                                     <p className="">Made in Ghana is a collection of essays on
                                         wide-ranging issues highlighting the challenges of democratic
                                         governance and
@@ -783,6 +786,7 @@ function Welcome() {
                                         alt=""
                                     />
                                     <a
+                                        target="_blank"
                                         href="https://m.facebook.com/SocialistMovementOfGhana/posts/?ref=page_internal&mt_nav=0"
                                         className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
                                         style={{
@@ -795,7 +799,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                {/* The Socialist Movement of Ghana - S.M.G */}
+                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -809,6 +813,7 @@ function Welcome() {
                                         alt=""
                                     />
                                     <a
+                                        target="_blank"
                                         href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
                                         className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
                                         style={{
@@ -821,7 +826,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                {/* The Socialist Movement of Ghana - S.M.G */}
+                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -847,7 +852,7 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                {/* The Socialist Movement of Ghana - S.M.G */}
+                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>

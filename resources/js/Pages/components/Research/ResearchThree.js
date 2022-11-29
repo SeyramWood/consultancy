@@ -34,7 +34,7 @@ function ResearchThree() {
                 Constitution of Ghana.
               </p>
 
-              <a href="https://www.researchgate.net/publication/354381457_Chieftaincy_and_traditional_authority_in_modern_democratic_Ghana">
+              <a target="_blank" href="https://www.researchgate.net/publication/354381457_Chieftaincy_and_traditional_authority_in_modern_democratic_Ghana">
                 <button className="btn btn-primary">Read More</button>
               </a>
             </div>

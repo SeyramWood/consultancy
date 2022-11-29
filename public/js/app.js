@@ -2107,7 +2107,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function About() {
   _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.on('success', function (event) {
-    console.log(event.detail.page.url === "/about" && window.location.reload());
+    event.detail.page.url === "/about" && window.location.reload();
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.Fragment, {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -2295,11 +2295,12 @@ function About() {
                 children: "Prof. Lord Mawuko-Yevugah "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "text-muted font-italic",
-                children: "Independent Researcher"
+                children: "Lead Researcher"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
                 children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Center For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
                   width: 38,
@@ -2335,7 +2336,8 @@ function About() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
                 children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
                   width: 38,
@@ -2371,12 +2373,13 @@ function About() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
                 children: "Professor Paul Ugor is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
                   width: 38,
                   height: 38
                 },
+                target: "_blank",
                 href: "https://www.linkedin.com/in/paul-ugor-199634109/",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
                   className: "fab fa-linkedin-in"
@@ -2407,12 +2410,13 @@ function About() {
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
                 children: "Doctor Emefa Ansah is a Fellow Researcher at the Center For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
                   width: 38,
                   height: 38
                 },
+                target: "_blank",
                 href: "https://peoplepill.com/people/dr-emefa-aku-ansah",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
                   className: "fab fa-linkedin-in"
@@ -2513,10 +2517,10 @@ function Events() {
                         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                           className: "row m-4",
                           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-                            className: "col-12 text-center",
+                            className: "col-12 text-center cursor-pointer",
                             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                               src: "template/img/img/economy.jpeg",
-                              className: "img-fluid",
+                              className: "img-fluid ",
                               style: {
                                 height: "300px",
                                 width: "80%"
@@ -2528,14 +2532,14 @@ function Events() {
                             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
                               className: "text-green pt-4",
                               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
-                                children: "COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS"
+                                children: "COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS"
                               })
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               className: "text-left",
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 className: "text-left ",
                                 children: "Theme: "
-                              }), "COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS"]
+                              }), "COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS"]
                             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
                               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
                                 children: "Guest Speaker: "
@@ -2573,10 +2577,13 @@ function Events() {
                 "data-target": ".bd-example-modal-lg1",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                   className: "bg-light mb-4",
+                  style: {
+                    cursor: "pointer"
+                  },
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                     className: "position-relative",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
-                      className: "img-fluid w-100",
+                      className: "img-fluid w-100 ",
                       src: "template/img/img/economy.jpeg",
                       style: {
                         height: "300px"
@@ -2585,7 +2592,7 @@ function Events() {
                     })
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
                     className: "text-green m-0 p-3",
-                    children: "COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS"
+                    children: "COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS"
                   })]
                 })
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
@@ -2666,6 +2673,9 @@ function Events() {
                 "data-target": ".bd-example-modal-lg2",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                   className: "bg-light mb-4",
+                  style: {
+                    cursor: "pointer"
+                  },
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                     className: "position-relative",
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
@@ -2847,6 +2857,9 @@ function Events() {
               className: "",
               "data-toggle": "modal",
               "data-target": ".bd-example-modal-four",
+              style: {
+                cursor: "pointer"
+              },
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                 src: "template/img/img/banner1.jpg",
                 className: "img-fluid w-100",
@@ -2943,6 +2956,9 @@ function Events() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
               "data-toggle": "modal",
               "data-target": ".bd-example-modal-two",
+              style: {
+                cursor: "pointer"
+              },
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                 src: "template/img/img/banner3.jpg",
                 className: "img-fluid w-100",
@@ -3110,6 +3126,7 @@ function Publication() {
                 className: "fas fa-angle-right text-white"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("a", {
                 className: "btn text-white disabled",
+                target: "_blank",
                 href: "",
                 children: "Publications"
               })]
@@ -3202,7 +3219,7 @@ function Publication() {
                         role: "tablist",
                         "aria-orientation": "vertical",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("a", {
-                          className: "nav-link",
+                          className: "nav-link active",
                           id: "v-pills-book1-tab",
                           "data-toggle": "pill",
                           href: "#v-pills-book1",
@@ -3319,7 +3336,8 @@ function Publication() {
                         role: "tablist",
                         "aria-orientation": "vertical",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("a", {
-                          className: "nav-link active" // id="v-pills-a1-tab"
+                          className: "nav-link ",
+                          target: "_blank" // id="v-pills-a1-tab"
                           // data-toggle="pill"
                           // href="#v-pills-a1"
                           ,
@@ -3329,7 +3347,8 @@ function Publication() {
                           ,
                           children: "A Robust Local Economy"
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("a", {
-                          className: "nav-link" // id="v-pills-a2-tab"
+                          className: "nav-link",
+                          target: "_blank" // id="v-pills-a2-tab"
                           // data-toggle="pill"
                           // href="#v-pills-a2"
                           ,
@@ -3339,7 +3358,8 @@ function Publication() {
                           ,
                           children: "Cut down freebies"
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("a", {
-                          className: "nav-link" // id="v-pills-a3-tab"
+                          className: "nav-link",
+                          target: "_blank" // id="v-pills-a3-tab"
                           // data-toggle="pill"
                           // href="#v-pills-a3"
                           ,
@@ -4812,7 +4832,7 @@ function Welcome() {
           className: "display-4 text-green border-bottom  text-center ",
           children: "Who We Are"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "container mb-5",
+          className: "mb-5",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h4", {
             className: "text-center",
             style: {
@@ -4890,7 +4910,7 @@ function Welcome() {
                   href: "/events",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                      children: "COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS"
+                      children: "COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS"
                     })
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
@@ -5037,8 +5057,9 @@ function Welcome() {
             className: "col-lg-4 mb-2",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "shadow mb-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-                href: "/publications",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
+                target: "_blank",
+                href: "https://www.graphic.com.gh/news/politics/review-political-incentive-system-development-analyst.html",
                 className: "text-decoration-none",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                   className: "position-relative",
@@ -5054,15 +5075,16 @@ function Welcome() {
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "m-0 p-4",
                   children: "Professor Lord Mawuko-Yevugah has called for a review of the country\u2019s political and public incentive system"
-                }), " "]
+                })]
               })
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
             className: "col-lg-4 mb-2",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "shadow mb-4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
-                href: "/publications",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
+                target: "_blank",
+                href: "https://newsghana.com.gh/ghana-needs-to-build-a-robust-local-economy-prof-mawuko-yevugah/?amp",
                 className: "text-decoration-none",
                 style: {
                   top: 0,
@@ -5091,7 +5113,7 @@ function Welcome() {
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "shadow mb-4",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
-                href: "/publications",
+                href: "https://mobile.ghanaweb.com/GhanaHomePage/business/Cut-down-freebies-for-appointees-Prof-Yevugah-urges-government-1635488",
                 className: " text-decoration-none",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
                   className: "position-relative",
@@ -5106,7 +5128,7 @@ function Welcome() {
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                   className: "m-0 p-4",
-                  children: "Build robust local economy to salvage cedi depreciation \u2013 Prof. Mawuko-Yevuga"
+                  children: "Cut freebies apointees due to general economic difficulties \u2013 Prof. Mawuko-Yevuga"
                 }), " "]
               })
             })
@@ -5161,6 +5183,7 @@ function Welcome() {
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
                     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
                       href: "https://www.amazon.com/Made-Ghana-Reflections-Governance-Shifts-ebook/dp/B07LG4BJ1X",
                       children: "Made In Ghana"
                     })
@@ -5271,6 +5294,7 @@ function Welcome() {
                   src: "template/img/img/fb.png",
                   alt: ""
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                  target: "_blank",
                   href: "https://m.facebook.com/SocialistMovementOfGhana/posts/?ref=page_internal&mt_nav=0",
                   className: "position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4",
                   style: {
@@ -5298,6 +5322,7 @@ function Welcome() {
                   src: "template/img/img/twitter.jpg",
                   alt: ""
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                  target: "_blank",
                   href: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ",
                   className: "position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4",
                   style: {
@@ -5620,6 +5645,7 @@ function BookFour() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
             children: "All over the world, there is growing concern about the ramifications of globalization, late-modernity and general global social and economic restructuring on the lives and futures of young people. Bringing together a wide body of research to reflect on youth responses to social change in Africa, this volume shows that while young people in the region face extraordinary social challenges in their everyday lives, they also continue to devise unique ways to reinvent their difficult circumstances and prosper in the midst of seismic global and local social changes. Contributors from Africa and around the world cover a wide range of topics on African youth cultures, exploring the lives of young people not necessarily as victims, but as active social players in the face of a shifting, late-modernist civilization. With empirical cases and varied theoretical approaches, the book offers a timely scholarly contribution to debates around globalization and its implications and impacts for Africa's youth."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+            target: "_blank",
             href: "https://www.amazon.com/African-Youth-Cultures-Globalized-World/dp/113809238X",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
               className: "btn btn-primary",
@@ -5681,6 +5707,7 @@ function BookOne() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
             children: "Made in Ghana is a collection of essays on wide-ranging issues highlighting the challenges of democratic governance and socio-economic transformation in Ghana and Africa broadly, and within the context of changing power dynamics at the global level and the implications of these changes for the liberal political and economic architecture both locally and globally. The title is deliberately chosen to reflect Ghana\u2019s historical role as the epic-center of Africa\u2019s historical articulation with the capitalist and neoliberal global economy. In particular, the book focuses on the political economy of governance in Ghana, analyzing the challenges of democratic consolidation and the interplay of forces shaping the country\u2019s quest at achieving economic transformation within the country\u2019s current democratic dispensation. More importantly, the book provides a critical analysis on contemporary Africa\u2019s developmental quagmire within the context of the broader global political economy, focusing on the crisis of American-led western capitalism and neoliberalism and the prospects and promises of a new global order."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+            target: "_blank",
             href: "https://www.amazon.com/Made-Ghana-Reflections-Governance-Shifts-ebook/dp/B07LG4BJ1X",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
               className: "btn btn-primary",
@@ -5744,6 +5771,7 @@ function BookThree() {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
               children: "In this wide-ranging collection of essays, Mawuko-Yevugah explores the challenges of political reform and democratic governance in Africa at the beginning of the 21st Century, focusing largely on Ghana's experience. The inspiration for the title of the collection, AFRICAN TIME, comes from Kwame Nkrumah's pan-African optimism as well as from recent discourses around \"African Renaissance\" \"Africa's Century\" \"Africa Rising\" etc. At Ghana's founding in 1957, Nkrumah proclaimed: 'Our independence is meaningless unless it is linked up to the total liberation of the African continent. Today, from now on, there is a new African in the world . . . That new African is ready to fight his own battles and show that after all, the black man is capable of managing his own affairs' That historic declaration, Mawuko-Yevugah argues, did not only set the tone and direction for Ghana's pan-African foreign policy but it has also made the country a reference point for Africa's postcolonial tragedy in the form of political instability and economic decay. Exploring Ghana's recent strides in democratic consolidation within the context of fresh attempts to reinvent pan-Africanism and mainstream good governance on the continental development agenda, this book offers incisive, critical and a rare reflection on the changing landscape of contemporary African politics and governance through the eyes of a political journalist."
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+              target: "_blank",
               href: "https://www.amazon.com/African-Time-Contemporary-Politics-Governance/dp/1481797484",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
                 className: "btn btn-primary",
@@ -5806,6 +5834,7 @@ function BookTwo() {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
             children: "Global development actors such as the World Bank and the International Monetary Fund claim that the shift to the poverty reduction strategy framework and emphasis on local participation address the social cost of earlier adjustment programs and help put aid-receiving countries back in control of their own development agenda. Drawing on the case of Ghana, Lord Mawuko-Yevugah argues that this shift and the emphasis on partnerships between donors and poor countries, local participation, and country ownership simultaneously represents"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+            target: "_blank",
             href: "https://books.google.com.gh/books/about/Reinventing_Development.html?id=KSTaAwAAQBAJ&redir_esc=y",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
               className: "btn btn-primary",
@@ -6198,6 +6227,7 @@ function ResearchOne() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
               children: "This conceptual chapter explores how an interplay of domestic and international political and economic processes and actors have influenced and shaped Africa\u2019s postcolonial developmental vision through the implementation of specific sets of policy reforms. In doing so, and in order to provide an intellectual context for some of the discussions raised in the book, this chapter provides a broad overview of competing theoretical approaches to policy reform historically, showing how the current neoliberal policy agenda became a hegemonic construct in Africa\u2019s postcolonies from the 1980s. It also specifies Ghana\u2019s experiences as political actors and factors in this West African state impact its evolving economic policy."
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+              target: "_blank",
               href: "https://www.taylorfrancis.com/chapters/edit/10.4324/9781351018982-2/politicizing-economic-reform-africa-lord-mawuko-yevugah?context=ubx",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
                 className: "btn btn-primary",
@@ -6252,6 +6282,7 @@ function ResearchThree() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
               children: "The variance in the disposition to chiefs is identified as deeply rooted in a long-standing debate over the relationship between modernity and tradition. This study explores this debate, adopting the Ghanaian chieftaincy institution in its modern form as a case study. A synthesis of existing literature on the relevant concepts was developed and discussed in the development of the study. The study identified the major debate on tradition and modernity to be situated in a binary school, where one strand believes they can both exist together, and the other situates their argument in the need to abolish tradition completely from modern societies. For the Ghanaian setting, however, the chieftaincy institution is recognised and accorded its autonomy in the 1992 Constitution of Ghana."
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+              target: "_blank",
               href: "https://www.researchgate.net/publication/354381457_Chieftaincy_and_traditional_authority_in_modern_democratic_Ghana",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
                 className: "btn btn-primary",
@@ -6306,6 +6337,7 @@ function ResearchTwo() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
               children: "What space has opened, with the democratic transition in Ghana, for counter-hegemonic civil society organisation from below? What is the nature of this space? These are some of the questions that will be used to interrogate the \u201Cdemocratic state\u201D of Ghana and the nature of the political space for \u2018radical activism\u2019 or progressive politics in civil society. And then to press the thesis that the political agency of the subaltern class should be the linchpin in any theory or political programme of the Left that sees civil society as playing \u2018a disciplinary role in relation to the [neo-liberal] state\u2019 (White, 2004); counteracting and resisting its harsh market fundamentalist policies which have \u2018[made] people\u2019s livelihoods more and more precarious' in Ghana. Simply put, this paper argues that a \u201Cbottom-up\u201D civil society, as against a \u201Ctop-down\u201D one, is the ideal \u201Ccivil society\u201D for the subalterns."
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+              target: "_blank",
               href: "https://www.researchgate.net/publication/342467580_Liberal_Democracy_and_Civil_Society_from_Below_in_Ghana_Can_the_Subalterns_Act",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
                 className: "btn btn-primary",
