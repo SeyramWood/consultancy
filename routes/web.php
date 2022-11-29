@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 // welcome route
+
+Route::get('/config', function ()
+{
+   Artisan::call("config:clear");
+   Artisan::call("cache:clear");
+   Artisan::call("config:cache");
+   
+   return "Done";
+   
+});
+
 Route::get('/', 'PageController@index');
 
 // about route
@@ -29,4 +40,7 @@ Route::get('/publications', 'PageController@publications');
 
 //test
 Route::get("/test", 'PageController@test');
+
+// section
+Route::get("/section", 'PageController@section');
 

@@ -1,10 +1,10 @@
-function ResearchComponent() {
+function ArticleFour() {
     return (
         <>
           <div className="mb-5">
               <img
                 className="img-fluid w-100 mb-4"
-                src="template/img/img/dr2.jpg"
+                src="template/img/img/ceo1.jpg"
                 alt="Image"
                 style={{ width: "100%", height: "500px" }}
               />
@@ -80,4 +80,4 @@ function ResearchComponent() {
       );
 }
 
-export default ResearchComponent;
+export default ArticleFour;

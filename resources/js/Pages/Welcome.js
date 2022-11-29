@@ -28,14 +28,14 @@ function Welcome() {
                                         Laundry &amp; Dry Cleaning
                                     </h4> */}
                                     <h3 className="display-3 text-white mb-md-3">
-                                        CENTRE FOR DIPLOMACY &amp; GLOBAL ENGAGEMENT
+                                        CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
                                     </h3>
-                                    <a
-                                        href=""
+                                    <Link
+                                        href="/about"
                                         className="btn btn-primary py-md-3 px-md-5 mt-2"
                                     >
                                         Learn More
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ function Welcome() {
                                         Laundry &amp; Dry Cleaning
                                     </h4> */}
                                     <h3 className="display-3 text-white mb-md-4">
-                                        CENTRE FOR DIPLOMACY &amp; GLOBAL ENGAGEMENT
+                                        CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
                                     </h3>
                                     <Link
                                         href=""
@@ -140,8 +140,47 @@ function Welcome() {
             </div>
             {/* Contact Info End */}
 
+            {/* Who we are */}
+            <div className="container-fluid pt-5">
+                <div className="container">
+
+                    <h1 className="display-4 text-green border-bottom  text-center ">Who We Are</h1>
+                    <div className="container mb-5">
+                        <h4 className="text-center" style={{ marginTop: "40px" }}> <b> Our Purpose</b></h4>
+                        <p>
+                            The purpose of the Centre is to serve as a hub for providing cutting edge research
+                            and training in foreign and public policy analysis using multi-disciplinary perspectives,
+                            theoretical concepts and empirical evidence and contribute towards the design and
+                            implementation of
+                            effective policies on various aspects of Ghana’s foreign and diplomatic relations.
+                        </p>
+                    </div>
+                    <div className="mb-5">
+                        <h4 className="text-center"> <b>Our Vision</b> </h4>
+                        <p>
+                            The vision of the Centre is to become the leading hub for research and training in foreign policy,
+                            diplomacy and Africa’s global relations, and to provide the intellectual space for a balanced dialogue
+                            and debate on global issues and in helping to provide an African input
+                            inshaping global affairs in order to help build a fairer and equitable global system.
+                        </p>
+                    </div>
+                    <div className="mb-5">
+                        <h4 className="text-center"> <b> Our Mission</b> </h4>
+                        <p>
+                            The Centre is committed to advancing academic and professional excellence inforeign
+                            policy and diplomacy, through innovative research and advocacy, and preparing
+                            transformational leaders and policy makers who are dedicated to confronting the critical
+                            challenges of the changing global environment.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            {/* end of who we are */}
+
             {/* Custom research */}
-            <div className="container"  >
+            {/* <div className="container"  >
 
                 <div className="row" >
                     <div className="border-bottom" style={{ width: "100%" }}>
@@ -222,7 +261,7 @@ function Welcome() {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
             {/* End Custom research */}
 
             {/* custom events */}
@@ -241,54 +280,54 @@ function Welcome() {
 
                                 <div className="col-4 ">
                                     <Link href="/events">
-                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                   </Link>
+                                        <img src="template/img/img/economy.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    </Link>
 
-                                   </div>
+                                </div>
                                 <div className="col-8 ">
 
-                                    <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
+                                    <h6 style={{ fontSize: "12px" }}>PREVIOUS EVENT</h6>
                                     <Link href="/events">
-                                        <h6><b>(CFDGE) LAUNCING</b></h6>
+                                        <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAIN WAR & GHANA'S ECONOMIC CRISIS</b></h6>
                                     </Link>
-                                    <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
-                                    </p>
+                                    <p className="pb-0 mb-0" style={{ fontSize: "12px" }}>Date: Thursday, September 22nd 2022 </p>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Law School Moot Court Auditorium</span>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
                             <div className="row ">
-                            <div className="col-4 ">
+                                <div className="col-4 ">
                                     <Link href="/events">
-                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                   </Link>
+                                        <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    </Link>
 
-                                   </div>
+                                </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/events">
-                                        <h6><b>(CFDGE) LAUNCING</b></h6>
+                                        <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
                                     </Link>
-                                    <p className="" style={{ fontSize: "14px" }}>Date: Jan 14 Venue: South Africa
-                                    </p>
+                                    <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre</span>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
                             <div className="row">
-                            <div className="col-4 ">
+                                <div className="col-4 ">
                                     <Link href="/events">
-                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                   </Link>
+                                        <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+                                    </Link>
 
-                                   </div>
+                                </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
                                     <Link href="/events">
-                                        <h6 ><b>(CFDGE) LAUNCING</b></h6>
+                                    <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
                                     </Link>
-                                    <p className="" style={{ fontSize: "12px" }}>Date: Jan 14 Venue: South Africa
-                                    </p>
+                                    <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
+                                    <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre </span>
                                 </div>
                             </div>
                         </div>
@@ -315,80 +354,72 @@ function Welcome() {
                     <div className="row mt-5">
                         <div className="col-lg-4 mb-2">
                             <div className="shadow mb-4">
-                                <div className="position-relative">
+                               <Link
+                                        href="/publications"
+                                        className="text-decoration-none"
+                                       
+                                    >  
+                                    <div className="position-relative">
+                                   
                                     <img
                                         className="img-fluid w-100"
                                         src="template/img/img/dr.png"
                                         alt=""
                                         style={{ height: "225px", width: "" }}
                                     />
-                                    <a
-                                        href=""
-                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
+                                    
+                                   
+                                </div>
+                                <p className="m-0 p-4">
+                                Professor Lord Mawuko-Yevugah has called for a review of the country’s political and public incentive system
+                                </p> </Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <Link
+                                        href="/publications"
+                                        className="text-decoration-none"
                                         style={{
                                             top: 0,
                                             left: 0,
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                    </a>
-                                </div>
-                                <p className="m-0 p-4">
-                                    A development and international relations analyst,
-                                    Professor Lord Mawuko-Yevugah
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 mb-2">
-                            <div className="shadow mb-4">
-                                <div className="position-relative">
+                                        <div className="position-relative">
                                     <img
                                         className="img-fluid w-100"
                                         src="template/img/img/dr2.jpg"
                                         alt=""
                                         style={{ height: "225px", width: "" }}
                                     />
-                                    <a
-                                        href=""
-                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                                        style={{
-                                            top: 0,
-                                            left: 0,
-                                            background: "rgba(0, 0, 0, .4)",
-                                        }}
-                                    >
-                                    </a>
+                                    
                                 </div>
                                 <p className="m-0 p-4">
-                                    A development and international relations analyst,
-                                    Professor Lord Mawuko-Yevugah
+                                Ghana needs to build a robust local economy to withstand future shocks in the economy – Prof Mawuko-Yevugah
                                 </p>
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-2">
                             <div className="shadow mb-4">
-                                <div className="position-relative">
+                                <a
+                                        href="/publications"
+                                        className=" text-decoration-none"
+                                       
+                                    ><div className="position-relative">
                                     <img
                                         className="img-fluid w-100"
-                                        src="template/img/img/dr.png"
+                                        src="template/img/img/article.jpg"
                                         alt=""
                                         style={{ height: "225px", width: "" }}
                                     />
-                                    <a
-                                        href=""
-                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                                        style={{
-                                            top: 0,
-                                            left: 0,
-                                            background: "rgba(0, 0, 0, .4)",
-                                        }}
-                                    >
-                                    </a>
+                                    
+                                   
                                 </div>
                                 <p className="m-0 p-4">
-                                    A development and international relations analyst,
-                                    Professor Lord Mawuko-Yevugah
-                                </p>
+                                Build robust local economy to salvage cedi depreciation – Prof. Mawuko-Yevuga
+                                </p> </a>
                             </div>
                         </div>
                     </div>
@@ -424,7 +455,7 @@ function Welcome() {
                                     <img src="template/img/img/book1.jpeg" className=" float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6><b>Made In Ghana</b></h6>
+                                    <h6><b><a href="https://www.amazon.com/Made-Ghana-Reflections-Governance-Shifts-ebook/dp/B07LG4BJ1X">Made In Ghana</a></b></h6>
                                     <p className="">Made in Ghana is a collection of essays on
                                         wide-ranging issues highlighting the challenges of democratic
                                         governance and
@@ -439,7 +470,7 @@ function Welcome() {
                                     <img src="template/img/img/book2.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6><b>Reinventing Development</b></h6>
+                                    <h6><b><a href="https://www.amazon.com/Reinventing-Development-Technologies-Governance-Contemporary-ebook/dp/B00L508H72">Reinventing Development</a></b></h6>
                                     <p className="">This book shows how
                                         the new architecture of aid has important implications in three
                                         distinct but related ways: the discursive construction and
@@ -454,7 +485,7 @@ function Welcome() {
                                     <img src="template/img/img/book3.jpeg" className="float-right" alt="" style={{ width: "100px", height: "160px" }} />
                                 </div>
                                 <div className="col-8">
-                                    <h6><b><a href="">African Time</a></b></h6>
+                                    <h6><b><a href="https://www.amazon.com/African-Time-Contemporary-Politics-Governance/dp/1481797484">African Time</a></b></h6>
                                     <p className="">AFRICAN TIME In this wide-ranging collection of
                                         essays, Lord Mawuko-Yevugah explores the challenges of political
                                         reform and democratic
@@ -746,13 +777,13 @@ function Welcome() {
                             <div className="shadow mb-4">
                                 <div className="position-relative">
                                     <img
-                                         className="img-fluid"
-                                         style={{width:"100%",height:"230px"}}
+                                        className="img-fluid"
+                                        style={{ width: "100%", height: "230px" }}
                                         src="template/img/img/fb.png"
                                         alt=""
                                     />
                                     <a
-                                        href=""
+                                        href="https://m.facebook.com/SocialistMovementOfGhana/posts/?ref=page_internal&mt_nav=0"
                                         className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
                                         style={{
                                             top: 0,
@@ -760,37 +791,11 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                                     
+
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                   Social Media Test here
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 mb-2">
-                            <div className="shadow mb-4">
-                                <div className="position-relative">
-                                    <img
-                                         className="img-fluid"
-                                         style={{width:"100%",height:"230px"}}
-                                        src="template/img/img/twitter.jpg"
-                                        alt=""
-                                    />
-                                    <a
-                                        href=""
-                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                                        style={{
-                                            top: 0,
-                                            left: 0,
-                                            background: "rgba(0, 0, 0, .4)",
-                                        }}
-                                    >
-                                       
-                                    </a>
-                                </div>
-                                <p className="m-0 p-4">
-                                Social Media Test here
+                                {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -799,7 +804,33 @@ function Welcome() {
                                 <div className="position-relative">
                                     <img
                                         className="img-fluid"
-                                        style={{width:"100%",height:"230px"}}
+                                        style={{ width: "100%", height: "230px" }}
+                                        src="template/img/img/twitter.jpg"
+                                        alt=""
+                                    />
+                                    <a
+                                        href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
+                                        className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
+                                        style={{
+                                            top: 0,
+                                            left: 0,
+                                            background: "rgba(0, 0, 0, .4)",
+                                        }}
+                                    >
+
+                                    </a>
+                                </div>
+                                <p className="m-0 p-4">
+                                {/* The Socialist Movement of Ghana - S.M.G */}
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 mb-2">
+                            <div className="shadow mb-4">
+                                <div className="position-relative">
+                                    <img
+                                        className="img-fluid"
+                                        style={{ width: "100%", height: "230px" }}
                                         src="template/img/img/link.png"
                                         alt=""
                                     />
@@ -812,18 +843,18 @@ function Welcome() {
                                             background: "rgba(0, 0, 0, .4)",
                                         }}
                                     >
-                        
+
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                Social Media Test here
+                                {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
+
             {/* Blog End */}
             <Footer />
         </>

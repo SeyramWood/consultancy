@@ -1,6 +1,19 @@
 import { Link } from "@inertiajs/inertia-react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ArticleOne from "./components/Articles/ArticleOne";
+import ArticleThree from "./components/Articles/ArticleThree";
+import ArticleTwo from "./components/Articles/ArticleFour";
+
+import BookOne from "./components/Books/BookOne";
+import BookTwo from "./components/Books/BookTwo";
+import BookThree from "./components/Books/BookThree";
+import ResearchOne from "./components/Research/ResearchOne";
+import ResearchTwo from "./components/Research/ResearchTwo";
+import ResearchThree from "./components/Research/ResearchThree";
+import BookFour from "./components/Books/BookFour";
+
+
 
 function Publication() {
   return (
@@ -21,7 +34,7 @@ function Publication() {
                 </Link>
                 <i className="fas fa-angle-right text-white" />
                 <a className="btn text-white disabled" href="">
-                  Detail
+                  Publications
                 </a>
               </div>
             </div>
@@ -34,310 +47,71 @@ function Publication() {
         <div className="row">
           {/* Blog Detail Start */}
           <div className="col-lg-8">
-            <div className="d-flex flex-column text-left mb-4">
-              {/* <h6 className="text-primary font-weight-normal text-uppercase mb-3">
-                Publications
-              </h6> */}
-              <h1 className="mb-4 text-green tsection-title">
-                Diam dolor est ipsum clita lore
-              </h1>
-              <div className="d-index-flex mb-2">
-                <span className="mr-3">
-                  <i className="fa fa-user text-primary" /> Admin
-                </span>
-                <span className="mr-3">
-                  <i className="fa fa-folder text-primary" /> Web Design
-                </span>
-                <span className="mr-3">
-                  <i className="fa fa-comments text-primary" /> 15
-                </span>
-              </div>
+          <div className="tab-content" id="v-pills-tabContent">
+            {/* Articles content */}
+           
+            {/* Book content */}
+            <div
+              className="tab-pane fade show active"
+              id="v-pills-book1"
+              role="tabpanel"
+              aria-labelledby="v-pills-book1-tab"
+            >
+              <BookOne />
             </div>
-            <div className="mb-5">
-              <img
-                className="img-fluid w-100 mb-4"
-                src="template/img/img/dr2.jpg"
-                alt="Image"
-                style={{ width: "100%", height: "500px" }}
-              />
-              <p>
-                Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum
-                sit diam ut magna lorem. Nonumy vero labore lorem sanctus rebum et
-                lorem magna kasd, stet amet magna accusam consetetur eirmod. Kasd
-                accusam sit ipsum sadipscing et at at sanctus et. Ipsum sit
-                gubergren dolores et, consetetur justo invidunt at et aliquyam ut et
-                vero clita. Diam sea sea no sed dolores diam nonumy, gubergren sit
-                stet no diam kasd vero.
-              </p>
-              <p>
-                Voluptua est takimata stet invidunt sed rebum nonumy stet, clita
-                aliquyam dolores vero stet consetetur elitr takimata rebum sanctus.
-                Sit sed accusam stet sit nonumy kasd diam dolores, sanctus lorem
-                kasd duo dolor dolor vero sit et. Labore ipsum duo sanctus amet eos
-                et. Consetetur no sed et aliquyam ipsum justo et, clita lorem sit
-                vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                justo dolore sit invidunt.
-              </p>
-              <h2 className="mb-4">Est dolor lorem et ea</h2>
-              <img
-                className="img-fluid w-50 float-left mr-4 mb-3"
-                src="img/blog-1.jpg"
-                alt="Image"
-              />
-              <p>
-                Diam dolor est labore duo invidunt ipsum clita et, sed et lorem
-                voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit
-                kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos.
-                Clita no magna no dolor erat diam tempor rebum consetetur, sanctus
-                labore sed nonumy diam lorem amet eirmod. No at tempor sea diam
-                kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren
-                at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam
-                dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea
-                eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit
-                ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod
-                kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd
-                clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et
-                ut. Ea sed sadipscing no justo et eos labore, gubergren ipsum magna
-                dolor lorem dolore, elitr aliquyam takimata sea kasd dolores diam,
-                amet et est accusam labore eirmod vero et voluptua. Amet labore
-                clita duo et no. Rebum voluptua magna eos magna, justo gubergren
-                labore sit voluptua eos.
-              </p>
-              <h3 className="mb-4">Est dolor lorem et ea</h3>
-              <img
-                className="img-fluid w-50 float-right ml-4 mb-3"
-                src="img/blog-2.jpg"
-                alt="Image"
-              />
-              <p>
-                Diam dolor est labore duo invidunt ipsum clita et, sed et lorem
-                voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit
-                kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos.
-                Clita no magna no dolor erat diam tempor rebum consetetur, sanctus
-                labore sed nonumy diam lorem amet eirmod. No at tempor sea diam
-                kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren
-                at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam
-                dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea
-                eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit
-                ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod
-                kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd
-                clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et
-                ut. Ea sed sadipscing no justo et eos labore, gubergren ipsum magna
-                dolor lorem dolore, elitr aliquyam takimata sea kasd dolores diam,
-                amet et est accusam labore eirmod vero et voluptua. Amet labore
-                clita duo et no.
-              </p>
+            <div
+              className="tab-pane fade"
+              id="v-pills-book2"
+              role="tabpanel"
+              aria-labelledby="v-pills-book2-tab"
+            >
+              <BookTwo />
             </div>
-            {/* Related Post Start */}
-            <div className="mb-5">
-              <h3 className="font-weight-bold mb-4">Related Post</h3>
-              <div className="owl-carousel related-carousel position-relative">
-                <div className="bg-light">
-                  <div className="position-relative">
-                    <img className="img-fluid w-100" src="img/blog-1.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
-                      <h4 className="text-center text-white font-weight-medium mb-3">
-                        Dolor site amet clita kasd sanct ipsum
-                      </h4>
-                      <div className="d-flex text-light">
-                        <small className="mr-2">
-                          <i className="fa fa-user text-secondary" /> Admin
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-folder text-secondary" /> Web Design
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-comments text-secondary" /> 15
-                        </small>
-                      </div>
-                    </a>
-                  </div>
-                  <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
-                    ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
-                    labore. Lorem et lorem amet sed sed kasd ipsum rebum
-                  </p>
-                </div>
-                <div className="bg-light">
-                  <div className="position-relative">
-                    <img className="img-fluid w-100" src="img/blog-2.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
-                      <h4 className="text-center text-white font-weight-medium mb-3">
-                        Dolor site amet clita kasd sanct ipsum
-                      </h4>
-                      <div className="d-flex text-light">
-                        <small className="mr-2">
-                          <i className="fa fa-user text-secondary" /> Admin
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-folder text-secondary" /> Web Design
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-comments text-secondary" /> 15
-                        </small>
-                      </div>
-                    </a>
-                  </div>
-                  <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
-                    ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
-                    labore. Lorem et lorem amet sed sed kasd ipsum rebum
-                  </p>
-                </div>
-                <div className="bg-light">
-                  <div className="position-relative">
-                    <img className="img-fluid w-100" src="img/blog-3.jpg" alt="" />
-                    <a
-                      href=""
-                      className="position-absolute w-100 h-100 d-flex flex-column align-items-center justify-content-center   text-decoration-none p-4"
-                      style={{ top: 0, left: 0, background: "rgba(0, 0, 0, .4)" }}
-                    >
-                      <h4 className="text-center text-white font-weight-medium mb-3">
-                        Dolor site amet clita kasd sanct ipsum
-                      </h4>
-                      <div className="d-flex text-light">
-                        <small className="mr-2">
-                          <i className="fa fa-user text-secondary" /> Admin
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-folder text-secondary" /> Web Design
-                        </small>
-                        <small className="mr-2">
-                          <i className="fa fa-comments text-secondary" /> 15
-                        </small>
-                      </div>
-                    </a>
-                  </div>
-                  <p className="m-0 p-4">
-                    Amet dolores labore magna et amet tempor dolor et dolor. Et sit
-                    ipsum et eos rebum labore ea labore sea. Et sed elitr labore sed
-                    labore. Lorem et lorem amet sed sed kasd ipsum rebum
-                  </p>
-                </div>
-              </div>
+            <div
+              className="tab-pane fade"
+              id="v-pills-book3"
+              role="tabpanel"
+              aria-labelledby="v-pills-book3-tab"
+            >
+              <BookThree />
             </div>
-            {/* Related Post End */}
-            {/* Comment List Start */}
-            <div className="mb-5">
-              <h3 className="font-weight-bold mb-4">3 Comments</h3>
-              <div className="media mb-4">
-                <img
-                  src="img/user.jpg"
-                  alt="Image"
-                  className="img-fluid mr-3 mt-1"
-                  style={{ width: 45 }}
-                />
-                <div className="media-body">
-                  <h6>
-                    John Doe{" "}
-                    <small>
-                      <i>01 Jan 2045 at 12:00pm</i>
-                    </small>
-                  </h6>
-                  <p>
-                    Diam amet duo labore stet elitr invidunt ea clita ipsum
-                    voluptua, tempor labore accusam ipsum et no at. Kasd diam tempor
-                    rebum magna dolores sed sed eirmod ipsum. Gubergren clita
-                    aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor
-                    consetetur at sit.
-                  </p>
-                  <button className="btn btn-sm btn-light">Reply</button>
-                </div>
-              </div>
-              <div className="media mb-4">
-                <img
-                  src="img/user.jpg"
-                  alt="Image"
-                  className="img-fluid mr-3 mt-1"
-                  style={{ width: 45 }}
-                />
-                <div className="media-body">
-                  <h6>
-                    John Doe{" "}
-                    <small>
-                      <i>01 Jan 2045 at 12:00pm</i>
-                    </small>
-                  </h6>
-                  <p>
-                    Diam amet duo labore stet elitr invidunt ea clita ipsum
-                    voluptua, tempor labore accusam ipsum et no at. Kasd diam tempor
-                    rebum magna dolores sed sed eirmod ipsum. Gubergren clita
-                    aliquyam consetetur sadipscing, at tempor amet ipsum diam tempor
-                    consetetur at sit.
-                  </p>
-                  <button className="btn btn-sm btn-light">Reply</button>
-                  <div className="media mt-4">
-                    <img
-                      src="img/user.jpg"
-                      alt="Image"
-                      className="img-fluid mr-3 mt-1"
-                      style={{ width: 45 }}
-                    />
-                    <div className="media-body">
-                      <h6>
-                        John Doe{" "}
-                        <small>
-                          <i>01 Jan 2045 at 12:00pm</i>
-                        </small>
-                      </h6>
-                      <p>
-                        Diam amet duo labore stet elitr invidunt ea clita ipsum
-                        voluptua, tempor labore accusam ipsum et no at. Kasd diam
-                        tempor rebum magna dolores sed sed eirmod ipsum. Gubergren
-                        clita aliquyam consetetur sadipscing, at tempor amet ipsum
-                        diam tempor consetetur at sit.
-                      </p>
-                      <button className="btn btn-sm btn-light">Reply</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div
+              className="tab-pane fade"
+              id="v-pills-book4"
+              role="tabpanel"
+              aria-labelledby="v-pills-book4-tab"
+            >
+              <BookFour />
             </div>
-            {/* Comment List End */}
-            {/* Comment Form Start */}
-            <div className="bg-light p-5">
-              <h3 className="font-weight-bold mb-4">Leave a comment</h3>
-              <form>
-                <div className="form-group">
-                  <label htmlFor="name">Name *</label>
-                  <input type="text" className="form-control" id="name" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email *</label>
-                  <input type="email" className="form-control" id="email" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="website">Website</label>
-                  <input type="url" className="form-control" id="website" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">Message *</label>
-                  <textarea
-                    id="message"
-                    cols={30}
-                    rows={5}
-                    className="form-control"
-                    defaultValue={""}
-                  />
-                </div>
-                <div className="form-group mb-0">
-                  <input
-                    type="submit"
-                    defaultValue="Leave Comment"
-                    className="btn btn-primary px-3"
-                  />
-                </div>
-              </form>
+
+            {/* Research content */}
+            <div
+              className="tab-pane fade"
+              id="v-pills-research1"
+              role="tabpanel"
+              aria-labelledby="v-pills-research1-tab"
+            >
+              <ResearchOne />
             </div>
-            {/* Comment Form End */}
+            <div
+              className="tab-pane fade"
+              id="v-pills-research2"
+              role="tabpanel"
+              aria-labelledby="v-pills-reserch2-tab"
+            >
+              <ResearchTwo />
+            </div>
+            <div
+              className="tab-pane fade"
+              id="v-pills-research3"
+              role="tabpanel"
+              aria-labelledby="v-pills-research3-tab"
+            >
+               <ResearchThree />
+            </div>
+            
+          </div>
+           
           </div>
           {/* Blog Detail End */}
           {/* Sidebar Start */}
@@ -347,63 +121,9 @@ function Publication() {
             <div className="mb-5">
               <h3 className="font-weight-bold mb-4">Categories</h3>
               <ul className="list-group">
-                <a href="">
-                  <li className="list-group-item d-flex justify-content-between align-items-center">
-                    <div className="dropdown">
-                      <div
-                        // className="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                       Articles
-                      </div>
-                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="nav-link" href="#">
-                          Article One
-                        </a>
-                        <a className="nav-link" href="#">
-                          Article Two
-                        </a>
-                        <a className="nav-link" href="#">
-                          Acticle Three
-                        </a>
-                      </div>
-                    </div>
-                  </li>
-                </a>
-
-                <a href="">
-                  <li className="list-group-item d-flex justify-content-between align-items-center">
-                    <div className="dropdown">
-                      <div
-                        // className="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        Researches
-                      </div>
-                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="nav-link" href="#">
-                          Research one
-                        </a>
-                        <a className="nav-link" href="#">
-                          Research two
-                        </a>
-                        <a className="nav-link" href="#">
-                          Research three
-                        </a>
-                      </div>
-                    </div>
-
-                   </li>
-                </a>
-
+                {/* Articles */}
+                
+                {/* Books */}
                 <a href="">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
                     <div className="dropdown">
@@ -418,22 +138,187 @@ function Publication() {
                         Books
                       </div>
                       <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="nav-link" href="#">
-                          Books one
-                        </a>
-                        <a className="nav-link" href="#">
-                          Books two
-                        </a>
-                        <a className="nav-link" href="#">
-                          Books three
-                        </a>
+
+                        <div
+                          className="nav flex-column nav-pills"
+                          id="v-pills-tab"
+                          role="tablist"
+                          aria-orientation="vertical"
+                        >
+                          <a
+                            className="nav-link"
+                            id="v-pills-book1-tab"
+                            data-toggle="pill"
+                            href="#v-pills-book1"
+                            role="tab"
+                            aria-controls="v-pills-book1"
+                            aria-selected="true"
+                          >
+                           Made In Ghana
+                          </a>
+                          <a
+                            className="nav-link"
+                            id="v-pills-book2-tab"
+                            data-toggle="pill"
+                            href="#v-pills-book2"
+                            role="tab"
+                            aria-controls="v-pills-book2"
+                            aria-selected="false"
+                          >
+                            Reinventing Development
+                          </a>
+                          <a
+                            className="nav-link"
+                            id="v-pills-book3-tab"
+                            data-toggle="pill"
+                            href="#v-pills-book3"
+                            role="tab"
+                            aria-controls="v-pills-book3"
+                            aria-selected="false"
+                          >
+                            Modern Ghana
+                          </a>
+                          <a
+                            className="nav-link"
+                            id="v-pills-book4-tab"
+                            data-toggle="pill"
+                            href="#v-pills-book4"
+                            role="tab"
+                            aria-controls="v-pills-book4"
+                            aria-selected="false"
+                          >
+                            African Youth Cultures
+                          </a>
+                          
+                        </div>
                       </div>
                     </div>
-
-                   </li>
+                  </li>
                 </a>
+                {/* Research */}
+                <a href="">
+                  <li className="list-group-item d-flex justify-content-between align-items-center">
+                    <div className="dropdown">
+                      <div
+                        // className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Research
+                      </div>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
+                        <div
+                          className="nav flex-column nav-pills"
+                          id="v-pills-tab"
+                          role="tablist"
+                          aria-orientation="vertical"
+                        >
+                          <a
+                            className="nav-link "
+                            id="v-pills-research1-tab"
+                            data-toggle="pill"
+                            href="#v-pills-research1"
+                            role="tab"
+                            aria-controls="v-pills-research1"
+                            aria-selected="true"
+                          >
+                           Economic Reform
+                          </a>
+                          <a
+                            className="nav-link"
+                            id="v-pills-research2-tab"
+                            data-toggle="pill"
+                            href="#v-pills-research2"
+                            role="tab"
+                            aria-controls="v-pills-research2"
+                            aria-selected="false"
+                          >
+                            Liberal Democracy
+                          </a>
+                          <a
+                            className="nav-link"
+                            id="v-pills-research3-tab"
+                            data-toggle="pill"
+                            href="#v-pills-research3"
+                            role="tab"
+                            aria-controls="v-pills-research3"
+                            aria-selected="false"
+                          >
+                            Traditional Authority In Ghana
+                          </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </a>
+                <a href="">
+                  <li className="list-group-item d-flex justify-content-between align-items-center">
+                    <div className="dropdown">
+                      <div
+                        // className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Articles
+                      </div>
+                      <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
+                        <div
+                          className="nav flex-column nav-pills"
+                          id="v-pills-tab"
+                          role="tablist"
+                          aria-orientation="vertical"
+                        >
+                          <a
+                            className="nav-link active"
+                            // id="v-pills-a1-tab"
+                            // data-toggle="pill"
+                            // href="#v-pills-a1"
+                            href="https://newsghana.com.gh/ghana-needs-to-build-a-robust-local-economy-prof-mawuko-yevugah/?amp"
+                            // role="tab"
+                            // aria-controls="v-pills-a1"
+                            // aria-selected="true"
+                          >
+                            A Robust Local Economy
+                          </a>
+                          <a
+                            className="nav-link"
+                            // id="v-pills-a2-tab"
+                            // data-toggle="pill"
+                            // href="#v-pills-a2"
+                            href="https://mobile.ghanaweb.com/GhanaHomePage/business/Cut-down-freebies-for-appointees-Prof-Yevugah-urges-government-1635488"
+                            // role="tab"
+                            // aria-controls="v-pills-a2"
+                            // aria-selected="false"
+                          >
+                            Cut down freebies 
+                          </a>
+                          <a
+                            className="nav-link"
+                            // id="v-pills-a3-tab"
+                            // data-toggle="pill"
+                            // href="#v-pills-a3"
+                            href="https://www.graphic.com.gh/news/politics/review-political-incentive-system-development-analyst.html"
+                            // role="tab"
+                            // aria-controls="v-pills-a3"
+                            // aria-selected="false"
+                          >
+                            Review of the country’s incentive
+                          </a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </a>
               </ul>
             </div>
 

@@ -170,7 +170,7 @@ function Service() {
             commitment to multilateralism through relevant global institutions. 
             The country has also contributed its fair share of human resources in 
             the form of a generation of distinguished Ghanaian diplomats and 
-            international public servants. Centre For Diplomacy And Global Engagement 
+            international public servants. Centre For African Diplomacy And Global Engagement 
             (CFDGE) was conceived and envisioned as an independent, 
             non-governmental, non-profit think-tank whose vision is to become 
             the leading African voice on global affairs and Africa’s diplomatic 
