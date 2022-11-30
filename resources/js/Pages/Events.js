@@ -34,211 +34,212 @@ function Events() {
           {/* News Grid Start */}
           <div className="container">
             <div className="col-lg-12">
-            <div className="row">
-              {/* modal 1 display */}
-              <div
-                className="modal fade bd-example-modal-lg1"
-                tabIndex={-1}
-                role="dialog"
-                aria-labelledby="myLargeModalLabel1"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog modal-lg"
-                  role="document">
+              <div className="row">
+                {/* modal 1 display */}
+                <div
+                  className="modal fade bd-example-modal-lg1"
+                  tabIndex={-1}
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel1"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog modal-lg"
+                    role="document">
 
-                  <div className="modal-content">
-                    <div className="modal-body">
-                      <div className="container ">
-                        <div className="row m-4">
-                          <div className="col-12 text-center cursor-pointer">
-                            <img src="template/img/img/economy.jpeg" className="img-fluid " style={{ height: "300px", width: "80%" }} alt="" />
-                          </div>
-                          <div className="col-12 ">
-                            <h5 className="text-green pt-4">
-                              <b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b>
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <div className="container ">
+                          <div className="row m-4">
+                            <div className="col-12 text-center cursor-pointer">
+                              <img src="template/img/img/economy.jpeg" className="img-fluid " style={{ height: "300px", width: "80%" }} alt="" />
+                            </div>
+                            <div className="col-12 ">
+                              <h5 className="text-green pt-4">
+                                <b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b>
 
-                            </h5>
-                            <p className="text-left">
-                              <b className="text-left ">Theme: </b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
-                            </p>
-                            <p>
-                              <b>Guest Speaker: </b> Prof. Lord Mawuko-Yevugah
-                            </p>
-                            <p>
-                              <b>Date: </b> Thursday, September 2, 2022
-                            </p>
-                            <p>
-                              <b>Time: </b> 11:00 AM
-                            </p>
-                            <p>
-                              <b>Venue: </b> GIMPA Law School Moot Court Auditorium
-                            </p>
+                              </h5>
+                              <p className="text-left">
+                                <b className="text-left ">Theme: </b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
+                              </p>
+                              <p>
+                                <b>Guest Speaker: </b> Prof. Lord Mawuko-Yevugah
+                              </p>
+                              <p>
+                                <b>Date: </b> Thursday, September 2, 2022
+                              </p>
+                              <p>
+                                <b>Time: </b> 11:00 AM
+                              </p>
+                              <p>
+                                <b>Venue: </b> GIMPA Law School Moot Court Auditorium
+                              </p>
+                            </div>
                           </div>
                         </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-primary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
                       </div>
-                      <div className="modal-footer">
-                        <button
-                          type="button"
-                          className="btn btn-primary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                      </div>
+
                     </div>
 
                   </div>
-
                 </div>
-              </div>
-              {/* end modal 1 display */}
-              {/* card one */}
-              <div className="col-md-6 mb-2 " data-toggle="modal"
-                data-target=".bd-example-modal-lg1">
-                <div className="bg-light mb-4" style={{cursor:"pointer"}}>
-                  <div className="position-relative">
-                    <img className="img-fluid w-100 " src="template/img/img/economy.jpeg" style={{ height: "300px" }} alt="" />
+                {/* end modal 1 display */}
+                {/* card one */}
+                <div className="col-md-6 mb-2 "
+                  data-toggle="modal"
+                  data-target=".bd-example-modal-lg1">
+                  <div className="bg-light mb-4" style={{ cursor: "pointer" }}>
+                    <div className="position-relative">
+                      <img className="img-fluid w-100 " src="template/img/img/economy.jpeg" style={{ height: "300px" }} alt="" />
 
+                    </div>
+                    <h5 className="text-green m-0 p-3">
+
+                      COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
+
+                    </h5>
                   </div>
-                  <h5 className="text-green m-0 p-3">
-
-                  COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
-
-                  </h5>
                 </div>
-              </div>
-             
-              {/* modal two display */}
-              <div
-                className="modal fade bd-example-modal-lg2"
-                tabIndex={-1}
-                role="dialog"
-                aria-labelledby="myLargeModalLabel2"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog modal-lg"
-                  role="document">
 
-                  <div className="modal-content">
-                    <div className="modal-body">
-                      <div className="container">
-                      <div className="row m-4">
-                          <div className="col-12 text-center">
-                            <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "300px", width: "80%" }} alt="" />
-                          </div>
-                          <div className="col-12 ">
-                            <h5 className="text-green pt-4">
-                              <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+                {/* modal two display */}
+                <div
+                  className="modal fade bd-example-modal-lg2"
+                  tabIndex={-1}
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel2"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog modal-lg"
+                    role="document">
 
-                            </h5>
-                            <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
-                            </p>
-                            <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
-                            </p>
-                            <p>
-                              <b>Date: </b> Thursday, December 1, 2022
-                            </p>
-                            <p>
-                              <b>Time: </b> 10:00 AM
-                            </p>
-                            <p>
-                              <b>Venue: </b> GIMPA Executive Conference Centre
-                            </p>
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <div className="container">
+                          <div className="row m-4">
+                            <div className="col-12 text-center">
+                              <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "300px", width: "80%" }} alt="" />
+                            </div>
+                            <div className="col-12 ">
+                              <h5 className="text-green pt-4">
+                                <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+
+                              </h5>
+                              <p className="text-left">
+                                <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
+                              </p>
+                              <p>
+                                <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
+                              </p>
+                              <p>
+                                <b>Date: </b> Thursday, December 1, 2022
+                              </p>
+                              <p>
+                                <b>Time: </b> 10:00 AM
+                              </p>
+                              <p>
+                                <b>Venue: </b> GIMPA Executive Conference Centre
+                              </p>
+                            </div>
                           </div>
                         </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-primary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
                       </div>
-                      <div className="modal-footer">
-                        <button
-                          type="button"
-                          className="btn btn-primary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                      </div>
+
                     </div>
 
                   </div>
-
                 </div>
-              </div>
-              {/* en of modal two display */}
-              {/* card two */}
-              <div className="col-md-6 mb-2" data-toggle="modal"
-                data-target=".bd-example-modal-lg2">
-                <div className="bg-light mb-4" style={{cursor:"pointer"}}>
-                  <div className="position-relative">
-                    <img className="img-fluid w-100" src="template/img/img/1.jpeg" style={{ height: "300px" }} alt="" />
+                {/* en of modal two display */}
+                {/* card two */}
+                <div className="col-md-6 mb-2" data-toggle="modal"
+                  data-target=".bd-example-modal-lg2">
+                  <div className="bg-light mb-4" style={{ cursor: "pointer" }}>
+                    <div className="position-relative">
+                      <img className="img-fluid w-100" src="template/img/img/1.jpeg" style={{ height: "300px" }} alt="" />
 
+                    </div>
+                    <h5 className="text-green m-0 p-3">
+
+                      LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
+
+                    </h5>
                   </div>
-                  <h5 className="text-green m-0 p-3">
-
-                    LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
-
-                  </h5>
                 </div>
-              </div>
-              {/* modal 3 display */}
-              <div
-                className="modal fade bd-example-modal-lg3"
-                tabIndex={-1}
-                role="dialog"
-                aria-labelledby="myLargeModalLabel3"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog modal-lg"
-                  role="document">
+                {/* modal 3 display */}
+                <div
+                  className="modal fade bd-example-modal-lg3"
+                  tabIndex={-1}
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel3"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog modal-lg"
+                    role="document">
 
-                  <div className="modal-content">
-                    <div className="modal-body">
-                      <div className="container">
-                      <div className="row m-4">
-                          <div className="col-12 text-center">
-                            <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "200px", width: "80%" }} alt="" />
-                          </div>
-                          <div className="col-12 ">
-                            <h5 className="text-green pt-4">
-                              <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <div className="container">
+                          <div className="row m-4">
+                            <div className="col-12 text-center">
+                              <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "200px", width: "80%" }} alt="" />
+                            </div>
+                            <div className="col-12 ">
+                              <h5 className="text-green pt-4">
+                                <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
 
-                            </h5>
-                            <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
-                            </p>
-                            <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
-                            </p>
-                            <p>
-                              <b>Date: </b> Thursday, December 1, 2022
-                            </p>
-                            <p>
-                              <b>Time: </b> 10:00 AM
-                            </p>
-                            <p>
-                              <b>Venue: </b> GIMPA Executive Conference Centre
-                            </p>
+                              </h5>
+                              <p className="text-left">
+                                <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
+                              </p>
+                              <p>
+                                <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
+                              </p>
+                              <p>
+                                <b>Date: </b> Thursday, December 1, 2022
+                              </p>
+                              <p>
+                                <b>Time: </b> 10:00 AM
+                              </p>
+                              <p>
+                                <b>Venue: </b> GIMPA Executive Conference Centre
+                              </p>
+                            </div>
                           </div>
                         </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-primary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
                       </div>
-                      <div className="modal-footer">
-                        <button
-                          type="button"
-                          className="btn btn-primary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                      </div>
+
                     </div>
 
                   </div>
-
                 </div>
-              </div>
-              {/* end of  modal 3 display */}
-              {/* card three */}
-              {/* <div className="col-md-6 mb-2" data-toggle="modal"
+                {/* end of  modal 3 display */}
+                {/* card three */}
+                {/* <div className="col-md-6 mb-2" data-toggle="modal"
                 data-target=".bd-example-modal-lg3">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
@@ -254,65 +255,65 @@ function Events() {
 
                
               </div> */}
-              {/* modal 4 display */}
-              <div
-                className="modal fade bd-example-modal-lg4"
-                tabIndex={-1}
-                role="dialog"
-                aria-labelledby="myLargeModalLabel4"
-                aria-hidden="true"
-              >
-                <div className="modal-dialog modal-lg"
-                  role="document">
+                {/* modal 4 display */}
+                <div
+                  className="modal fade bd-example-modal-lg4"
+                  tabIndex={-1}
+                  role="dialog"
+                  aria-labelledby="myLargeModalLabel4"
+                  aria-hidden="true"
+                >
+                  <div className="modal-dialog modal-lg"
+                    role="document">
 
-                  <div className="modal-content">
-                    <div className="modal-body">
-                      <div className="container">
-                      <div className="row m-4">
-                          <div className="col-12 text-center">
-                            <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "200px", width: "80%" }} alt="" />
-                          </div>
-                          <div className="col-12 ">
-                            <h5 className="text-green pt-4">
-                              <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+                    <div className="modal-content">
+                      <div className="modal-body">
+                        <div className="container">
+                          <div className="row m-4">
+                            <div className="col-12 text-center">
+                              <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "200px", width: "80%" }} alt="" />
+                            </div>
+                            <div className="col-12 ">
+                              <h5 className="text-green pt-4">
+                                <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
 
-                            </h5>
-                            <p className="text-left">
-                              <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
-                            </p>
-                            <p>
-                              <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
-                            </p>
-                            <p>
-                              <b>Date: </b> Thursday, December 1, 2022
-                            </p>
-                            <p>
-                              <b>Time: </b> 10:00 AM
-                            </p>
-                            <p>
-                              <b>Venue: </b> GIMPA Executive Conference Centre
-                            </p>
+                              </h5>
+                              <p className="text-left">
+                                <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
+                              </p>
+                              <p>
+                                <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
+                              </p>
+                              <p>
+                                <b>Date: </b> Thursday, December 1, 2022
+                              </p>
+                              <p>
+                                <b>Time: </b> 10:00 AM
+                              </p>
+                              <p>
+                                <b>Venue: </b> GIMPA Executive Conference Centre
+                              </p>
+                            </div>
                           </div>
                         </div>
+                        <div className="modal-footer">
+                          <button
+                            type="button"
+                            className="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
                       </div>
-                      <div className="modal-footer">
-                        <button
-                          type="button"
-                          className="btn btn-secondary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                      </div>
+
                     </div>
 
                   </div>
-
                 </div>
-              </div>
-              {/* end of modal 4 display */}
-              {/* card four */}
-              {/* <div className="col-md-6 mb-2" data-toggle="modal"
+                {/* end of modal 4 display */}
+                {/* card four */}
+                {/* <div className="col-md-6 mb-2" data-toggle="modal"
                 data-target=".bd-example-modal-lg4">
                 <div className="bg-light mb-4">
                   <div className="position-relative">
@@ -326,18 +327,18 @@ function Events() {
                   </h5>
                 </div>
               </div> */}
-              {/* end of card four */}
+                {/* end of card four */}
+              </div>
+
+              {/* modal 4 display */}
+              {/* end of modal 4 display */}
+              {/* card four */}
+
+              {/* end card four */}
+
             </div>
-
-            {/* modal 4 display */}
-            {/* end of modal 4 display */}
-            {/* card four */}
-
-            {/* end card four */}
-
           </div>
-          </div>
-          
+
 
           {/* Blog Grid End */}
           {/* Sidebar Start */}
@@ -396,9 +397,9 @@ function Events() {
                 className=""
                 data-toggle="modal"
                 data-target=".bd-example-modal-four"
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
-                <img src="template/img/img/banner1.jpg" className="img-fluid w-100" alt="" />
+                <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"364px"}} alt="" />
               </div>
 
               <div
@@ -414,7 +415,7 @@ function Events() {
                     <button type="button" className="close mt-3" data-dismiss="modal" aria-label="Close">
                       <button className="btn btn-primary">Close</button>
                     </button>
-                    {/* slidere */}'
+                    {/* slidere */}
                     <div
                       id="carouselExampleControls"
                       className="carousel slide"
@@ -422,13 +423,13 @@ function Events() {
                     >
                       <div className="carousel-inner">
                         <div className="carousel-item active">
-                          <img src="template/img/img/banner.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/banner.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/banner.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
                         </div>
                       </div>
                       <a
@@ -458,7 +459,7 @@ function Events() {
 
             </div>
             <div className="border">
-              <h6 className="p-4 text-black">Text Here</h6>
+              <h6 className="p-4 text-black">GALLERY OF COVID-19 SYMPOSIUM</h6>
             </div>
 
           </div>
@@ -469,9 +470,9 @@ function Events() {
               <div
                 data-toggle="modal"
                 data-target=".bd-example-modal-two"
-                style={{cursor:"pointer"}}
+                style={{ cursor: "pointer" }}
               >
-                <img src="template/img/img/banner3.jpg" className="img-fluid w-100" alt="" />
+                <img src="template/img/img/g1.jpeg" className="img-fluid w-100" style={{height:"364px"}} alt=""  />
               </div>
 
               <div
@@ -495,13 +496,13 @@ function Events() {
 
                       <div className="carousel-inner">
                         <div className="carousel-item active">
-                          <img src="template/img/img/banner2.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/banner2.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/banner2.jpg" className="d-block w-100" alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
                         </div>
                       </div>
                       <a
@@ -532,7 +533,7 @@ function Events() {
 
             </div>
             <div className="border">
-              <h6 className="p-4 text-black">Text Here</h6>
+              <h6 className="p-4 text-black">GALLERY OF THE LAUNCH</h6>
             </div>
 
           </div>

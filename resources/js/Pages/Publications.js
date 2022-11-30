@@ -176,7 +176,7 @@ function Publication() {
                             aria-controls="v-pills-book3"
                             aria-selected="false"
                           >
-                            Modern Ghana
+                            African Time
                           </a>
                           <a
                             className="nav-link"
@@ -187,7 +187,7 @@ function Publication() {
                             aria-controls="v-pills-book4"
                             aria-selected="false"
                           >
-                            African Youth Cultures
+                            African Youth Cultures In a Globalized World
                           </a>
                           
                         </div>

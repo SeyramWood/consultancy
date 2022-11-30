@@ -19,23 +19,26 @@ function Footer() {
                         <div className="d-flex justify-content-start mt-4">
                           
                             <a
+                                target="_blank"
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
+                                href="https://m.facebook.com/profile.php?id=100088421100288"
                             >
                                 <i className="fab fa-facebook-f" />
                             </a>
                             <a
+                                target="_blank"
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
+                                href="https://m.facebook.com/profile.php?id=100088421100288"
                             >
                                 <i className="fab fa-linkedin-in" />
                             </a>
                              <a
+                                target="_blank"
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
-                                href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2FSocialistMovementOfGhana%2Fposts%2F%3Fref%3Dpage_internal%26mt_nav%3D0&psig=AOvVaw2sfgyh2t6CgyVoLLV0BS5B&ust=1669577512538000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDnsYnLzPsCFQAAAAAdAAAAABAJ"
+                                href="https://m.facebook.com/profile.php?id=100088421100288"
                             >
                                 <i className="fab fa-twitter" />
                             </a>

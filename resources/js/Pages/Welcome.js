@@ -1,9 +1,13 @@
 import { Link } from "@inertiajs/inertia-react";
+import { Inertia } from '@inertiajs/inertia'
 import React from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function Welcome() {
+    Inertia.on('success', (event) => {
+        event.detail.page.url === "/" && window.location.reload()
+    })
     return (
         <>
 
@@ -20,6 +24,7 @@ function Welcome() {
                             <img
                                 className="w-100"
                                 src="template/img/img/banner3.jpg"
+                                style={{height:"600px"}}
                                 alt="Image"
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -43,6 +48,7 @@ function Welcome() {
                             <img
                                 className="w-100"
                                 src="template/img/img/banner1.jpg"
+                                style={{height:"600px"}}
                                 alt="Image"
 
                             />
@@ -128,9 +134,9 @@ function Welcome() {
                         >
                             <div className="d-inline-flex text-left">
                                 <div className="d-flex flex-column">
-                                    <h5 className="text-white text-center font-weight-medium">
+                                    <h6 className="text-white text-center font-weight-medium">
                                         <i>STIMULATING INFORMED PUBLIC DEBATE</i>
-                                    </h5>
+                                    </h6>
 
                                 </div>
                             </div>
@@ -275,57 +281,232 @@ function Welcome() {
 
 
                     <div className="row mt-5">
-                        <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
-                            <div className="row">
+
+                        <div className="col-lg-4 col-md-12  col-sm-12 mb-4"
+                        >
+                            {/* event modal 1 display */}
+                            <div
+                                className="modal fade bd-example-modal-lg1"
+                                tabIndex={-1}
+                                role="dialog"
+                                aria-labelledby="myLargeModalLabel1"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog modal-lg"
+                                    role="document">
+
+                                    <div className="modal-content">
+                                        <div className="modal-body">
+                                            <div className="container ">
+                                                <div className="row m-4">
+                                                    <div className="col-12 text-center cursor-pointer">
+                                                        <img src="template/img/img/economy.jpeg" className="img-fluid " style={{ height: "300px", width: "80%" }} alt="" />
+                                                    </div>
+                                                    <div className="col-12 ">
+                                                        <h5 className="text-green pt-4">
+                                                            <b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b>
+
+                                                        </h5>
+                                                        <p className="text-left">
+                                                            <b className="text-left ">Theme: </b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS
+                                                        </p>
+                                                        <p>
+                                                            <b>Guest Speaker: </b> Prof. Lord Mawuko-Yevugah
+                                                        </p>
+                                                        <p>
+                                                            <b>Date: </b> Thursday, September 2, 2022
+                                                        </p>
+                                                        <p>
+                                                            <b>Time: </b> 11:00 AM
+                                                        </p>
+                                                        <p>
+                                                            <b>Venue: </b> GIMPA Law School Moot Court Auditorium
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-primary"
+                                                    data-dismiss="modal"
+                                                >
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            {/* event one  */}
+                            <div className="row" data-toggle="modal"
+                                data-target=".bd-example-modal-lg1">
 
                                 <div className="col-4 ">
-                                    <Link href="/events">
-                                        <img src="template/img/img/economy.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                    </Link>
+
+                                    <img src="template/img/img/economy.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+
 
                                 </div>
                                 <div className="col-8 ">
 
                                     <h6 style={{ fontSize: "12px" }}>PREVIOUS EVENT</h6>
-                                    <Link href="/events">
-                                        <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b></h6>
-                                    </Link>
+
+                                    <h6><b>COVID-19 PANDEMIC, RUSSIA-UKRAINE WAR & GHANA'S ECONOMIC CRISIS</b></h6>
+
                                     <p className="pb-0 mb-0" style={{ fontSize: "12px" }}>Date: Thursday, September 22nd 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Law School Moot Court Auditorium</span>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 mb-4">
-                            <div className="row ">
+                            {/* event modal 2 display */}
+                            <div
+                                className="modal fade bd-example-modal-lg2"
+                                tabIndex={-1}
+                                role="dialog"
+                                aria-labelledby="myLargeModalLabel2"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog modal-lg"
+                                    role="document">
+
+                                    <div className="modal-content">
+                                        <div className="modal-body">
+                                            <div className="container">
+                                                <div className="row m-4">
+                                                    <div className="col-12 text-center">
+                                                        <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "300px", width: "80%" }} alt="" />
+                                                    </div>
+                                                    <div className="col-12 ">
+                                                        <h5 className="text-green pt-4">
+                                                            <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+
+                                                        </h5>
+                                                        <p className="text-left">
+                                                            <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
+                                                        </p>
+                                                        <p>
+                                                            <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
+                                                        </p>
+                                                        <p>
+                                                            <b>Date: </b> Thursday, December 1, 2022
+                                                        </p>
+                                                        <p>
+                                                            <b>Time: </b> 10:00 AM
+                                                        </p>
+                                                        <p>
+                                                            <b>Venue: </b> GIMPA Executive Conference Centre
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-primary"
+                                                    data-dismiss="modal"
+                                                >
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            {/* event two */}
+                            <div className="row "
+                                data-toggle="modal"
+                                data-target=".bd-example-modal-lg2">
                                 <div className="col-4 ">
-                                    <Link href="/events">
-                                        <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                    </Link>
+                                    <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+
 
                                 </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/events">
-                                        <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
-                                    </Link>
+
+                                    <h6><b>LAUNCH OF CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT </b></h6>
+
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre</span>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12 col-sm-12 ">
-                            <div className="row">
+                            {/* event modal 3 display */}
+                            <div
+                                className="modal fade bd-example-modal-lg3"
+                                tabIndex={-1}
+                                role="dialog"
+                                aria-labelledby="myLargeModalLabel3"
+                                aria-hidden="true"
+                            >
+                                <div className="modal-dialog modal-lg"
+                                    role="document">
+4sty
+                                    <div className="modal-content">
+                                        <div className="modal-body">
+                                            <div className="container">
+                                                <div className="row m-4">
+                                                    <div className="col-12 text-center">
+                                                        <img src="template/img/img/1.jpeg" className="img-fluid" style={{ height: "300px", width: "80%" }} alt="" />
+                                                    </div>
+                                                    <div className="col-12 ">
+                                                        <h5 className="text-green pt-4">
+                                                            <b>LAUNCH OF THE CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT</b>
+
+                                                        </h5>
+                                                        <p className="text-left">
+                                                            <b className="text-left ">Theme: </b> Mobilizing Global Citizenship In Building A Resilient And Inclusive Post-Covid Global Economy
+                                                        </p>
+                                                        <p>
+                                                            <b>Guest Speaker: </b> Rt. Hon. Alban Sumana Bagbin (Speaker Of Parliament Of Ghana)
+                                                        </p>
+                                                        <p>
+                                                            <b>Date: </b> Thursday, December 1, 2022
+                                                        </p>
+                                                        <p>
+                                                            <b>Time: </b> 10:00 AM
+                                                        </p>
+                                                        <p>
+                                                            <b>Venue: </b> GIMPA Executive Conference Centre
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    className="btn btn-primary"
+                                                    data-dismiss="modal"
+                                                >
+                                                    Close
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            {/* event three */}
+                            <div className="row" data-toggle="modal"
+                                data-target=".bd-example-modal-lg3">
                                 <div className="col-4 ">
-                                    <Link href="/events">
                                         <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                    </Link>
+                                    
 
                                 </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                    <Link href="/events">
-                                        <h6><b>LAUNCHING OF CENETRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAMENT </b></h6>
-                                    </Link>
+                                  
+                                        <h6><b>LAUNCH OF CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT </b></h6>
+                                   
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre </span>
                                 </div>
@@ -373,8 +554,8 @@ function Welcome() {
                                     </div>
                                     <p className="m-0 p-4">
                                         Professor Lord Mawuko-Yevugah has called for a review of the country’s political and public incentive system
-                                    </p> 
-                                    </a>
+                                    </p>
+                                </a>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-2">
@@ -511,6 +692,138 @@ function Welcome() {
 
             </div>
             {/* end custom books */}
+            {/* our consultants */}
+            <div className="">
+                <div className="container">
+
+                    <h1 className="display-4 text-green border-bottom text-center mb-5">Our Team</h1>
+                    <div className="owl-carousel testimonial-carousel">
+                        <div className="testimonial-item">
+                            <img
+                                className="position-relative rounded-circle bg-white shadow mx-auto"
+                                src="template/img/img/at1.jpeg"
+                                style={{
+                                    width: 100,
+                                    height: 100,
+                                    padding: 12,
+                                    marginBottom: "-50px",
+                                    zIndex: 1
+                                }}
+                                alt=""
+                            />
+                            <div className="bg-light text-center p-4 pt-0">
+                                <h5 className="font-weight-medium mt-5">Prof. Lord Mawuko-Yevugah </h5>
+                                <p className="text-muted font-italic">Lead Researcher</p>
+                                <p className="m-0">
+                                    Professor Lord Mawuko-Yevugah is the Lead Researcher for the
+                                    Center For African Diplomacy And Global Engagement.
+                                </p>
+                                <a
+                                    target="_blank"
+                                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                                    style={{ width: 38, height: 38 }}
+                                    href="https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/"
+                                >
+                                    <i className="fab fa-linkedin-in" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="testimonial-item">
+                            <img
+                                className="position-relative rounded-circle bg-white shadow mx-auto"
+                                src="template/img/img/jasper.jpg"
+                                style={{
+                                    width: 100,
+                                    height: 100,
+                                    padding: 12,
+                                    marginBottom: "-50px",
+                                    zIndex: 1
+                                }}
+                                alt=""
+                            />
+                            <div className="bg-light text-center p-4 pt-0">
+                                <h5 className="font-weight-medium mt-5">Prof. Jasper A. Ayelazuno </h5>
+                                <p className="text-muted font-italic">Snr. Research Fellow</p>
+                                <p className="m-0">
+                                    Professor Jasper A. Ayelazuno is a Senior Research Fellow at the
+                                    Center For African Diplomacy And Global Engagement.
+                                </p>
+                                <a
+                                    target="_blank"
+                                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                                    style={{ width: 38, height: 38 }}
+                                    href="https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/"
+                                >
+                                    <i className="fab fa-linkedin-in" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="testimonial-item">
+                            <img
+                                className="position-relative rounded-circle bg-white shadow mx-auto"
+                                src="template/img/img/paulugo.jpg"
+                                style={{
+                                    width: 100,
+                                    height: 100,
+                                    padding: 12,
+                                    marginBottom: "-50px",
+                                    zIndex: 1
+                                }}
+                                alt=""
+                            />
+                            <div className="bg-light text-center p-4 pt-0">
+                                <h5 className="font-weight-medium mt-5">Prof. Paul Ugor </h5>
+                                <p className="text-muted font-italic">Snr. Research Fellow</p>
+                                <p className="m-0">
+                                    Professor Paul Ugor is a Senior Research Fellow at the
+                                    Center For African Diplomacy And Global Engagement.
+                                </p>
+
+                                <a
+                                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                                    style={{ width: 38, height: 38 }}
+                                    target="_blank"
+                                    href="https://www.linkedin.com/in/paul-ugor-199634109/"
+                                >
+                                    <i className="fab fa-linkedin-in" />
+                                </a>
+
+
+                            </div>
+                        </div>
+                        <div className="testimonial-item">
+                            <img
+                                className="position-relative rounded-circle bg-white shadow mx-auto"
+                                src="template/img/img/deaa.jpg"
+                                style={{
+                                    width: 100,
+                                    height: 100,
+                                    padding: 12,
+                                    marginBottom: "-50px",
+                                    zIndex: 1
+                                }}
+                                alt=""
+                            />
+                            <div className="bg-light text-center p-4 pt-0">
+                                <h5 className="font-weight-medium mt-5">Dr. Emefa Ansah   </h5>
+                                <p className="text-muted font-italic">Research Fellow</p>
+                                <p className="m-0">
+                                    Doctor Emefa Ansah is a Fellow Researcher at the
+                                    Center For African Diplomacy And Global Engagement.
+                                </p>
+                                <a
+                                    className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                                    style={{ width: 38, height: 38 }}
+                                    target="_blank"
+                                    href="https://peoplepill.com/people/dr-emefa-aku-ansah"
+                                >
+                                    <i className="fab fa-linkedin-in" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             {/* About Start */}
 
@@ -769,7 +1082,7 @@ function Welcome() {
 
             {/* Testimonial End */}
             {/* Blog Start */}
-            <div className="container-fluid mt-5 pb-2">
+            {/* <div className="container-fluid mt-5 pb-2">
                 <div className="container">
 
                     <h1 className="display-4 border-bottom text-green text-center mb-5">
@@ -799,7 +1112,6 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -826,7 +1138,6 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
@@ -852,13 +1163,13 @@ function Welcome() {
                                     </a>
                                 </div>
                                 <p className="m-0 p-4">
-                                    {/* The Socialist Movement of Ghana - S.M.G */}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+
 
             {/* Blog End */}
             <Footer />
