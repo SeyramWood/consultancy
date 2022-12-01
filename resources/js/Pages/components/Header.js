@@ -25,20 +25,20 @@ function Header() {
                         <div className="col-md-6 text-center text-lg-right">
                             <div className="d-inline-flex align-items-center">
                                 <a className="text-white px-3"
-                                target="_blank" 
-                                href="https://m.facebook.com/profile.php?id=100088421100288">
+                                    target="_blank"
+                                    href="https://m.facebook.com/profile.php?id=100088421100288">
                                     <i className="fab fa-facebook-f" />
                                 </a>
-                                <a className="text-white px-3" 
-                                target="_blank" href="https://m.facebook.com/profile.php?id=100088421100288">
+                                <a className="text-white px-3"
+                                    target="_blank" href="https://m.facebook.com/profile.php?id=100088421100288">
                                     <i className="fab fa-twitter" />
                                 </a>
                                 <a className="text-white px-3"
-                                target="_blank"
-                                href="https://m.facebook.com/profile.php?id=100088421100288">
+                                    target="_blank"
+                                    href="https://m.facebook.com/profile.php?id=100088421100288">
                                     <i className="fab fa-linkedin-in" />
                                 </a>
-                              
+
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function Header() {
                     <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5">
                         <Link href="/" className="navbar-brand">
                             <h1 className="m-0 text-secondary">
-                                <img src="template/img/img/logo.jpg" style={{height:"70px",width:"150px"}} alt="" />
+                                <img src="template/img/img/logo.jpg" style={{ height: "70px", width: "150px" }} alt="" />
                                 {/* <span className="text-primary">DRY</span>ME */}
                             </h1>
                         </Link>

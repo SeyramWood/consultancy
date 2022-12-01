@@ -201,17 +201,17 @@ function About() {
             <p>
               The Centre is committed to:
               <p>
-              <b>•</b> Promoting diplomacy as the best approach to solving global problems,
+                <b>•</b> Promoting diplomacy as the best approach to solving global problems,
               </p>
               <p>
-              <b>•</b> Promoting global citizenship by mobilizing public support through public intellectualism, activism, and research in solving global problems,
+                <b>•</b> Promoting global citizenship by mobilizing public support through public intellectualism, activism, and research in solving global problems,
               </p>
               <p>
-              <b>•</b> Promoting global citizenship and global activism in support of global initiatives
+                <b>•</b> Promoting global citizenship and global activism in support of global initiatives
                 such as the SDGs,
               </p>
               <p>
-              <b>•</b>	Promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions,
+                <b>•</b>	Promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions,
                 encouraging global equality, human rights, cosmopolitanism, and multilateralism
                 as the basis for demanding for reforms of global governance institutions and
                 processes.
@@ -259,7 +259,7 @@ function About() {
           </div>
 
           {/* funding */}
-          
+
 
         </div>
       </div>
@@ -288,7 +288,7 @@ function About() {
                 <p className="text-muted font-italic">Lead Researcher</p>
                 <p className="m-0">
                   Professor Lord Mawuko-Yevugah is the Lead Researcher for the
-                  Center For African Diplomacy And Global Engagement.
+                  Centre For African Diplomacy And Global Engagement.
                 </p>
                 <a
                   target="_blank"
@@ -318,7 +318,7 @@ function About() {
                 <p className="text-muted font-italic">Snr. Research Fellow</p>
                 <p className="m-0">
                   Professor Jasper A. Ayelazuno is a Senior Research Fellow at the
-                  Center For African Diplomacy And Global Engagement.
+                  Centre For African Diplomacy And Global Engagement.
                 </p>
                 <a
                   target="_blank"
@@ -348,7 +348,7 @@ function About() {
                 <p className="text-muted font-italic">Snr. Research Fellow</p>
                 <p className="m-0">
                   Professor Paul Ugor is a Senior Research Fellow at the
-                  Center For African Diplomacy And Global Engagement.
+                  Centre For African Diplomacy And Global Engagement.
                 </p>
 
                 <a
@@ -381,7 +381,7 @@ function About() {
                 <p className="text-muted font-italic">Research Fellow</p>
                 <p className="m-0">
                   Doctor Emefa Ansah is a Fellow Researcher at the
-                  Center For African Diplomacy And Global Engagement.
+                  Centre For African Diplomacy And Global Engagement.
                 </p>
                 <a
                   className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
