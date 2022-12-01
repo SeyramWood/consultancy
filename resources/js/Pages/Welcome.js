@@ -24,7 +24,7 @@ function Welcome() {
                             <img
                                 className="w-100"
                                 src="template/img/img/banner3.jpg"
-                                style={{height:"600px"}}
+                                style={{ height: "600px" }}
                                 alt="Image"
                             />
                             <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
@@ -48,7 +48,7 @@ function Welcome() {
                             <img
                                 className="w-100"
                                 src="template/img/img/banner1.jpg"
-                                style={{height:"600px"}}
+                                style={{ height: "600px" }}
                                 alt="Image"
 
                             />
@@ -341,7 +341,7 @@ function Welcome() {
                                 </div>
                             </div>
                             {/* event one  */}
-                            <div className="row" data-toggle="modal"
+                            <div className="row" style={{cursor:"pointer"}} data-toggle="modal"
                                 data-target=".bd-example-modal-lg1">
 
                                 <div className="col-4 ">
@@ -420,6 +420,7 @@ function Welcome() {
                             </div>
                             {/* event two */}
                             <div className="row "
+                            style={{cursor:"pointer"}}
                                 data-toggle="modal"
                                 data-target=".bd-example-modal-lg2">
                                 <div className="col-4 ">
@@ -448,7 +449,7 @@ function Welcome() {
                             >
                                 <div className="modal-dialog modal-lg"
                                     role="document">
-4sty
+                                    4sty
                                     <div className="modal-content">
                                         <div className="modal-body">
                                             <div className="container">
@@ -495,18 +496,18 @@ function Welcome() {
                                 </div>
                             </div>
                             {/* event three */}
-                            <div className="row" data-toggle="modal"
+                            <div className="row" style={{cursor:"pointer"}} data-toggle="modal"
                                 data-target=".bd-example-modal-lg3">
                                 <div className="col-4 ">
-                                        <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
-                                    
+                                    <img src="template/img/img/1.jpeg" className="float-right" alt="" style={{ width: "80px", height: "100px" }} />
+
 
                                 </div>
                                 <div className="col-8">
                                     <h6 style={{ fontSize: "12px" }}>UPCOMING EVENT</h6>
-                                  
-                                        <h6><b>LAUNCH OF CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT </b></h6>
-                                   
+
+                                    <h6><b>LAUNCH OF CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT </b></h6>
+
                                     <p className="pb-0 mb-0" style={{ fontSize: "14px" }}>Date: Thursday, December 1st 2022 </p>
                                     <span className="pt-0 mt-0" style={{ fontSize: "12px" }}>Venue: GIMPA Executive Conference Centre </span>
                                 </div>
@@ -716,7 +717,7 @@ function Welcome() {
                                 <p className="text-muted font-italic">Lead Researcher</p>
                                 <p className="m-0">
                                     Professor Lord Mawuko-Yevugah is the Lead Researcher for the
-                                    Center For African Diplomacy And Global Engagement.
+                                    Centre For African Diplomacy And Global Engagement.
                                 </p>
                                 <a
                                     target="_blank"
@@ -746,7 +747,7 @@ function Welcome() {
                                 <p className="text-muted font-italic">Snr. Research Fellow</p>
                                 <p className="m-0">
                                     Professor Jasper A. Ayelazuno is a Senior Research Fellow at the
-                                    Center For African Diplomacy And Global Engagement.
+                                    Centre For African Diplomacy And Global Engagement.
                                 </p>
                                 <a
                                     target="_blank"
@@ -776,7 +777,7 @@ function Welcome() {
                                 <p className="text-muted font-italic">Snr. Research Fellow</p>
                                 <p className="m-0">
                                     Professor Paul Ugor is a Senior Research Fellow at the
-                                    Center For African Diplomacy And Global Engagement.
+                                    Centre For African Diplomacy And Global Engagement.
                                 </p>
 
                                 <a
@@ -809,7 +810,7 @@ function Welcome() {
                                 <p className="text-muted font-italic">Research Fellow</p>
                                 <p className="m-0">
                                     Doctor Emefa Ansah is a Fellow Researcher at the
-                                    Center For African Diplomacy And Global Engagement.
+                                    Centre For African Diplomacy And Global Engagement.
                                 </p>
                                 <a
                                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"

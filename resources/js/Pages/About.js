@@ -220,24 +220,70 @@ function About() {
 
                     <div className="mt-4 pt-3 mb-5">
                         <p>
-                            The Centre aims to be an independent and autonomous
-                            national research hub and think-tank that provides
-                            scholarly and practical inputs into national and
-                            international agendas focused on all aspects of
-                            Ghana’s engagements with the world. The research
-                            will also be used to promote a robust response to
-                            the myriad of challenges of the 21st Century global
+                            The Centre aims to serve as a hub in providing
+                            cutting edge scholarly research and training, as
+                            well as promote public engagement on global policy
+                            issues using multidisciplinary perspectives and
+                            approaches to contribute towards the implementation
+                            of effective policies on various aspects of Africa’s
+                            global and diplomatic relations. In so doing, the
+                            Centre will aim to build networks across Africa,
+                            focusing on key countries such as Ghana, Nigeria,
+                            South Africa, Kenya, Egypt, and organizations such
+                            as AU, Ecowas, and the UN. It will Identify areas of
+                            common Africa interest in relations to the rest of
+                            the world, and position Africa as a place of new and
+                            exciting opportunities for business and investment.
+                            The Centre will also offer practical training to
+                            public and private sector agencies in diplomacy,
+                            negotiation and contracts.
+                        </p>
+                    </div>
+                    <div className="mb-5">
+                        <p>
+                            The Centre is committed to:
+                            <p>
+                                <b>•</b> Promoting diplomacy as the best
+                                approach to solving global problems,
+                            </p>
+                            <p>
+                                <b>•</b> Promoting global citizenship by
+                                mobilizing public support through public
+                                intellectualism, activism, and research in
+                                solving global problems,
+                            </p>
+                            <p>
+                                <b>•</b> Promoting global citizenship and global
+                                activism in support of global initiatives such
+                                as the SDGs,
+                            </p>
+                            <p>
+                                <b>•</b> Promoting the values of our common
+                                humanity by highlighting areas of discrimination
+                                and abuse to help devise global solutions,
+                                encouraging global equality, human rights,
+                                cosmopolitanism, and multilateralism as the
+                                basis for demanding for reforms of global
+                                governance institutions and processes.
+                            </p>
+                        </p>
+                    </div>
+                    <div className="mb-5">
+                        <p>
+                            To achieve the above, the Centre will deploy
+                            research to promote a robust response to the myriad
+                            of challenges of the 21st Century global
                             environment. In doing so, the Centre will contribute
                             to the development and promotion of policy options
                             on any given issue of foreign and diplomatic
                             relationships. Academic publications will be a core
                             activity of the Centre to contribute to
-                            international scholarship on Ghana’s foreign and
+                            international scholarship on Africa’s global and
                             diplomatic relations. Conferences and symposia will
                             enable the Centre to share and exchange its projects
-                            with a broader intellectual and policy communities
-                            in the broad areas of international relations,
-                            foreign policy and diplomacy, and security.
+                            with broader intellectual and policy communities in
+                            the broad areas of international relations, foreign
+                            policy and diplomacy, and security.
                         </p>
                     </div>
                     <div className="mb-5">
@@ -246,20 +292,18 @@ function About() {
                             and practical training for both current students and
                             recent graduates as its contribution to the training
                             and development of critical human resources for
-                            various Ministries, Agencies and Departments (MDAs).
-                            It will provide a resource centre for researchers
-                            and policy makers from the various MDAs to engage
-                            critically in policy debates and decisions. It will
-                            serve as an advisory body to public and private
-                            organisations in the field of foreign and diplomatic
-                            relations.
+                            various Ministries, Agencies and Departments (MDAs)
+                            across Africa. It will provide a resource Centre for
+                            researchers and policy makers across the African
+                            continent to engage critically in policy debates and
+                            decisions. It will serve as an advisory body to
+                            public and private organizations in the field of
+                            global and diplomatic relations.
                         </p>
-                    </div>
-                    <div className="mb-5">
                         <p>
                             The Centre will be dedicated to developing practical
                             and accessible training resources for the wider
-                            Ghanaian public to draw on. The aim is to develop
+                            African publics to draw on. The aim is to develop
                             innovative approaches that challenge existing
                             inefficiencies and ineffectiveness with a particular
                             focus on promoting understanding and appreciation of
@@ -269,10 +313,8 @@ function About() {
                             foreign direct investment by conducting relevant
                             research which will be useful for policy makers as
                             well as other stakeholders both within and outside
-                            the country.
+                            the African continent.
                         </p>
-                    </div>
-                    <div className="mb-5">
                         <p>
                             The long-term focus of the Centre includes the
                             mentoring of emerging scholars around foreign policy
@@ -287,6 +329,8 @@ function About() {
                             leader within the changing global political economy.
                         </p>
                     </div>
+
+                    {/* funding */}
                 </div>
             </div>
 
@@ -315,20 +359,21 @@ function About() {
                                     Prof. Lord Mawuko-Yevugah{" "}
                                 </h5>
                                 <p className="text-muted font-italic">
-                                    Independent Researcher
+                                    Lead Researcher
                                 </p>
                                 <p className="m-0">
                                     Professor Lord Mawuko-Yevugah is the Lead
-                                    Researcher for the Center For African
+                                    Researcher for the Centre For African
                                     Diplomacy And Global Engagement.
                                 </p>
-                                <Link
+                                <a
+                                    target="_blank"
                                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                                     style={{ width: 38, height: 38 }}
                                     href="https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/"
                                 >
                                     <i className="fab fa-linkedin-in" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="testimonial-item">
@@ -353,16 +398,17 @@ function About() {
                                 </p>
                                 <p className="m-0">
                                     Professor Jasper A. Ayelazuno is a Senior
-                                    Research Fellow at the Center For African
+                                    Research Fellow at the Centre For African
                                     Diplomacy And Global Engagement.
                                 </p>
-                                <Link
+                                <a
+                                    target="_blank"
                                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                                     style={{ width: 38, height: 38 }}
                                     href="https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/"
                                 >
                                     <i className="fab fa-linkedin-in" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="testimonial-item">
@@ -387,17 +433,18 @@ function About() {
                                 </p>
                                 <p className="m-0">
                                     Professor Paul Ugor is a Senior Research
-                                    Fellow at the Center For African Diplomacy
+                                    Fellow at the Centre For African Diplomacy
                                     And Global Engagement.
                                 </p>
 
-                                <Link
+                                <a
                                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                                     style={{ width: 38, height: 38 }}
+                                    target="_blank"
                                     href="https://www.linkedin.com/in/paul-ugor-199634109/"
                                 >
                                     <i className="fab fa-linkedin-in" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="testimonial-item">
@@ -422,16 +469,17 @@ function About() {
                                 </p>
                                 <p className="m-0">
                                     Doctor Emefa Ansah is a Fellow Researcher at
-                                    the Center For African Diplomacy And Global
+                                    the Centre For African Diplomacy And Global
                                     Engagement.
                                 </p>
-                                <Link
+                                <a
                                     className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
                                     style={{ width: 38, height: 38 }}
+                                    target="_blank"
                                     href="https://peoplepill.com/people/dr-emefa-aku-ansah"
                                 >
                                     <i className="fab fa-linkedin-in" />
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>

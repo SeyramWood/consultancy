@@ -1,11 +1,11 @@
 import { Link } from "@inertiajs/inertia-react";
 function Footer() {
-    return ( 
+    return (
         <>
             <script src="template/lib/owlcarousel/owl.carousel.min.js" defer></script>
 
-         {/* Footer Start */}
-         <div className="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
+            {/* Footer Start */}
+            <div className="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-6 mb-5">
                         <Link href="">
@@ -17,7 +17,7 @@ function Footer() {
                             CENTRE FOR AFRICAN DIPLOMACY & GLOBAL ENGAGEMENT
                         </h4>
                         <div className="d-flex justify-content-start mt-4">
-                          
+
                             <a
                                 target="_blank"
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
@@ -34,7 +34,7 @@ function Footer() {
                             >
                                 <i className="fab fa-linkedin-in" />
                             </a>
-                             <a
+                            <a
                                 target="_blank"
                                 className="btn btn-outline-light rounded-circle text-center mr-2 px-0"
                                 style={{ width: 38, height: 38 }}
@@ -47,7 +47,7 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 mb-5">
                         <a href="" id="contact"></a>
                         <h4 className="text-white mb-4">Get In Touch</h4>
-                        
+
                         <p className="text-white">
                             <i className="fa fa-map-marker-alt mr-2" />15 Kwatei Asuasa St, GE - 358-8736
                         </p>
@@ -129,7 +129,7 @@ function Footer() {
                     <a className="text-white font-weight-medium" href="#">
                         Centre For African Diplomacy & Global Engagement
                     </a>
-                    . All Rights Reserved. 
+                    . All Rights Reserved.
                 </p>
             </div>
             {/* Footer End */}
@@ -137,9 +137,9 @@ function Footer() {
             <a href="#" className="btn btn-lg btn-primary back-to-top">
                 <i className="fa fa-angle-double-up" />
             </a>
-            
+
         </>
-     );
+    );
 }
 
 export default Footer;

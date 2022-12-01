@@ -399,7 +399,7 @@ function Events() {
                 data-target=".bd-example-modal-four"
                 style={{ cursor: "pointer" }}
               >
-                <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"364px"}} alt="" />
+                <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{ height: "364px" }} alt="" />
               </div>
 
               <div
@@ -423,13 +423,13 @@ function Events() {
                     >
                       <div className="carousel-inner">
                         <div className="carousel-item active">
-                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{ height: "500px" }} alt="" />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{ height: "500px" }} alt="" />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{height:"500px"}} alt="" />
+                          <img src="template/img/img/economy.jpeg" className="img-fluid w-100" style={{ height: "500px" }} alt="" />
                         </div>
                       </div>
                       <a
@@ -472,7 +472,7 @@ function Events() {
                 data-target=".bd-example-modal-two"
                 style={{ cursor: "pointer" }}
               >
-                <img src="template/img/img/g1.jpeg" className="img-fluid w-100" style={{height:"364px"}} alt=""  />
+                <img src="template/img/img/g1.jpeg" className="img-fluid w-100" style={{ height: "364px" }} alt="" />
               </div>
 
               <div
@@ -496,13 +496,13 @@ function Events() {
 
                       <div className="carousel-inner">
                         <div className="carousel-item active">
-                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{ height: "500px" }} alt="..." />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{ height: "500px" }} alt="..." />
                         </div>
                         <div className="carousel-item">
-                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{height:"500px"}} alt="..." />
+                          <img src="template/img/img/g1.jpeg" className="d-block w-100" style={{ height: "500px" }} alt="..." />
                         </div>
                       </div>
                       <a

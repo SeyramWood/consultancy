@@ -2315,7 +2315,7 @@ function About() {
                 children: "Lead Researcher"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Center For African Diplomacy And Global Engagement."
+                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -2352,7 +2352,7 @@ function About() {
                 children: "Snr. Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
+                children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -2389,7 +2389,7 @@ function About() {
                 children: "Snr. Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Paul Ugor is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
+                children: "Professor Paul Ugor is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
@@ -2426,7 +2426,7 @@ function About() {
                 children: "Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "m-0",
-                children: "Doctor Emefa Ansah is a Fellow Researcher at the Center For African Diplomacy And Global Engagement."
+                children: "Doctor Emefa Ansah is a Fellow Researcher at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
@@ -5042,6 +5042,9 @@ function Welcome() {
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "row",
+              style: {
+                cursor: "pointer"
+              },
               "data-toggle": "modal",
               "data-target": ".bd-example-modal-lg1",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -5157,6 +5160,9 @@ function Welcome() {
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "row ",
+              style: {
+                cursor: "pointer"
+              },
               "data-toggle": "modal",
               "data-target": ".bd-example-modal-lg2",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -5272,6 +5278,9 @@ function Welcome() {
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
               className: "row",
+              style: {
+                cursor: "pointer"
+              },
               "data-toggle": "modal",
               "data-target": ".bd-example-modal-lg3",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
@@ -5591,7 +5600,7 @@ function Welcome() {
                 children: "Lead Researcher"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Center For African Diplomacy And Global Engagement."
+                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -5628,7 +5637,7 @@ function Welcome() {
                 children: "Snr. Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
+                children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -5665,7 +5674,7 @@ function Welcome() {
                 children: "Snr. Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Paul Ugor is a Senior Research Fellow at the Center For African Diplomacy And Global Engagement."
+                children: "Professor Paul Ugor is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
@@ -5702,7 +5711,7 @@ function Welcome() {
                 children: "Research Fellow"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Doctor Emefa Ansah is a Fellow Researcher at the Center For African Diplomacy And Global Engagement."
+                children: "Doctor Emefa Ansah is a Fellow Researcher at the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
                 style: {
