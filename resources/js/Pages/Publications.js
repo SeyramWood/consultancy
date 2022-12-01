@@ -47,71 +47,71 @@ function Publication() {
         <div className="row">
           {/* Blog Detail Start */}
           <div className="col-lg-8">
-          <div className="tab-content" id="v-pills-tabContent">
-            {/* Articles content */}
-           
-            {/* Book content */}
-            <div
-              className="tab-pane fade show active"
-              id="v-pills-book1"
-              role="tabpanel"
-              aria-labelledby="v-pills-book1-tab"
-            >
-              <BookOne />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="v-pills-book2"
-              role="tabpanel"
-              aria-labelledby="v-pills-book2-tab"
-            >
-              <BookTwo />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="v-pills-book3"
-              role="tabpanel"
-              aria-labelledby="v-pills-book3-tab"
-            >
-              <BookThree />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="v-pills-book4"
-              role="tabpanel"
-              aria-labelledby="v-pills-book4-tab"
-            >
-              <BookFour />
+            <div className="tab-content" id="v-pills-tabContent">
+              {/* Articles content */}
+
+              {/* Book content */}
+              <div
+                className="tab-pane fade show active"
+                id="v-pills-book1"
+                role="tabpanel"
+                aria-labelledby="v-pills-book1-tab"
+              >
+                <BookOne />
+              </div>
+              <div
+                className="tab-pane fade"
+                id="v-pills-book2"
+                role="tabpanel"
+                aria-labelledby="v-pills-book2-tab"
+              >
+                <BookTwo />
+              </div>
+              <div
+                className="tab-pane fade"
+                id="v-pills-book3"
+                role="tabpanel"
+                aria-labelledby="v-pills-book3-tab"
+              >
+                <BookThree />
+              </div>
+              <div
+                className="tab-pane fade"
+                id="v-pills-book4"
+                role="tabpanel"
+                aria-labelledby="v-pills-book4-tab"
+              >
+                <BookFour />
+              </div>
+
+              {/* Research content */}
+              <div
+                className="tab-pane fade"
+                id="v-pills-research1"
+                role="tabpanel"
+                aria-labelledby="v-pills-research1-tab"
+              >
+                <ResearchOne />
+              </div>
+              <div
+                className="tab-pane fade"
+                id="v-pills-research2"
+                role="tabpanel"
+                aria-labelledby="v-pills-reserch2-tab"
+              >
+                <ResearchTwo />
+              </div>
+              <div
+                className="tab-pane fade"
+                id="v-pills-research3"
+                role="tabpanel"
+                aria-labelledby="v-pills-research3-tab"
+              >
+                <ResearchThree />
+              </div>
+
             </div>
 
-            {/* Research content */}
-            <div
-              className="tab-pane fade"
-              id="v-pills-research1"
-              role="tabpanel"
-              aria-labelledby="v-pills-research1-tab"
-            >
-              <ResearchOne />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="v-pills-research2"
-              role="tabpanel"
-              aria-labelledby="v-pills-reserch2-tab"
-            >
-              <ResearchTwo />
-            </div>
-            <div
-              className="tab-pane fade"
-              id="v-pills-research3"
-              role="tabpanel"
-              aria-labelledby="v-pills-research3-tab"
-            >
-               <ResearchThree />
-            </div>
-            
-          </div>
-           
           </div>
           {/* Blog Detail End */}
           {/* Sidebar Start */}
@@ -122,7 +122,7 @@ function Publication() {
               <h3 className="font-weight-bold mb-4">Categories</h3>
               <ul className="list-group">
                 {/* Articles */}
-                
+
                 {/* Books */}
                 <a href="">
                   <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -154,7 +154,7 @@ function Publication() {
                             aria-controls="v-pills-book1"
                             aria-selected="true"
                           >
-                           Made In Ghana
+                            Made In Ghana
                           </a>
                           <a
                             className="nav-link"
@@ -189,7 +189,7 @@ function Publication() {
                           >
                             African Youth Cultures In a Globalized World
                           </a>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -226,7 +226,7 @@ function Publication() {
                             aria-controls="v-pills-research1"
                             aria-selected="true"
                           >
-                           Economic Reform
+                            Economic Reform
                           </a>
                           <a
                             className="nav-link"
@@ -250,7 +250,7 @@ function Publication() {
                           >
                             Traditional Authority In Ghana
                           </a>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -284,9 +284,9 @@ function Publication() {
                             // data-toggle="pill"
                             // href="#v-pills-a1"
                             href="https://newsghana.com.gh/ghana-needs-to-build-a-robust-local-economy-prof-mawuko-yevugah/?amp"
-                            // role="tab"
-                            // aria-controls="v-pills-a1"
-                            // aria-selected="true"
+                          // role="tab"
+                          // aria-controls="v-pills-a1"
+                          // aria-selected="true"
                           >
                             A Robust Local Economy
                           </a>
@@ -297,11 +297,11 @@ function Publication() {
                             // data-toggle="pill"
                             // href="#v-pills-a2"
                             href="https://mobile.ghanaweb.com/GhanaHomePage/business/Cut-down-freebies-for-appointees-Prof-Yevugah-urges-government-1635488"
-                            // role="tab"
-                            // aria-controls="v-pills-a2"
-                            // aria-selected="false"
+                          // role="tab"
+                          // aria-controls="v-pills-a2"
+                          // aria-selected="false"
                           >
-                            Cut down freebies 
+                            Cut down freebies
                           </a>
                           <a
                             className="nav-link"
@@ -310,13 +310,13 @@ function Publication() {
                             // data-toggle="pill"
                             // href="#v-pills-a3"
                             href="https://www.graphic.com.gh/news/politics/review-political-incentive-system-development-analyst.html"
-                            // role="tab"
-                            // aria-controls="v-pills-a3"
-                            // aria-selected="false"
+                          // role="tab"
+                          // aria-controls="v-pills-a3"
+                          // aria-selected="false"
                           >
                             Review of the country’s incentive
                           </a>
-                          
+
                         </div>
                       </div>
                     </div>
