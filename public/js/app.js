@@ -2103,7 +2103,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function About() {
-  _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.on('success', function (event) {
+  _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.on("success", function (event) {
     event.detail.page.url === "/about" && window.location.reload();
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
@@ -2307,9 +2307,9 @@ function About() {
               alt: ""
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
                 className: "font-weight-medium mt-5",
-                children: "Prof. Lord Mawuko-Yevugah "
+                children: ["Prof. Lord Mawuko-Yevugah", " "]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "text-muted font-italic",
                 children: "Lead Researcher"
@@ -2344,9 +2344,9 @@ function About() {
               alt: ""
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
                 className: "font-weight-medium mt-5",
-                children: "Prof. Jasper A. Ayelazuno "
+                children: ["Prof. Jasper A. Ayelazuno", " "]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "text-muted font-italic",
                 children: "Snr. Research Fellow"
@@ -2381,9 +2381,9 @@ function About() {
               alt: ""
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
                 className: "font-weight-medium mt-5",
-                children: "Prof. Paul Ugor "
+                children: ["Prof. Paul Ugor", " "]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "text-muted font-italic",
                 children: "Snr. Research Fellow"
@@ -2418,9 +2418,9 @@ function About() {
               alt: ""
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
                 className: "font-weight-medium mt-5",
-                children: "Dr. Emefa Ansah   "
+                children: ["Dr. Emefa Ansah", " "]
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "text-muted font-italic",
                 children: "Research Fellow"
@@ -3651,7 +3651,7 @@ function Section() {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "row p-3 ",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-                  className: "col-12 \r p-3",
+                  className: "col-12  p-3",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                     src: "template/img/img/book1.jpeg",
                     className: "img-fluid",
