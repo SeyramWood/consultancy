@@ -2,7 +2,6 @@ import { Link } from "@inertiajs/inertia-react";
 import { Inertia } from "@inertiajs/inertia";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { useEffect } from "react";
 
 function About() {
     Inertia.on("success", (event) => {
