@@ -106,26 +106,23 @@ function About() {
               The purpose of the Centre is to serve as a hub for providing cutting edge research
               and training in foreign and public policy analysis using multi-disciplinary perspectives,
               theoretical concepts and empirical evidence and contribute towards the design and
-              implementation of
-              effective policies on various aspects of Ghana’s foreign and diplomatic relations.
+              implementation of effective policies on various aspects of Africa’s foreign and diplomatic relations.
             </p>
           </div>
           <div className="mb-5">
             <h4> <b>Our Vision</b> </h4>
             <p>
-              The vision of the Centre is to become the leading hub for research and training in foreign policy,
-              diplomacy and Africa’s global relations, and to provide the intellectual space for a balanced dialogue
-              and debate on global issues and in helping to provide an African input
-              inshaping global affairs in order to help build a fairer and equitable global system.
+              The vision of the Centre is to become the leading hub for research and training in
+              foreign policy, diplomacy, and Africa’s global relations, and to provide the intellectual
+              space for a balanced dialogue and debate on global issues and in helping to provide an
+              African input in shaping global affairs to help build a fairer and equitable global system.
             </p>
           </div>
           <div className="mb-5">
             <h4> <b> Our Mission</b> </h4>
             <p>
-              The Centre is committed to advancing academic and professional excellence inforeign
-              policy and diplomacy, through innovative research and advocacy, and preparing
-              transformational leaders and policy makers who are dedicated to confronting the critical
-              challenges of the changing global environment.
+              The Centre is committed to advancing academic and professional excellence in foreign
+              policy and diplomacy, through innovative research and advocacy, and preparing transformational leaders and policy makers who are dedicated to confronting the critical challenges of the changing global environment.
             </p>
           </div>
 
@@ -211,8 +208,8 @@ function About() {
                 such as the SDGs,
               </p>
               <p>
-                <b>•</b>	Promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions,
-                encouraging global equality, human rights, cosmopolitanism, and multilateralism
+                <b>•</b>promoting the values of our common humanity by highlighting areas of discrimination and abuse
+                to help devise global solutions, encouraging global equality, human rights, cosmopolitanism, and multilateralism
                 as the basis for demanding for reforms of global governance institutions and
                 processes.
               </p>

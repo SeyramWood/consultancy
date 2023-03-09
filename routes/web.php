@@ -44,3 +44,5 @@ Route::get("/test", 'PageController@test');
 // section
 Route::get("/section", 'PageController@section');
 
+Route::get("/training", 'PageController@training');
+

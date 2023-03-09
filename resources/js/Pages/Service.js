@@ -204,15 +204,16 @@ function Service() {
           <div className=" p-4">
             <h2 className="text-green ">Funding</h2>
             <p>
-              The Centre, as a not-for-profit and non-governmental
-              organization, will rely on research grants
-              and donations from individuals and corporate entities to fund its activities.
+              The Centre, as a not-for-profit and non-governmental 
+              organization, will rely on research grants and donations 
+              from individuals and corporate entities to fund its activities.
             </p>
             <h4 className="text-green  pt-3"><b>Post-launch agenda/focus</b></h4>
             <p>African business & investment research including helping African business in
               identifying investment opportunities within the continent, helping them with
               legal and other processes. The research will also include helping to develop
-              Africa’s own metrics including ease of doing business models, rating of African business & investment environments, etc
+              Africa’s own metrics including ease of doing business models, rating of 
+              African business & investment environments, etc
             </p>
             <p>Annual celebration of African diplomacy (rotates in different African countries
               where possible). This includes African diplomacy awards recognizing achievements in business & industry, politics, academia, civil society; Annual Nkrumah Afro-Global (New African in the World) Lecture and induction of new
@@ -229,10 +230,10 @@ function Service() {
               complex)
             </p>
             <p>
-              Afro-Global Working Papers series & current affairs magazine
+              Afro-Global Working Papers series & current affairs magazine.
             </p>
             <p>
-              Training towards certification in global affairs & diplomacy
+              Training towards certification in global affairs & diplomacy.
             </p>
             <p>
               Public engagement activities through media partnerships and outreach programs. This includes providing services to governments when it comes to
