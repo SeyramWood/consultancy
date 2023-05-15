@@ -2284,7 +2284,7 @@ function About() {
         })]
       })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "container-fluid py-5",
+      className: "",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "container",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
@@ -2296,7 +2296,7 @@ function About() {
             className: "testimonial-item",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
               className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/at1.jpeg",
+              src: "template/img/mawuko.jpeg",
               style: {
                 width: 100,
                 height: 100,
@@ -2312,10 +2312,10 @@ function About() {
                 children: "Prof. Lord Mawuko-Yevugah "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "text-muted font-italic",
-                children: "Lead Researcher"
+                children: "Executive Director & Lead Researcher "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
+                children: "Professor Lord Mawuko-Yevugah is the Executive Director & Lead Researcher for the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -2324,6 +2324,265 @@ function About() {
                   height: 38
                 },
                 href: "https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lawrence.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Lawrence Boakye "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Operations & Senior Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Lawrence Boakye is a Head of Operations & Senior Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-lawrence-boakye-20310220/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/ismeal.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Ismael Hlovor "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Advocacy & Research Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Ismael Hlovor is a Head of Advocacy & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-ishmael-jason-hlovor-775225ab/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/boss.jpg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ing. Bernard Okpattah"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & IT & Research Fellow "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Ing. Bernard Okpattah is the Head of Administration & IT & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/bernard-okpattah/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/kope.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mama Kope II"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & Communication"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Mama Kope II is the Head of Administration & Communicationat the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lana.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ms. Lana Osea"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Executive Secretary & Research Associate "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Ms. Lana Osea is a Executive Secretary & Research Associate at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/woode.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Shadrack Woode "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Logistics & Publications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Shadrack Woode is a Logistics & Publications Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/soga.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Blessed Sogah "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Associate Fellow in charge of Media & Strategic Communications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Blessed Sogah is an Associate Fellow in charge of Media & Strategic Communications at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
                   className: "fab fa-linkedin-in"
                 })
@@ -4542,187 +4801,6 @@ function Service() {
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Test.js":
-/*!************************************!*\
-  !*** ./resources/js/Pages/Test.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-
-
-
-function Test() {
-  return (
-    /*#__PURE__*/
-    //         <>
-    //        <button
-    //   type="button"
-    //   className="btn btn-primary"
-    //   data-toggle="modal"
-    //   data-target="#exampleModal"
-    // >
-    //   Launch demo modal
-    // </button>
-    // <div
-    //   className="modal fade"
-    //   id="exampleModal"
-    //   tabIndex={-1}
-    //   role="dialog"
-    //   aria-labelledby="exampleModalLabel"
-    //   aria-hidden="true"
-    // >
-    //   <div className="modal-dialog" role="document">
-    //     <div className="modal-content">
-    //       <div className="modal-header">
-    //         <h5 className="modal-title" id="exampleModalLabel">
-    //           Modal title
-    //         </h5>
-    //         <button
-    //           type="button"
-    //           className="close"
-    //           data-dismiss="modal"
-    //           aria-label="Close"
-    //         >
-    //           <span aria-hidden="true">×</span>
-    //         </button>
-    //       </div>
-    //       <div className="modal-body">...</div>
-    //       <div className="modal-footer">
-    //         <button
-    //           type="button"
-    //           className="btn btn-secondary"
-    //           data-dismiss="modal"
-    //         >
-    //           Close
-    //         </button>
-    //         <button type="button" className="btn btn-primary">
-    //           Save changes
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-    //         </>
-    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "row",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "col-3",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "nav flex-column nav-pills",
-            id: "v-pills-tab",
-            role: "tablist",
-            "aria-orientation": "vertical",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link active",
-              id: "v-pills-home-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-home",
-              role: "tab",
-              "aria-controls": "v-pills-home",
-              "aria-selected": "true",
-              children: "Home"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-profile-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-profile",
-              role: "tab",
-              "aria-controls": "v-pills-profile",
-              "aria-selected": "false",
-              children: "Profile"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-messages-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-messages",
-              role: "tab",
-              "aria-controls": "v-pills-messages",
-              "aria-selected": "false",
-              children: "Messages"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-settings-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-settings",
-              role: "tab",
-              "aria-controls": "v-pills-settings",
-              "aria-selected": "false",
-              children: "Settings"
-            })]
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "col-9",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "tab-content",
-            id: "v-pills-tabContent",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade show active",
-              id: "v-pills-home",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-home-tab",
-              children: "1"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-profile",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-profile-tab",
-              children: "..."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-messages",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-messages-tab",
-              children: "..."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-settings",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-settings-tab",
-              children: "..."
-            })]
-          })
-        })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-        // className="btn btn-secondary dropdown-toggle"
-        type: "button",
-        id: "dropdownMenuButton",
-        "data-toggle": "dropdown",
-        "aria-haspopup": "true",
-        "aria-expanded": "false",
-        children: "Dropdown button"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "dropdown-menu",
-        "aria-labelledby": "dropdownMenuButton",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Action"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Another action"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Something else here"
-        })]
-      })]
-    })
-  );
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Test);
-
-/***/ }),
-
 /***/ "./resources/js/Pages/Training.js":
 /*!****************************************!*\
   !*** ./resources/js/Pages/Training.js ***!
@@ -4840,7 +4918,7 @@ function Training() {
                                 children: "Modules: "
                               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ol", {
                                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
-                                  children: "Intruduction To Leadership and"
+                                  children: "Intruduction To Leadership"
                                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
                                   children: "Leadership and Management Skills"
                                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
@@ -5872,7 +5950,7 @@ function Welcome() {
             className: "testimonial-item",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
               className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/at1.jpeg",
+              src: "template/img/mawuko.jpeg",
               style: {
                 width: 100,
                 height: 100,
@@ -5888,10 +5966,10 @@ function Welcome() {
                 children: "Prof. Lord Mawuko-Yevugah "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "text-muted font-italic",
-                children: "Lead Researcher"
+                children: "Executive Director & Lead Researcher "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
+                children: "Professor Lord Mawuko-Yevugah is the Executive Director & Lead Researcher for the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -5900,6 +5978,265 @@ function Welcome() {
                   height: 38
                 },
                 href: "https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lawrence.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Lawrence Boakye "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Operations & Senior Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Lawrence Boakye is a Head of Operations & Senior Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-lawrence-boakye-20310220/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/ismeal.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Ismael Hlovor "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Advocacy & Research Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Ismael Hlovor is a Head of Advocacy & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-ishmael-jason-hlovor-775225ab/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/boss.jpg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ing. Bernard Okpattah"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & IT & Research Fellow "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Ing. Bernard Okpattah is the Head of Administration & IT & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/bernard-okpattah/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/kope.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mama Kope II"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & Communication"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mama Kope II is the Head of Administration & Communicationat the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lana.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ms. Lana Osea"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Executive Secretary & Research Associate "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Ms. Lana Osea is a Executive Secretary & Research Associate at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/woode.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Shadrack Woode "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Logistics & Publications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Shadrack Woode is a Logistics & Publications Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/soga.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Blessed Sogah "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Associate Fellow in charge of Media & Strategic Communications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Blessed Sogah is an Associate Fellow in charge of Media & Strategic Communications at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
                   className: "fab fa-linkedin-in"
                 })
@@ -63403,8 +63740,6 @@ var map = {
 	"./Section.js": "./resources/js/Pages/Section.js",
 	"./Service": "./resources/js/Pages/Service.js",
 	"./Service.js": "./resources/js/Pages/Service.js",
-	"./Test": "./resources/js/Pages/Test.js",
-	"./Test.js": "./resources/js/Pages/Test.js",
 	"./Training": "./resources/js/Pages/Training.js",
 	"./Training.js": "./resources/js/Pages/Training.js",
 	"./Welcome": "./resources/js/Pages/Welcome.js",

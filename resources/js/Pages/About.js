@@ -262,7 +262,7 @@ function About() {
       </div>
 
       {/* our consultants */}
-      <div className="container-fluid py-5">
+      <div className="">
         <div className="container">
 
           <h1 className="display-4 text-green border-bottom text-center mb-5">Our Team</h1>
@@ -270,7 +270,7 @@ function About() {
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"
-                src="template/img/img/at1.jpeg"
+                src="template/img/mawuko.jpeg"
                 style={{
                   width: 100,
                   height: 100,
@@ -282,9 +282,9 @@ function About() {
               />
               <div className="bg-light text-center p-4 pt-0">
                 <h5 className="font-weight-medium mt-5">Prof. Lord Mawuko-Yevugah </h5>
-                <p className="text-muted font-italic">Lead Researcher</p>
+                <p className="text-muted font-italic">Executive Director &amp; Lead Researcher </p>
                 <p className="m-0">
-                  Professor Lord Mawuko-Yevugah is the Lead Researcher for the
+                  Professor Lord Mawuko-Yevugah is the Executive Director &amp; Lead Researcher for the
                   Centre For African Diplomacy And Global Engagement.
                 </p>
                 <a
@@ -297,6 +297,220 @@ function About() {
                 </a>
               </div>
             </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/lawrence.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Dr. Lawrence Boakye </h5>
+                <p className="text-muted font-italic">Head of Operations &amp; Senior Fellow</p>
+                <p className="m-0">
+                  Dr. Lawrence Boakye is a Head of Operations &amp; Senior Fellow at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href="https://www.linkedin.com/in/dr-lawrence-boakye-20310220/"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/ismeal.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Dr. Ismael Hlovor </h5>
+                <p className="text-muted font-italic">Head of Advocacy &amp; Research Fellow</p>
+                <p className="m-0">
+                  Dr. Ismael Hlovor is a Head of Advocacy &amp; Research Fellow at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href="https://www.linkedin.com/in/dr-ishmael-jason-hlovor-775225ab/"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            {/* bernard */}
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/boss.jpg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Ing. Bernard Okpattah</h5>
+                <p className="text-muted font-italic">Head of Administration &amp; IT & Research Fellow </p>
+                <p className="m-0">
+                  Ing. Bernard Okpattah is the Head of Administration &amp; IT & Research Fellow at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href="https://www.linkedin.com/in/bernard-okpattah/"
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/kope.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Mama Kope II</h5>
+                <p className="text-muted font-italic">Head of Administration &amp; Communication</p>
+                <p className="m-0">
+                  Mama Kope II is the Head of Administration &amp; Communicationat the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href=""
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/lana.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Ms. Lana Osea</h5>
+                <p className="text-muted font-italic">Executive Secretary &amp; Research Associate </p>
+                <p className="m-0">
+                  Ms. Lana Osea is a Executive Secretary &amp; Research Associate at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href=""
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/woode.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Mr. Shadrack Woode </h5>
+                <p className="text-muted font-italic">Logistics &amp; Publications</p>
+                <p className="m-0">
+                  Mr. Shadrack Woode is a Logistics &amp; Publications Fellow at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href=""
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            <div className="testimonial-item">
+              <img
+                className="position-relative rounded-circle bg-white shadow mx-auto"
+                src="template/img/soga.jpeg"
+                style={{
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
+                }}
+                alt=""
+              />
+              <div className="bg-light text-center p-4 pt-0">
+                <h5 className="font-weight-medium mt-5">Mr. Blessed Sogah </h5>
+                <p className="text-muted font-italic">Associate Fellow in charge of Media &amp; Strategic Communications</p>
+                <p className="m-0">
+                  Mr. Blessed Sogah is an Associate Fellow in charge of Media &amp; Strategic Communications at the
+                  Centre For African Diplomacy And Global Engagement.
+                </p>
+                <a
+                  target="_blank"
+                  className="btn btn-outline-dark rounded-circle text-center m-2 px-0"
+                  style={{ width: 38, height: 38 }}
+                  href=""
+                >
+                  <i className="fab fa-linkedin-in" />
+                </a>
+              </div>
+            </div>
+            {/*  */}
+
+            {/*  */}
             <div className="testimonial-item">
               <img
                 className="position-relative rounded-circle bg-white shadow mx-auto"

@@ -95,7 +95,7 @@ function Training() {
                                                             <p className="text-left">
                                                                 <b className="text-left ">Modules: </b>
                                                                 <ol >
-                                                                    <li>Intruduction To Leadership and</li>
+                                                                    <li>Intruduction To Leadership</li>
                                                                     <li>Leadership and Management Skills</li>
                                                                     <li>Communication and Public Speaking</li>
                                                                     <li>Diplomacy and Negotiation</li>
