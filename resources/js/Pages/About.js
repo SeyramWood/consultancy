@@ -493,9 +493,9 @@ function About() {
               />
               <div className="bg-light text-center p-4 pt-0">
                 <h5 className="font-weight-medium mt-5">Mr. Blessed Sogah </h5>
-                <p className="text-muted font-italic">Associate Fellow in charge of Media &amp; Strategic Communications</p>
+                <p className="text-muted font-italic">Associate Fellow For Media &amp; Strategic Communications</p>
                 <p className="m-0">
-                  Mr. Blessed Sogah is an Associate Fellow in charge of Media &amp; Strategic Communications at the
+                  Mr. Blessed Sogah is an Associate Fellow for Media &amp; Strategic Communications at the
                   Centre For African Diplomacy And Global Engagement.
                 </p>
                 <a
