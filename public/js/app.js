@@ -2089,8 +2089,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
-/* harmony import */ var _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia */ "./node_modules/@inertiajs/inertia/dist/index.js");
+/* harmony import */ var _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia */ "./node_modules/@inertiajs/inertia/dist/index.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/Pages/components/Footer.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Header */ "./resources/js/Pages/components/Header.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
@@ -2103,7 +2103,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function About() {
-  _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.on('success', function (event) {
+  _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_0__.Inertia.on("success", function (event) {
     event.detail.page.url === "/about" && window.location.reload();
   });
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.Fragment, {
@@ -2123,7 +2123,7 @@ function About() {
             className: "col-md-6 text-center text-md-right",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
               className: "d-inline-flex align-items-center",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_1__.Link, {
                 className: "btn text-white",
                 href: "/",
                 children: "Home"
@@ -2156,7 +2156,7 @@ function About() {
               children: " Our Purpose"
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The purpose of the Centre is to serve as a hub for providing cutting edge research and training in foreign and public policy analysis using multi-disciplinary perspectives, theoretical concepts and empirical evidence and contribute towards the design and implementation of effective policies on various aspects of Ghana\u2019s foreign and diplomatic relations."
+            children: "The purpose of the Centre is to serve as a hub for providing cutting edge research and training in foreign and public policy analysis using multi-disciplinary perspectives, theoretical concepts and empirical evidence and contribute towards the design and implementation of effective policies on various aspects of Africa\u2019s foreign and diplomatic relations."
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "mb-5",
@@ -2165,7 +2165,7 @@ function About() {
               children: "Our Vision"
             }), " "]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The vision of the Centre is to become the leading hub for research and training in foreign policy, diplomacy and Africa\u2019s global relations, and to provide the intellectual space for a balanced dialogue and debate on global issues and in helping to provide an African input inshaping global affairs in order to help build a fairer and equitable global system."
+            children: "The vision of the Centre is to become the leading hub for research and training in foreign policy, diplomacy, and Africa\u2019s global relations, and to provide the intellectual space for a balanced dialogue and debate on global issues and in helping to provide an African input in shaping global affairs to help build a fairer and equitable global system."
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
           className: "mb-5",
@@ -2174,7 +2174,7 @@ function About() {
               children: " Our Mission"
             }), " "]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The Centre is committed to advancing academic and professional excellence inforeign policy and diplomacy, through innovative research and advocacy, and preparing transformational leaders and policy makers who are dedicated to confronting the critical challenges of the changing global environment."
+            children: "The Centre is committed to advancing academic and professional excellence in foreign policy and diplomacy, through innovative research and advocacy, and preparing transformational leaders and policy makers who are dedicated to confronting the critical challenges of the changing global environment."
           })]
         })]
       })
@@ -2198,246 +2198,542 @@ function About() {
               },
               alt: ""
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "col-lg-7 mt-lg-0 pl-lg-5",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
-              className: "mt-1",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "Global Relations"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-              children: "We make a well informed and independent input into Africa's global relations."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
-              className: "pt-1",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "Public Policies"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-              children: "We undertake high level research on how current global issues intersect with Africa and Ghana\u2019s public policy issues."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
-              className: "pt-1",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "International Programs"
-              })
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-              children: "Developing alliances and joint programmes with international organizations and agencies within the West African sub-region, the African region and throughout the world."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h4", {
-              className: "pt-1",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "Conferences"
-              }), " "]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-              children: "Organizing conferences, seminars and speakers\u2019 meetings on a wide range of topics addressed by prominent scholars, experts and practitioners from Ghana and abroad."
-            })]
-          })]
-        })]
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "container-fluid ",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
-          className: "text-secondary text-uppercase text-center font-weight-medium mb-3"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-          className: "display-4 text-green border-bottom text-center ",
-          children: "Our Goals"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "mt-4 pt-3 mb-5",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The Centre aims to serve as a hub in providing cutting edge scholarly research and training, as well as promote public engagement on global policy issues using multidisciplinary perspectives and approaches to contribute towards the implementation of effective policies on various aspects of Africa\u2019s global and diplomatic relations. In so doing, the Centre will aim to build networks across Africa, focusing on key countries such as Ghana, Nigeria, South Africa, Kenya, Egypt, and organizations such as AU, Ecowas, and the UN. It will Identify areas of common Africa interest in relations to the rest of the world, and position Africa as a place of new and exciting opportunities for business and investment. The Centre will also offer practical training to public and private sector agencies in diplomacy, negotiation and contracts."
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "mb-5",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-            children: ["The Centre is committed to:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "\u2022"
-              }), " Promoting diplomacy as the best approach to solving global problems,"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "\u2022"
-              }), " Promoting global citizenship by mobilizing public support through public intellectualism, activism, and research in solving global problems,"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "\u2022"
-              }), " Promoting global citizenship and global activism in support of global initiatives such as the SDGs,"]
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
-                children: "\u2022"
-              }), " Promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions, encouraging global equality, human rights, cosmopolitanism, and multilateralism as the basis for demanding for reforms of global governance institutions and processes."]
-            })]
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-          className: "mb-5",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "To achieve the above, the Centre will deploy research to promote a robust response to the myriad of challenges of the 21st Century global environment. In doing so, the Centre will contribute to the development and promotion of policy options on any given issue of foreign and diplomatic relationships. Academic publications will be a core activity of the Centre to contribute to international scholarship on Africa\u2019s global and diplomatic relations. Conferences and symposia will enable the Centre to share and exchange its projects with broader intellectual and policy communities in the broad areas of international relations, foreign policy and diplomacy, and security."
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "mb-5",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The Centre will also provide avenues for internship and practical training for both current students and recent graduates as its contribution to the training and development of critical human resources for various Ministries, Agencies and Departments (MDAs) across Africa. It will provide a resource Centre for researchers and policy makers across the African continent to engage critically in policy debates and decisions. It will serve as an advisory body to public and private organizations in the field of global and diplomatic relations."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The Centre will be dedicated to developing practical and accessible training resources for the wider African publics to draw on. The aim is to develop innovative approaches that challenge existing inefficiencies and ineffectiveness with a particular focus on promoting understanding and appreciation of the changing global context. Besides, the Centre will focus keenly on the business environment including the role of multinational corporations, foreign direct investment by conducting relevant research which will be useful for policy makers as well as other stakeholders both within and outside the African continent."
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-            children: "The long-term focus of the Centre includes the mentoring of emerging scholars around foreign policy and diplomacy. Through this mentoring process, particular emphasis and value will be placed on bringing together traditional and emerging knowledge to create state of the art methodologies and practices designed to maximize impact. The mentoring of emerging researchers through the Centre will generate new knowledge, innovative solutions and position our country appropriately as a regional leader within the changing global political economy."
-          })]
-        })]
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
-      className: "container-fluid py-5",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-        className: "container",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
-          className: "display-4 text-green border-bottom text-center mb-5",
-          children: "Our Team"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-          className: "owl-carousel testimonial-carousel",
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "testimonial-item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-              className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/at1.jpeg",
-              style: {
-                width: 100,
-                height: 100,
-                padding: 12,
-                marginBottom: "-50px",
-                zIndex: 1
-              },
-              alt: ""
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                className: "font-weight-medium mt-5",
-                children: "Prof. Lord Mawuko-Yevugah "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "text-muted font-italic",
-                children: "Lead Researcher"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                target: "_blank",
-                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
-                style: {
-                  width: 38,
-                  height: 38
-                },
-                href: "https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                  className: "fab fa-linkedin-in"
-                })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            className: "container-fluid py-5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "container",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+                className: "display-4 text-green text-center border-bottom ",
+                children: "What We Do"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "row m-2 align-items-center",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                  className: "col-lg-5 mt-5",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "img-fluid",
+                    src: "template/img/img/gb1.jpg",
+                    style: {
+                      height: 500,
+                      width: "100%"
+                    },
+                    alt: ""
+                  })
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "col-lg-7 mt-lg-0 pl-lg-5",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                    className: "mt-1",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "Global Relations"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                    children: "We make a well informed and independent input into Africa's global relations."
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                    className: "pt-1",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "Public Policies"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                    children: "We undertake high level research on how current global issues intersect with Africa and Ghana\u2019s public policy issues."
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h4", {
+                    className: "pt-1",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "International Programs"
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                    children: "Developing alliances and joint programmes with international organizations and agencies within the West African sub-region, the African region and throughout the world."
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h4", {
+                    className: "pt-1",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "Conferences"
+                    }), " "]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                    children: "Organizing conferences, seminars and speakers\u2019 meetings on a wide range of topics addressed by prominent scholars, experts and practitioners from Ghana and abroad."
+                  })]
+                })]
               })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "testimonial-item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-              className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/jasper.jpg",
-              style: {
-                width: 100,
-                height: 100,
-                padding: 12,
-                marginBottom: "-50px",
-                zIndex: 1
-              },
-              alt: ""
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                className: "font-weight-medium mt-5",
-                children: "Prof. Jasper A. Ayelazuno "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "text-muted font-italic",
-                children: "Snr. Research Fellow"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0",
-                children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                target: "_blank",
-                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
-                style: {
-                  width: 38,
-                  height: 38
-                },
-                href: "https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                  className: "fab fa-linkedin-in"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+            className: "container-fluid ",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "container",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h6", {
+                className: "text-secondary text-uppercase text-center font-weight-medium mb-3"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+                className: "display-4 text-green border-bottom text-center ",
+                children: "Our Goals"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mt-4 pt-3 mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre aims to serve as a hub in providing cutting edge scholarly research and training, as well as promote public engagement on global policy issues using multidisciplinary perspectives and approaches to contribute towards the implementation of effective policies on various aspects of Africa\u2019s global and diplomatic relations. In so doing, the Centre will aim to build networks across Africa, focusing on key countries such as Ghana, Nigeria, South Africa, Kenya, Egypt, and organizations such as AU, Ecowas, and the UN. It will Identify areas of common Africa interest in relations to the rest of the world, and position Africa as a place of new and exciting opportunities for business and investment. The Centre will also offer practical training to public and private sector agencies in diplomacy, negotiation and contracts."
                 })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                  children: ["The Centre is committed to:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting diplomacy as the best approach to solving global problems,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting global citizenship by mobilizing public support through public intellectualism, activism, and research in solving global problems,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting global citizenship and global activism in support of global initiatives such as the SDGs,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions, encouraging global equality, human rights, cosmopolitanism, and multilateralism as the basis for demanding for reforms of global governance institutions and processes."]
+                  })]
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "To achieve the above, the Centre will deploy research to promote a robust response to the myriad of challenges of the 21st Century global environment. In doing so, the Centre will contribute to the development and promotion of policy options on any given issue of foreign and diplomatic relationships. Academic publications will be a core activity of the Centre to contribute to international scholarship on Africa\u2019s global and diplomatic relations. Conferences and symposia will enable the Centre to share and exchange its projects with broader intellectual and policy communities in the broad areas of international relations, foreign policy and diplomacy, and security."
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "mb-5",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre will also provide avenues for internship and practical training for both current students and recent graduates as its contribution to the training and development of critical human resources for various Ministries, Agencies and Departments (MDAs) across Africa. It will provide a resource Centre for researchers and policy makers across the African continent to engage critically in policy debates and decisions. It will serve as an advisory body to public and private organizations in the field of global and diplomatic relations."
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre will be dedicated to developing practical and accessible training resources for the wider African publics to draw on. The aim is to develop innovative approaches that challenge existing inefficiencies and ineffectiveness with a particular focus on promoting understanding and appreciation of the changing global context. Besides, the Centre will focus keenly on the business environment including the role of multinational corporations, foreign direct investment by conducting relevant research which will be useful for policy makers as well as other stakeholders both within and outside the African continent."
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The long-term focus of the Centre includes the mentoring of emerging scholars around foreign policy and diplomacy. Through this mentoring process, particular emphasis and value will be placed on bringing together traditional and emerging knowledge to create state of the art methodologies and practices designed to maximize impact. The mentoring of emerging researchers through the Centre will generate new knowledge, innovative solutions and position our country appropriately as a regional leader within the changing global political economy."
+                })]
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mt-4 pt-3 mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre aims to serve as a hub in providing cutting edge scholarly research and training, as well as promote public engagement on global policy issues using multidisciplinary perspectives and approaches to contribute towards the implementation of effective policies on various aspects of Africa\u2019s global and diplomatic relations. In so doing, the Centre will aim to build networks across Africa, focusing on key countries such as Ghana, Nigeria, South Africa, Kenya, Egypt, and organizations such as AU, Ecowas, and the UN. It will Identify areas of common Africa interest in relations to the rest of the world, and position Africa as a place of new and exciting opportunities for business and investment. The Centre will also offer practical training to public and private sector agencies in diplomacy, negotiation and contracts."
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                  children: ["The Centre is committed to:", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting diplomacy as the best approach to solving global problems,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting global citizenship by mobilizing public support through public intellectualism, activism, and research in solving global problems,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), " Promoting global citizenship and global activism in support of global initiatives such as the SDGs,"]
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("b", {
+                      children: "\u2022"
+                    }), "promoting the values of our common humanity by highlighting areas of discrimination and abuse to help devise global solutions, encouraging global equality, human rights, cosmopolitanism, and multilateralism as the basis for demanding for reforms of global governance institutions and processes."]
+                  })]
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
+                className: "mb-5",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "To achieve the above, the Centre will deploy research to promote a robust response to the myriad of challenges of the 21st Century global environment. In doing so, the Centre will contribute to the development and promotion of policy options on any given issue of foreign and diplomatic relationships. Academic publications will be a core activity of the Centre to contribute to international scholarship on Africa\u2019s global and diplomatic relations. Conferences and symposia will enable the Centre to share and exchange its projects with broader intellectual and policy communities in the broad areas of international relations, foreign policy and diplomacy, and security."
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "mb-5",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre will also provide avenues for internship and practical training for both current students and recent graduates as its contribution to the training and development of critical human resources for various Ministries, Agencies and Departments (MDAs) across Africa. It will provide a resource Centre for researchers and policy makers across the African continent to engage critically in policy debates and decisions. It will serve as an advisory body to public and private organizations in the field of global and diplomatic relations."
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The Centre will be dedicated to developing practical and accessible training resources for the wider African publics to draw on. The aim is to develop innovative approaches that challenge existing inefficiencies and ineffectiveness with a particular focus on promoting understanding and appreciation of the changing global context. Besides, the Centre will focus keenly on the business environment including the role of multinational corporations, foreign direct investment by conducting relevant research which will be useful for policy makers as well as other stakeholders both within and outside the African continent."
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  children: "The long-term focus of the Centre includes the mentoring of emerging scholars around foreign policy and diplomacy. Through this mentoring process, particular emphasis and value will be placed on bringing together traditional and emerging knowledge to create state of the art methodologies and practices designed to maximize impact. The mentoring of emerging researchers through the Centre will generate new knowledge, innovative solutions and position our country appropriately as a regional leader within the changing global political economy."
+                })]
               })]
-            })]
+            })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "testimonial-item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-              className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/paulugo.jpg",
-              style: {
-                width: 100,
-                height: 100,
-                padding: 12,
-                marginBottom: "-50px",
-                zIndex: 1
-              },
-              alt: ""
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                className: "font-weight-medium mt-5",
-                children: "Prof. Paul Ugor "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "text-muted font-italic",
-                children: "Snr. Research Fellow"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0",
-                children: "Professor Paul Ugor is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
-                style: {
-                  width: 38,
-                  height: 38
-                },
-                target: "_blank",
-                href: "https://www.linkedin.com/in/paul-ugor-199634109/",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                  className: "fab fa-linkedin-in"
-                })
+            className: "",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+              className: "container",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
+                className: "display-4 text-green border-bottom text-center mb-5",
+                children: "Our Team"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "owl-carousel testimonial-carousel",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/mawuko.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Prof. Lord Mawuko-Yevugah", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                      className: "text-muted font-italic",
+                      children: ["Executive Director & Lead Researcher", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Professor Lord Mawuko-Yevugah is the Executive Director & Lead Researcher for the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/lawrence.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Dr. Lawrence Boakye", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Head of Operations & Senior Fellow"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Dr. Lawrence Boakye is a Head of Operations & Senior Fellow at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "https://www.linkedin.com/in/dr-lawrence-boakye-20310220/",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/ismeal.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Dr. Ismael Hlovor", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Head of Advocacy & Research Fellow"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Dr. Ismael Hlovor is a Head of Advocacy & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "https://www.linkedin.com/in/dr-ishmael-jason-hlovor-775225ab/",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/boss.jpg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: "Ing. Bernard Okpattah"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                      className: "text-muted font-italic",
+                      children: ["Head of Administration & IT & Research Fellow", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Ing. Bernard Okpattah is the Head of Administration & IT & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "https://www.linkedin.com/in/bernard-okpattah/",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/kope.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: "Mama Kope II"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Head of Administration & Communication"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Mama Kope II is the Head of Administration & Communicationat the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/lana.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: "Ms. Lana Osea"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("p", {
+                      className: "text-muted font-italic",
+                      children: ["Executive Secretary & Research Associate", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Ms. Lana Osea is a Executive Secretary & Research Associate at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/woode.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Mr. Shadrack Woode", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Logistics & Publications"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Mr. Shadrack Woode is a Logistics & Publications Fellow at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/soga.jpeg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Mr. Blessed Sogah", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Associate Fellow For Media & Strategic Communications"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Mr. Blessed Sogah is an Associate Fellow for Media & Strategic Communications at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                  className: "testimonial-item",
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                    className: "position-relative rounded-circle bg-white shadow mx-auto",
+                    src: "template/img/img/jasper.jpg",
+                    style: {
+                      width: 100,
+                      height: 100,
+                      padding: 12,
+                      marginBottom: "-50px",
+                      zIndex: 1
+                    },
+                    alt: ""
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                    className: "bg-light text-center p-4 pt-0",
+                    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                      className: "font-weight-medium mt-5",
+                      children: ["Prof. Jasper A. Ayelazuno", " "]
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "text-muted font-italic",
+                      children: "Snr. Research Fellow"
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                      className: "m-0",
+                      children: "Professor Jasper A. Ayelazuno is a Senior Research Fellow at the Centre For African Diplomacy And Global Engagement."
+                    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                      target: "_blank",
+                      className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                      style: {
+                        width: 38,
+                        height: 38
+                      },
+                      href: "https://www.linkedin.com/in/jasper-ayelazuno-b6bb323a/",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                        className: "fab fa-linkedin-in"
+                      })
+                    })]
+                  })]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                  className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                  style: {
+                    width: 38,
+                    height: 38
+                  },
+                  target: "_blank",
+                  href: "https://www.linkedin.com/in/paul-ugor-199634109/",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                    className: "fab fa-linkedin-in"
+                  })
+                })]
               })]
-            })]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-            className: "testimonial-item",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-              className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/deaa.jpg",
-              style: {
-                width: 100,
-                height: 100,
-                padding: 12,
-                marginBottom: "-50px",
-                zIndex: 1
-              },
-              alt: ""
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              className: "bg-light text-center p-4 pt-0",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h5", {
-                className: "font-weight-medium mt-5",
-                children: "Dr. Emefa Ansah   "
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "text-muted font-italic",
-                children: "Research Fellow"
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
-                className: "m-0",
-                children: "Doctor Emefa Ansah is a Fellow Researcher at the Centre For African Diplomacy And Global Engagement."
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+              className: "testimonial-item",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+                className: "position-relative rounded-circle bg-white shadow mx-auto",
+                src: "template/img/img/deaa.jpg",
                 style: {
-                  width: 38,
-                  height: 38
+                  width: 100,
+                  height: 100,
+                  padding: 12,
+                  marginBottom: "-50px",
+                  zIndex: 1
                 },
-                target: "_blank",
-                href: "https://peoplepill.com/people/dr-emefa-aku-ansah",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
-                  className: "fab fa-linkedin-in"
-                })
+                alt: ""
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+                className: "bg-light text-center p-4 pt-0",
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("h5", {
+                  className: "font-weight-medium mt-5",
+                  children: ["Dr. Emefa Ansah", " "]
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  className: "text-muted font-italic",
+                  children: "Research Fellow"
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
+                  className: "m-0",
+                  children: "Doctor Emefa Ansah is a Fellow Researcher at the Centre For African Diplomacy And Global Engagement."
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+                  className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                  style: {
+                    width: 38,
+                    height: 38
+                  },
+                  target: "_blank",
+                  href: "https://peoplepill.com/people/dr-emefa-aku-ansah",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("i", {
+                    className: "fab fa-linkedin-in"
+                  })
+                })]
               })]
             })]
           })]
@@ -3651,7 +3947,7 @@ function Section() {
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "row p-3 ",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-                  className: "col-12 \r p-3",
+                  className: "col-12  p-3",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
                     src: "template/img/img/book1.jpeg",
                     className: "img-fluid",
@@ -4526,9 +4822,9 @@ function Service() {
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
             children: "African Review of Diplomacy (yearly peer reviewed academic journal aimed at privileging Afrocentric epistemology in the global knowledge production complex)"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-            children: "Afro-Global Working Papers series & current affairs magazine"
+            children: "Afro-Global Working Papers series & current affairs magazine."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-            children: "Training towards certification in global affairs & diplomacy"
+            children: "Training towards certification in global affairs & diplomacy."
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
             children: "Public engagement activities through media partnerships and outreach programs. This includes providing services to governments when it comes to foreign policy responses, negotiations, etc."
           })]
@@ -4542,10 +4838,10 @@ function Service() {
 
 /***/ }),
 
-/***/ "./resources/js/Pages/Test.js":
-/*!************************************!*\
-  !*** ./resources/js/Pages/Test.js ***!
-  \************************************/
+/***/ "./resources/js/Pages/Training.js":
+/*!****************************************!*\
+  !*** ./resources/js/Pages/Training.js ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -4553,173 +4849,283 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @inertiajs/inertia-react */ "./node_modules/@inertiajs/inertia-react/dist/index.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Footer */ "./resources/js/Pages/components/Footer.js");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Header */ "./resources/js/Pages/components/Header.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
 
-function Test() {
-  return (
-    /*#__PURE__*/
-    //         <>
-    //        <button
-    //   type="button"
-    //   className="btn btn-primary"
-    //   data-toggle="modal"
-    //   data-target="#exampleModal"
-    // >
-    //   Launch demo modal
-    // </button>
-    // <div
-    //   className="modal fade"
-    //   id="exampleModal"
-    //   tabIndex={-1}
-    //   role="dialog"
-    //   aria-labelledby="exampleModalLabel"
-    //   aria-hidden="true"
-    // >
-    //   <div className="modal-dialog" role="document">
-    //     <div className="modal-content">
-    //       <div className="modal-header">
-    //         <h5 className="modal-title" id="exampleModalLabel">
-    //           Modal title
-    //         </h5>
-    //         <button
-    //           type="button"
-    //           className="close"
-    //           data-dismiss="modal"
-    //           aria-label="Close"
-    //         >
-    //           <span aria-hidden="true">×</span>
-    //         </button>
-    //       </div>
-    //       <div className="modal-body">...</div>
-    //       <div className="modal-footer">
-    //         <button
-    //           type="button"
-    //           className="btn btn-secondary"
-    //           data-dismiss="modal"
-    //         >
-    //           Close
-    //         </button>
-    //         <button type="button" className="btn btn-primary">
-    //           Save changes
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-    //         </>
-    (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "row",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "col-3",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "nav flex-column nav-pills",
-            id: "v-pills-tab",
-            role: "tablist",
-            "aria-orientation": "vertical",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link active",
-              id: "v-pills-home-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-home",
-              role: "tab",
-              "aria-controls": "v-pills-home",
-              "aria-selected": "true",
-              children: "Home"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-profile-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-profile",
-              role: "tab",
-              "aria-controls": "v-pills-profile",
-              "aria-selected": "false",
-              children: "Profile"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-messages-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-messages",
-              role: "tab",
-              "aria-controls": "v-pills-messages",
-              "aria-selected": "false",
-              children: "Messages"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "nav-link",
-              id: "v-pills-settings-tab",
-              "data-toggle": "pill",
-              href: "#v-pills-settings",
-              role: "tab",
-              "aria-controls": "v-pills-settings",
-              "aria-selected": "false",
-              children: "Settings"
-            })]
-          })
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "col-9",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "tab-content",
-            id: "v-pills-tabContent",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade show active",
-              id: "v-pills-home",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-home-tab",
-              children: "1"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-profile",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-profile-tab",
-              children: "..."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-messages",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-messages-tab",
-              children: "..."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "tab-pane fade",
-              id: "v-pills-settings",
-              role: "tabpanel",
-              "aria-labelledby": "v-pills-settings-tab",
-              children: "..."
-            })]
+
+
+
+function Training() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "page-header container-fluid bg-secondary pt-2 pt-lg-5 pb-2 mb-5",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+        className: "container py-5",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+          className: "row align-items-center py-4",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "col-md-6 text-center text-md-left",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+              className: "mb-4 mb-md-0 text-white",
+              children: "Events"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "col-md-6 text-center text-md-right",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "d-inline-flex align-items-center",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+                className: "btn text-white",
+                href: "/",
+                children: "Home"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("i", {
+                className: "fas fa-angle-right text-white"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                className: "btn text-white disabled",
+                href: "",
+                children: "Events"
+              })]
+            })
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "container-fluid pt-5 pb-3",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+          className: "display-4 text-green border-bottom text-center mb-5",
+          children: "Training"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "row",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "mb-4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+              children: "The Centre will provide learning opportunities to build and strengthen capacity in foreign policy research and practice in Ghana and the African region. The long-termgoal of the Training and Mentorship Unit is to evolve into a regional hub for providing professional training and development in international relations, diplomacy and negotiation, international development, security studies, international law and international political economy. In addition, the Training Unit will offer short programmes with varying rangeof certificate courses and non-certificate training for various public and private institutions who wish to address specific skills and challenges based on demand and/or to build capacity for leadership and management in various areas of our governmental."
+            })
           })
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-        // className="btn btn-secondary dropdown-toggle"
-        type: "button",
-        id: "dropdownMenuButton",
-        "data-toggle": "dropdown",
-        "aria-haspopup": "true",
-        "aria-expanded": "false",
-        children: "Dropdown button"
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "dropdown-menu",
-        "aria-labelledby": "dropdownMenuButton",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Action"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Another action"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-          className: "dropdown-item",
-          href: "#",
-          children: "Something else here"
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      className: "container py-5",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+        className: "row m-3",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "container",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+            className: "",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+              className: "row",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "modal fade bd-example-modal-lg1",
+                tabIndex: -1,
+                role: "dialog",
+                "aria-labelledby": "myLargeModalLabel1",
+                "aria-hidden": "true",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "modal-dialog modal-lg",
+                  role: "document",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                    className: "modal-content",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "modal-body",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                        className: "container ",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                          className: "row m-4",
+                          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                            className: "col-12 ",
+                            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+                              className: "text-green pt-4",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "CERTIFICATE IN LEADERSHIP & GOVERNANCE"
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Course Overview: "
+                              }), " Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sit veniam reprehenderit? Laboriosam, inventore quibusdam fugiat quo dolorum corporis eius totam enim illo et consequatur ipsam perferendis perspiciatis aliquam. Aliquid."]
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                              className: "text-left",
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                className: "text-left ",
+                                children: "Modules: "
+                              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ol", {
+                                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Intruduction To Leadership"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Leadership and Management Skills"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Communication and Public Speaking"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Diplomacy and Negotiation"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Organizational Leadership and Governance"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Ethics and Professional Integrity"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Democratization, Governance and Leadership "
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Public Administration, Law and the Constitution"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Global Governance and International Law"
+                                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
+                                  children: "Technology, Leadership and Governance"
+                                })]
+                              })]
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Duration: "
+                              }), " Three Days/ Three Weekends, Customised"]
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Mode of Delivery: "
+                              }), " Face-to-face, Online, Weekdays, Weekends"]
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("p", {
+                              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Cost: "
+                              }), " $1000(face-to-face); $700(online)"]
+                            })]
+                          })
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                        className: "modal-footer",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                          type: "button",
+                          className: "btn btn-primary",
+                          "data-dismiss": "modal",
+                          children: "Close"
+                        })
+                      })]
+                    })
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-md-6 mb-2  text-center",
+                "data-toggle": "modal",
+                "data-target": ".bd-example-modal-lg1",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                  className: "bg-light mb-4 border",
+                  style: {
+                    cursor: "pointer"
+                  },
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                    className: "position-relative",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+                      className: "img-fluid w-100 ",
+                      src: "template/img/img/logo.jpg",
+                      style: {
+                        height: "300px"
+                      },
+                      alt: ""
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+                    className: "text-green m-0 p-3",
+                    children: "CERTIFICATE IN IN LEADERSHIP & GOVERNANCE"
+                  })]
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "modal fade bd-example-modal-lg2",
+                tabIndex: -1,
+                role: "dialog",
+                "aria-labelledby": "myLargeModalLabel2",
+                "aria-hidden": "true",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                  className: "modal-dialog modal-lg",
+                  role: "document",
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                    className: "modal-content",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                      className: "modal-body",
+                      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                        className: "container",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                          className: "row m-4",
+                          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                            className: "col-12 text-center"
+                          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                            className: "col-12 ",
+                            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+                              className: "text-green pt-4",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "COURSE TITLE"
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                              className: "text-left",
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                className: "text-left ",
+                                children: "Course Overview "
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Modules "
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Duration: "
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Mode of Delivery: "
+                              })
+                            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+                              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("b", {
+                                children: "Cost: "
+                              })
+                            })]
+                          })]
+                        })
+                      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                        className: "modal-footer",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("button", {
+                          type: "button",
+                          className: "btn btn-primary",
+                          "data-dismiss": "modal",
+                          children: "Close"
+                        })
+                      })]
+                    })
+                  })
+                })
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                className: "col-md-6 mb-2",
+                "data-toggle": "modal",
+                "data-target": ".bd-example-modal-lg2",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+                  className: "bg-light mb-4",
+                  style: {
+                    cursor: "pointer"
+                  },
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+                    className: "position-relative",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+                      className: "img-fluid w-100",
+                      src: "template/img/img/logo.jpeg",
+                      style: {
+                        height: "300px"
+                      },
+                      alt: ""
+                    })
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h5", {
+                    className: "text-green m-0 p-3",
+                    children: "SECOND COURSE"
+                  })]
+                })
+              })]
+            })
+          })
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+          className: "col-lg-4 mt-5 mt-lg-0"
         })]
-      })]
-    })
-  );
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_Footer__WEBPACK_IMPORTED_MODULE_1__["default"], {})]
+  });
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Test);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Training);
 
 /***/ }),
 
@@ -5581,7 +5987,7 @@ function Welcome() {
             className: "testimonial-item",
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
               className: "position-relative rounded-circle bg-white shadow mx-auto",
-              src: "template/img/img/at1.jpeg",
+              src: "template/img/mawuko.jpeg",
               style: {
                 width: 100,
                 height: 100,
@@ -5597,10 +6003,10 @@ function Welcome() {
                 children: "Prof. Lord Mawuko-Yevugah "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "text-muted font-italic",
-                children: "Lead Researcher"
+                children: "Executive Director & Lead Researcher "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
                 className: "m-0",
-                children: "Professor Lord Mawuko-Yevugah is the Lead Researcher for the Centre For African Diplomacy And Global Engagement."
+                children: "Professor Lord Mawuko-Yevugah is the Executive Director & Lead Researcher for the Centre For African Diplomacy And Global Engagement."
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
                 target: "_blank",
                 className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
@@ -5609,6 +6015,265 @@ function Welcome() {
                   height: 38
                 },
                 href: "https://www.linkedin.com/in/lord-mawuko-yevugah-7329341/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lawrence.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Lawrence Boakye "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Operations & Senior Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Lawrence Boakye is a Head of Operations & Senior Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-lawrence-boakye-20310220/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/ismeal.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Dr. Ismael Hlovor "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Advocacy & Research Fellow"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Dr. Ismael Hlovor is a Head of Advocacy & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/dr-ishmael-jason-hlovor-775225ab/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/boss.jpg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ing. Bernard Okpattah"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & IT & Research Fellow "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Ing. Bernard Okpattah is the Head of Administration & IT & Research Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "https://www.linkedin.com/in/bernard-okpattah/",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/kope.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mama Kope II"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Head of Administration & Communication"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mama Kope II is the Head of Administration & Communicationat the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/lana.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Ms. Lana Osea"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Executive Secretary & Research Associate "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Ms. Lana Osea is a Executive Secretary & Research Associate at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/woode.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Shadrack Woode "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Logistics & Publications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Shadrack Woode is a Logistics & Publications Fellow at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
+                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
+                  className: "fab fa-linkedin-in"
+                })
+              })]
+            })]
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+            className: "testimonial-item",
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("img", {
+              className: "position-relative rounded-circle bg-white shadow mx-auto",
+              src: "template/img/soga.jpeg",
+              style: {
+                width: 100,
+                height: 100,
+                padding: 12,
+                marginBottom: "-50px",
+                zIndex: 1
+              },
+              alt: ""
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxs)("div", {
+              className: "bg-light text-center p-4 pt-0",
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("h5", {
+                className: "font-weight-medium mt-5",
+                children: "Mr. Blessed Sogah "
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "text-muted font-italic",
+                children: "Associate Fellow in charge of Media & Strategic Communications"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("p", {
+                className: "m-0",
+                children: "Mr. Blessed Sogah is an Associate Fellow in charge of Media & Strategic Communications at the Centre For African Diplomacy And Global Engagement."
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("a", {
+                target: "_blank",
+                className: "btn btn-outline-dark rounded-circle text-center m-2 px-0",
+                style: {
+                  width: 38,
+                  height: 38
+                },
+                href: "",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("i", {
                   className: "fab fa-linkedin-in"
                 })
@@ -6538,6 +7203,10 @@ function Header() {
                 href: "/service",
                 className: "nav-item nav-link",
                 children: "Services"
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
+                href: "/training",
+                className: "nav-item nav-link",
+                children: "Training"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_inertiajs_inertia_react__WEBPACK_IMPORTED_MODULE_0__.Link, {
                 href: "/events",
                 className: "nav-item nav-link",
@@ -63108,8 +63777,8 @@ var map = {
 	"./Section.js": "./resources/js/Pages/Section.js",
 	"./Service": "./resources/js/Pages/Service.js",
 	"./Service.js": "./resources/js/Pages/Service.js",
-	"./Test": "./resources/js/Pages/Test.js",
-	"./Test.js": "./resources/js/Pages/Test.js",
+	"./Training": "./resources/js/Pages/Training.js",
+	"./Training.js": "./resources/js/Pages/Training.js",
 	"./Welcome": "./resources/js/Pages/Welcome.js",
 	"./Welcome.js": "./resources/js/Pages/Welcome.js",
 	"./components/Articles/ArticleFour": "./resources/js/Pages/components/Articles/ArticleFour.js",

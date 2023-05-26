@@ -90,6 +90,12 @@ function Header() {
                                     Services
                                 </Link>
                                 <Link
+                                    href="/training"
+                                    className="nav-item nav-link"
+                                >
+                                    Training
+                                </Link>
+                                <Link
                                     href="/events"
                                     className="nav-item nav-link"
                                 >
